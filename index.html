@@ -8,11 +8,116 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	
 	<link rel="shortcut icon" type="image/x-icon" href="http://www.koeln.de/favicon.ico" />
-
+    
+	<link rel="stylesheet" href="https://unpkg.com/leaflet@1.0.3/dist/leaflet.css" />
+	<script src="https://unpkg.com/leaflet@1.0.3/dist/leaflet.js"></script>
+    
+    <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.1/css/font-awesome.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://www.domoritz.de/leaflet-locatecontrol/dist/L.Control.Locate.min.css" />
+    <script src="https://www.domoritz.de/leaflet-locatecontrol/src/L.Control.Locate.js" ></script>
+    
+    <script src='https://api.tiles.mapbox.com/mapbox.js/plugins/leaflet-omnivore/v0.3.1/leaflet-omnivore.min.js'></script>
+    
+    <link rel="stylesheet" href="./style.css" />
+    <script src="./data/marker_geojson.js" type="text/javascript"></script>
+    <!--<script src="./data/tracks_geojson.js" type="text/javascript"></script>-->
+    
 </head>
 <body>
 
-Hier entsteht eine interaktive Karte der Kulturpfade in Köln.
+<div>
+    <div id='map'></div>
+    <div id="info" style="display: block">
+        <div id="infoTitle">
+            <b>Kulturpfade Köln</b>
+        </div>
+        <div id="infoContent">
+            Hier entsteht eine interaktive Karte der Kulturpfade in Köln. 
+        </div>
+    </div>
+</div>
+
+<script>
+	var map = L.map('map').setView([50.938361, 6.959974], 12);
+    
+    /////////////////////
+    // base layers
+    
+    baseLayer = L.tileLayer('https://tiles.wmflabs.org/bw-mapnik/{z}/{x}/{y}.png', {
+              attribution: '&copy; <a href="http://osm.org/copyright">OpenStreetMap</a> contributors'
+          })
+
+    baseLayer.addTo(map)
+    
+    /////////////////////
+    // Loaction service
+	
+    L.control.locate({
+        strings: {
+            title: "Wo bin ich?"
+        }
+    }).addTo(map);
+    
+    
+    /////////////////////
+    // Data layers
+
+    //for(var i = 0; i < tracks.length; i++) {
+    //    var track = tracks[i];
+    //    omnivore.gpx(track[0], null, 
+    //        L.geoJson(null, {
+    //            style: function(feature) {
+    //                return {
+    //                    "color": track[1],
+    //                    "weight": 5,
+    //                    "opacity": 0.3
+    //                };
+    //            }
+    //        })
+    //    ).addTo(map);
+    //}
+
+	L.geoJSON([markers], {
+
+		onEachFeature: onEachFeature,
+
+		pointToLayer: function (feature, latlng) {
+			return L.circleMarker(latlng, {
+				radius: 8,
+				fillColor: feature.properties.color,
+				color: "#000",
+				weight: 0,
+				opacity: 1,
+				fillOpacity: 0.8
+			});
+
+		}
+	}).addTo(map);
+    
+    function onEachFeature(feature, layer) {
+		var popupTitle   = "<b>" + feature.properties.number + " " + feature.properties.title + "</b>";
+		if (feature.properties && feature.properties.district) {
+			popupTitle += " (" + feature.properties.district + ")";
+		}
+        
+        var popupContent = feature.properties.description;
+        
+        if (feature.properties && feature.properties.wiki) {
+            popupContent += "<br/><br/><i>Weitere Informationen</i>:<br/><ul>";
+            popupContent += "<li/><a class=\"info\" href=\"" + feature.properties.wiki + "\" target=\"new\"/>Wikipedia</a>";
+            popupContent += "</ul>";
+        }
+        
+        layer.on('click', function (e) {
+            document.getElementById("infoTitle").innerHTML = popupTitle;
+            document.getElementById("infoContent").innerHTML = popupContent;
+            document.getElementById("info").scrollTop = 0;
+            document.getElementById("info").style.display = "block";
+        });
+    
+	}
+    
+</script>
 
 </body>
 </html>
