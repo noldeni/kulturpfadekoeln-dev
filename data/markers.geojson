@@ -1,0 +1,118 @@
+{
+"type": "FeatureCollection",
+
+"features": [
+  {
+    "type": "Feature",
+    "properties": {
+      "color": "#E58100",
+      "search": "Rodenkirchen 2.7 Südfriedhof (Zollstock)",
+      "title1": "Südfriedhof",
+      "title2": "Rodenkirchen 2.7 (Zollstock)",
+      "description": "1901 eröffnet. Entwurf von A. Kowallek. Die landschaftliche Anlage mit Rundwegen und abwechlungsreichen Baum- und Gehölzgruppen ist ein Beispiel für den Stil des Historismus.<br/>Darin ein einglischer, ein italienischer und ein deutscher Ehrenfriedhof, bedeutende Grabstätten von 1900 - 1940 und ein Hochkreuz. Die Einfriedung sowie die oktogonale Trauerkapelle sind 1905 - 1918 nach den Entwürfen von F. Bolte im neuromantischen Stil erbaut.",
+      "wiki": "https://de.wikipedia.org/wiki/S%C3%BCdfriedhof_%28K%C3%B6ln%29"
+    },
+    "geometry": { "type": "Point", "coordinates": [ 6.9438857876, 50.9006497703 ] }
+  },
+  {
+    "type": "Feature",
+    "properties": {
+      "color": "#00ACF3",
+      "search": "Porz 2.1 Drehbrücke (Deutz)",
+      "title1": "Drehbrücke",
+      "title2": "Porz 2.1 (Deutz)",
+      "description": "Die aus der Gründerzeit des Deuter Hafens (Stadtbezirk 1) stammende Drehbrücke, ein technisches Denkmal, wurde 1907 errichtet und 1908 dem Verkehr übergeben. Ihre elektrisch gesteuerte, genietete Gitterträgerkonstruktion mit dem Steuerhäuschen aus Stahlblechen ist bis heute vollständig erhalten geblieben. Auf der von ihr ausgehenden Alfred-Schütte-Allee erreicht man das Poller Rheinufer mit dem in den 20er Jahren angelegten öffentlichen Grünbereich mit Sportanlagen.",
+      "wiki": "https://de.wikipedia.org/wiki/Deutzer_Drehbr%C3%BCcke"
+    },
+    "geometry": { "type": "Point", "coordinates": [ 6.973374, 50.927833 ] }
+  },
+  {
+    "type": "Feature",
+    "properties": {
+      "color": "#95C51F",
+      "search": "Porz 3.0 Start Tour 3 (Porz)",
+      "title1": "Start Tour 3",
+      "title2": "Porz 3.0 (Porz)",
+      "description": ""
+    },
+    "geometry": { "type": "Point", "coordinates": [ 6.9975187988, 50.9350904129 ] }
+  },
+  {
+    "type": "Feature",
+    "properties": {
+      "color": "#95C51F",
+      "search": "Porz 3.6 Histor. Gebäudegruppe Auf dem Sandberg (Teil 1) (Poll)",
+      "title1": "Histor. Gebäudegruppe Auf dem Sandberg (Teil 1)",
+      "title2": "Porz 3.6 (Poll)",
+      "description": "Das vorstädtische Siedlungswachstum zu Beginn des 20. Jh. und die bauästhetischen Bedürfnisse der Bauherren der Zeit dokumentiert die historische Gebäudegruppe auf dem Sandberg, 92, 96, 98, 112, 114, 116 und 99, […]"
+    },
+    "geometry": { "type": "Point", "coordinates": [ 6.9944431398, 50.9159454969541 ] }
+  },
+  {
+    "type": "Feature",
+    "properties": {
+      "color": "#95C51F",
+      "search": "Porz 3.6 Histor. Gebäudegruppe Auf dem Sandberg (Teil 2) (Poll)",
+      "title1": "Histor. Gebäudegruppe Auf dem Sandberg (Teil 2)",
+      "title2": "Porz 3.6 (Poll)",
+      "description": "[…] während die Nr. 18 sowie die Nr. 21-21c (drei für einen drei Generationen umfassenden Familienverbund hintereinander errichtete Bauten) an den älteren, dörflichen Charakter Polls bis in die 2. Hälfte des 19. Jh. erinnern."
+    },
+    "geometry": { "type": "Point", "coordinates": [ 6.9933090312, 50.9128628129805 ] }
+  },
+  {
+    "type": "Feature",
+    "properties": {
+      "color": "#95C51F",
+      "search": "Porz 3.7 Alte Poller Schule (Poll)",
+      "title1": "Alte Poller Schule",
+      "title2": "Porz 3.7 (Poll)",
+      "description": "Das um 1900 erbaute Schulhaus, Poller Hauptstraße 61-65, hat eine reich verzierte mehrfarbige Backsteinfassade."
+    },
+    "geometry": { "type": "Point", "coordinates": [ 6.9926208834, 50.9118381982 ] }
+  },
+  {
+    "type": "Feature",
+    "properties": {
+      "color": "#95C51F",
+      "search": "Porz 3.8 Backstein- u. Fachwerkhäuser des 19. Jh. (Poll)",
+      "title1": "Backstein- u. Fachwerkhäuser des 19. Jh.",
+      "title2": "Porz 3.8 (Poll)",
+      "description": "Ein Ensemble ein- bis zweigeschossiger, meist giebelständiger Backstin- und Fachwerkhäuser des 19. Jh. (teilweise erneuert) bilden die Bauten Poller Hauptstraße 33, 37, 43-47, 51, 53, 46-50, während ... [Fortsetzung siehe 3.9]"
+    },
+    "geometry": { "type": "Point", "coordinates": [ 6.9918168487, 50.911645158 ] }
+  },
+  {
+    "type": "Feature",
+    "properties": {
+      "color": "#95C51F",
+      "search": "Porz 3.9 &quot;Gründerzeitliche&quot; Häuser (Poll)",
+      "title1": "&quot;Gründerzeitliche&quot; Häuser",
+      "title2": "Porz 3.9 (Poll)",
+      "description": "[Fortsetzung zu 3.8] ... die Salmstraße noch eine Anzahl &quot;gründerzeitlicher&quot;, zwischen 1880 und 1912 errichteter zweigeschossiger Häuser mit Stuck-, Backstein- und Putzfassaden aufweist (Nr. 73-85, 91, 74, 76, 94)."
+    },
+    "geometry": { "type": "Point", "coordinates": [ 6.9897921333, 50.9118904686 ] }
+  },
+  {
+    "type": "Feature",
+    "properties": {
+      "color": "#95C51F",
+      "search": "Porz 3.10 St. Joseph (Poll)",
+      "title1": "St. Joseph",
+      "title2": "Porz 3.10 (Poll)",
+      "description": "Im Ortskern wurde die kathol. Pfarrkirche St. Joseph, Kirchplatz 1a, nach Plänen H. Nagelschmidts 1862-64 als ursprgl. neugotische dreischiffige Backsteinbasilika erbaut und nach schwerer Kriegszerstörung unter Beibehaltung der Umfassungsmauern und der unteren Geschosse des Westturmes seit 1951 von A. Hauk und M. Krantz neu errichtet. Die Chorausstattung hat 1955 H. Rheindorf geschaffen."
+    },
+    "geometry": { "type": "Point", "coordinates": [ 6.9890736615, 50.9106579407 ] }
+  },
+  {
+    "type": "Feature",
+    "properties": {
+      "color": "#95C51F",
+      "search": "Porz 3.10 Pestkreuz (Poll)",
+      "title1": "Pestkreuz",
+      "title2": "Porz 3.10 (Poll)",
+      "description": "Am Kirchplatz/Ecke Poller Hauptstraße ein Pestkreuz (1666) aus Trachyt, seit 1891 an seinem jetzigen Ort."
+    },
+    "geometry": { "type": "Point", "coordinates": [ 6.9887540741, 50.9109270371 ] }
+  }
+]
+}
