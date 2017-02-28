@@ -110,7 +110,7 @@ function syncSidebar() {
 
 /* Basemap Layers */
 var mapnik = L.tileLayer('https://tiles.wmflabs.org/bw-mapnik/{z}/{x}/{y}.png', {
-              attribution: '&copy; <a href="http://osm.org/copyright">OpenStreetMap</a> contributors'
+              attribution: '&copy; <a target="new" href="http://osm.org/copyright">OpenStreetMap</a> Beitragende'
           });
 
 /* Overlay Layers */
@@ -357,7 +357,7 @@ var attributionControl = L.control({
 });
 attributionControl.onAdd = function (map) {
   var div = L.DomUtil.create("div", "leaflet-control-attribution");
-  div.innerHTML = "<span class='hidden-xs'>Developed by <a href='http://codefor.de/koeln/'>OK Lab Köln</a> | </span><a href='#' onclick='$(\"#attributionModal\").modal(\"show\"); return false;'>Attribution</a>";
+  div.innerHTML = "<span class='hidden-xs'>Entwickelt von <a target=\"new\" href='http://codefor.de/koeln/'>OK Lab Köln</a> | </span><a href='#' onclick='$(\"#attributionModal\").modal(\"show\"); return false;'>Beitragende</a>";
   return div;
 };
 map.addControl(attributionControl);
@@ -383,11 +383,11 @@ var locateControl = L.control.locate({
     clickable: false
   },
   icon: "fa fa-location-arrow",
-  metric: false,
+  metric: true,
   strings: {
-    title: "My location",
-    popup: "You are within {distance} {unit} from this point",
-    outsideMapBoundsMsg: "You seem located outside the boundaries of the map"
+    title: "Wo bin ich?",
+    popup: "Du befindest dich {distance} {unit} um diesen Punkt.",
+    outsideMapBoundsMsg: "Du befindest dich anscheinend außerhalb der Karte"
   },
   locateOptions: {
     maxZoom: 18,
