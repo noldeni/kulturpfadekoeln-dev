@@ -275,6 +275,10 @@ var markers = L.geoJson(null, {
   onEachFeature: function (feature, layer) {
     if (feature.properties) {
       var content = feature.properties.description;
+      if (feature.properties && feature.properties.notes) {
+        content += "<br/><br/><i>Hinweise der Redaktion</i>:<br/>";
+        content += feature.properties.notes;
+      }
       if (feature.properties && feature.properties.wiki) {
         content += "<br/><br/><i>Weitere Informationen</i>:<br/><ul>";
         content += "<li><a target=\"new\" href=\"" + feature.properties.wiki + "\">Wikipedia</a></li>";
