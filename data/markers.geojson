@@ -29,13 +29,37 @@
   {
     "type": "Feature",
     "properties": {
-      "color": "#95C51F",
-      "search": "Porz 3.0 Start Tour 3 (Porz)",
-      "title1": "Start Tour 3",
-      "title2": "Porz 3.0 (Porz)",
-      "description": ""
+      "color": "#00ACF3",
+      "search": "Porz 2.2 Nikolaus-Kapelle (Westhoven)",
+      "title1": "Nikolaus-Kapelle",
+      "title2": "Porz 2.2 (Westhoven)",
+      "description": "Die dem Schutzpatron der Schiffer geweihte, ehem. zur Abtei St. Heribert in Deutz gehörende Nikolaus-Kapelle, St. Agatha-Straße, wurde um 1100 errichtet. Der kleine romanische Saalbau (restauriert 1959-64) aus verputztem Tuff- und Kieselmauerwerk mit eingezogenem Rechteckchor, Fachwerkgiebel und einem Dachreiter liegt inmitten des ehem., bis 1929 benutzten Friedhofes mit alten Grabsteinen und Eisenkreuzen (restauriert 1987 vn der Bürgervereinigung Ensen-Westhoven).",
+      "wiki": "https://de.wikipedia.org/wiki/Nikolaus-Kapelle_%28K%C3%B6ln%29"
     },
-    "geometry": { "type": "Point", "coordinates": [ 6.9975187988, 50.9350904129 ] }
+    "geometry": { "type": "Point", "coordinates": [ 7.0162521, 50.8968724 ] }
+  },
+  {
+    "type": "Feature",
+    "properties": {
+      "color": "#00ACF3",
+      "search": "Porz 2.8 St. Clemens (Langel)",
+      "title1": "St. Clemens",
+      "title2": "Porz 2.8 (Langel)",
+      "description": "Kathol. Pfarrkirche St. Clemens, Lülsdorfer Straße 114, erbaut 1890/91 von Langeler Steinmetzen und Maurern nach Plänen H. Nagelschmidts, eine neugotische dreischiffige Backstein-Hallenkirche mit Schieferdach und Vierkantturm im Westen. Von der Innenausstattung sind 3 gotische Schnitzaltäre und der Orgelprospekt erhalten geblieben und 1982/83 mit einer passenden Kanzel aus Kürten-Bechern ergänzt worden. Wiederherstellung der im Krieg zerstörten Glasfenster in drei Phasen ab 1953 und der ursprgl. Neugotischen Ausmalung 1978/80. Ersetzung der mittleren Chorfenster 1990 durch eine Heiligenfiguren zeigende Buntverglasung im Nazarenerstil a. d. J. 1900. Restliche Fensterflächen 1990 von K. Dedy gestaltet.",
+      "wiki": "https://de.wikipedia.org/wiki/St._Clemens_(K%C3%B6ln-Langel)"
+    },
+    "geometry": { "type": "Point", "coordinates": [ 7.0041992850473465, 50.845715844545765 ] }
+  },
+  {
+    "type": "Feature",
+    "properties": {
+      "color": "#00ACF3",
+      "search": "Porz 2.14 ehem. Telegraphenstation (Langel)",
+      "title1": "ehem. Telegraphenstation",
+      "title2": "Porz 2.14 (Langel)",
+      "description": "Die ehemalige, 1832&frasl;33 erbaute, baulich stark veränderte Telegraphenstation, Loorweg 155, mit einem heute drei-, früher viergeschossigen Turm, war Teil der preußischen optischen Telegraphenlinie zwischen Berlin und Koblenz. Der Turm verband das Signal in Spich mit demjenigen auf dem Westwerk von St. Pantaleon in Köln."
+    },
+    "geometry": { "type": "Point", "coordinates": [ 7.030484309878866, 50.85894957075973 ] }
   },
   {
     "type": "Feature",
