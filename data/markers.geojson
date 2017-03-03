@@ -52,7 +52,7 @@
       "wiki": "https://de.wikipedia.org/wiki/St._Clemens_(K%C3%B6ln-Langel)"
 
     },
-    "geometry": { "type": "Point", "coordinates": [ 7.0041992850473465, 50.845715844545765 ] }
+    "geometry": { "type": "Point", "coordinates": [ 7.004199285, 50.8457158445 ] }
   },
   {
     "type": "Feature",
@@ -63,7 +63,7 @@
       "title2": "Porz 2.14 (Langel)",
       "description": "Die ehemalige, 1832&frasl;33 erbaute, baulich stark veränderte Telegraphenstation, Loorweg 155, mit einem heute drei-, früher viergeschossigen Turm, war Teil der preußischen optischen Telegraphenlinie zwischen Berlin und Koblenz. Der Turm verband das Signal in Spich mit demjenigen auf dem Westwerk von St. Pantaleon in Köln."
     },
-    "geometry": { "type": "Point", "coordinates": [ 7.030484309878866, 50.85894957075973 ] }
+    "geometry": { "type": "Point", "coordinates": [ 7.0304843099, 50.8589495708 ] }
   },
   {
     "type": "Feature",
@@ -123,7 +123,7 @@
       "description": "",
       "notes": "Hier konnten wir leider keine Infotafel mehr finden und das Objekt nicht zuordnen."
     },
-    "geometry": { "type": "Point", "coordinates": [ 6.995943, 50.918110 ] }
+    "geometry": { "type": "Point", "coordinates": [ 6.995943, 50.91811 ] }
   },
   {
     "type": "Feature",
@@ -226,7 +226,7 @@
 ,
       "notes": "Hier konnten wir leider keine Infotafel mehr finden."
     },
-    "geometry": { "type": "Point", "coordinates": [ 7.012577973436384, 50.90786969859551 ] }
+    "geometry": { "type": "Point", "coordinates": [ 7.0125779734, 50.9078696986 ] }
   },
   {
     "type": "Feature",
@@ -240,7 +240,7 @@
 ,
       "notes": "Hier konnten wir leider keine Infotafel mehr finden."
     },
-    "geometry": { "type": "Point", "coordinates": [ 7.02069855648556, 50.90053050413362 ] }
+    "geometry": { "type": "Point", "coordinates": [ 7.0206985565, 50.9005305041 ] }
   },
   {
     "type": "Feature",
@@ -252,6 +252,41 @@
       "description": "Am Marktplatz steht das 4,20 m hohe sog. Amerikakreuz, aus Sandstein, gestiftet 1869 vom Amerika-Auswanderer Balthasar Schmitz, dessen Eltern an der Stelle des heutigen Marktplatzes einen eigenen Hof bewirtschafteten."
     },
     "geometry": { "type": "Point", "coordinates": [ 7.0286368, 50.8978964 ] }
+  },
+  {
+    "type": "Feature",
+    "properties": {
+      "color": "#95C51F",
+      "search": "Porz 3.16 St. Laurentius (Poll)",
+      "title1": "St. Laurentius",
+      "title2": "Porz 3.16 (Poll)",
+      "description": "Kathol. Pfarrkirche St. Laurentius, Kölner Straße, 1894-96 von Th. Kremer als neugotische, dreischiffige Stufenhalle mit eingezogenem Chor, Satteldach mit Quergiebeln und Dachreiter und einem Vierkantturm errichtet. Wiederaufbau und Erneuerung der Innenausstattung nach Kriegszerstörung 1951. Die reiche, sich in den Dachzonen von Langhaus und Turm konzentrierende Detailbildung macht den Bau trotz eher bescheidener Ausmaße zum Blickfang vom Rheinufer her.<br/>An der Kirche das 1932 errichtete Kriegerdenkmal (Entwurf H. Euler/Westhoven) für die Gefallenen des Ersten Weltkriegs, eine Stele aus grob gehauenen Backsteinquadern.",
+      "wiki": "https://de.wikipedia.org/wiki/St._Laurentius_%28K%C3%B6ln-Ensen%29"
+
+    },
+    "geometry": { "type": "Point", "coordinates": [ 7.0342918, 50.8971235 ] }
+  },
+  {
+    "type": "Feature",
+    "properties": {
+      "color": "#95C51F",
+      "search": "Porz 3.18 Alexianer-Krankenhaus-Komplex (Poll)",
+      "title1": "Alexianer-Krankenhaus-Komplex",
+      "title2": "Porz 3.18 (Poll)",
+      "description": "Das Alexianer-Krankenhaus, Kölner Str. 64, wurde 1905-08 auf dem Gelände des Gutes &quot;Rotes Haus&quot; vom Kölner Diözesan-Baumeister H. Renard als Klinik für psychisch Kranke errichtet. Kernstück der Symmetrischen Mehrflügelanlage inmitten eines Parks ist der dreigeschossige Mittelriegel mit Backstein- und Putzfassade im &quot;Bergischen Barock&quot;, inspiriert von den Schloßbauten des 17. u. 18. Jh. im bergischen Teil des Rheinlandes."
+    },
+    "geometry": { "type": "Point", "coordinates": [ 7.0425097921, 50.8974494335 ] }
+  },
+  {
+    "type": "Feature",
+    "properties": {
+      "color": "#95C51F",
+      "search": "Porz 3.19 zwei Villen (Poll)",
+      "title1": "zwei Villen",
+      "title2": "Porz 3.19 (Poll)",
+      "description": "Die beiden zum Alexianer-Komplex gehörenden zweigeschossigen Villen, Kölner Str. 60 u. 62 in verwinkelter Bauweise mit Stuck- bzw. Putzfassaden, wurden 1905 erbaut."
+    },
+    "geometry": { "type": "Point", "coordinates": [ 7.04226575, 50.8968770404 ] }
   },
   {
     "type": "Feature",
