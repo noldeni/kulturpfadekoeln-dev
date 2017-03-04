@@ -29,18 +29,6 @@ $("#full-extent-btn").click(function() {
   return false;
 });
 
-$("#legend-btn").click(function() {
-  $("#legendModal").modal("show");
-  $(".navbar-collapse.in").collapse("hide");
-  return false;
-});
-
-$("#login-btn").click(function() {
-  $("#loginModal").modal("show");
-  $(".navbar-collapse.in").collapse("hide");
-  return false;
-});
-
 $("#list-btn").click(function() {
   animateSidebar();
   return false;
@@ -78,7 +66,7 @@ function clearHighlight() {
 }
 
 function sidebarClick(id) {
-  var layer = markerClusters.getLayer(id);
+  var layer = markers.getLayer(id);
   map.setView([layer.getLatLng().lat, layer.getLatLng().lng], 17);
   layer.fire("click");
   /* Hide sidebar and go to the map on small screens */
