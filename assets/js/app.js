@@ -121,7 +121,7 @@ function syncSidebar() {
 
 /* Basemap Layers */
 var mapnik = L.tileLayer('https://tiles.wmflabs.org/bw-mapnik/{z}/{x}/{y}.png', {
-              attribution: '<h4>Beitragende</h4><a target="_blank" href="http://www.openstreetmap.org/copyright">OpenStreetMap</a>, <a target="_blank" href="https://commons.wikimedia.org">Wikimedia Commons</a>, <a target="_blank" href="http://www.offenedaten-koeln.de/">Offene Daten Köln</a>, <a target="_blank" href="https://github.com/bmcbride/bootleaf">Bootleaf</a>, <a target="_blank" href="http://leafletjs.com/">Leaflet</a>, <a target="_blank" href="http://getbootstrap.com/">Bootstrap 3</a>, <a target="_blank" href="http://twitter.github.io/typeahead.js/">typeahead.js</a>'
+              attribution: '<h4>Beitragende</h4><a target="_blank" href="http://www.openstreetmap.org/copyright">OpenStreetMap</a>, <a target="_blank" href="https://commons.wikimedia.org">Wikimedia Commons</a>, <a target="_blank" href="http://www.offenedaten-koeln.de/">Offene Daten Köln</a>, <a target="_blank" href="https://github.com/bmcbride/bootleaf">Bootleaf</a>, <a target="_blank" href="http://leafletjs.com/">Leaflet</a>, <a target="_blank" href="http://getbootstrap.com/">Bootstrap 3</a>, <a target="_blank" href="http://twitter.github.io/typeahead.js/">typeahead.js</a>, <a target="_blank" href="http://www.walterzorn.de/tooltip/tooltip.htm">wz_tooltip</a>'
           });
 
 /* Overlay Layers */
@@ -306,8 +306,19 @@ var markers = L.geoJson(null, {
           if (sidebarState == 0)
             animateSidebar();
           highlight.clearLayers().addLayer(L.circleMarker([feature.geometry.coordinates[1], feature.geometry.coordinates[0]], highlightStyle));
+        },
+        mouseover: function (e, feature) {
+          Tip(title);
+        },
+        mouseout: function (e) {
+          UnTip();
         }
       });
+      
+      layer.on({
+      
+    });
+      
       $("#feature-list tbody").append('<tr class="feature-row" id="' + L.stamp(layer) + '" lat="' + layer.getLatLng().lat + '" lng="' + layer.getLatLng().lng + '"><td style="vertical-align: middle;"><td class="feature-name">' + layer.feature.properties.search + '</td><td style="vertical-align: middle;"><i class="fa fa-chevron-right pull-right"></i></td></tr>');
       markerSearch.push({
         name: layer.feature.properties.NAME,
