@@ -71,6 +71,15 @@ input[type="radio"], input[type="checkbox"] {
   bottom: 0px;
   overflow: auto;
 }
+.sidebar-text {
+  position: absolute;
+  width: 100%;
+  top: 0px;
+  bottom: 0px;
+  overflow: auto;
+  padding: 5px;
+  display: none;
+}
 .leaflet-control-layers {
   overflow: auto;
 }

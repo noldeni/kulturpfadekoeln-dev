@@ -39,8 +39,19 @@ $("#nav-btn").click(function() {
   return false;
 });
 
+var sidebarState;
+
 $("#sidebar-toggle-btn").click(function() {
-  animateSidebar();
+  if (sidebarState == 0)
+    animateSidebar();
+  else {
+    if (document.getElementById('features').style.display == 'block')
+      animateSidebar();
+    else {
+      toggle_visibility('features', 'block');
+      toggle_visibility('text', 'none');
+    }
+  }
   return false;
 });
 
@@ -50,11 +61,23 @@ $("#sidebar-hide-btn").click(function() {
 });
 
 function animateSidebar() {
+  sidebarState = ~ sidebarState;
   $("#sidebar").animate({
     width: "toggle"
   }, 350, function() {
     map.invalidateSize();
   });
+}
+
+function toggle_visibility(id, display='') {
+   var e = document.getElementById(id);
+   if (display == '')
+       if(e.style.display == 'block')
+          e.style.display = 'none';
+       else
+          e.style.display = 'block';
+   else
+     e.style.display = display;
 }
 
 function sizeLayerControl() {
@@ -272,12 +295,16 @@ var markers = L.geoJson(null, {
         content += "<li><a target=\"new\" href=\"" + feature.properties.wiki + "\">Wikipedia</a></li>";
         content += "</ul>";
       }
+      var title = "<b>" + feature.properties.title1 + "</b> - " + feature.properties.title2;
 
       layer.on({
         click: function (e) {
-          $("#feature-title").html("<b>" + feature.properties.title1 + "</b> - " + feature.properties.title2);
-          $("#feature-info").html(content);
-          $("#featureModal").modal("show");
+          $("#text-title").html(title);
+          $("#text-body").html(content);
+          toggle_visibility('features', 'none');
+          toggle_visibility('text', 'block');
+          if (sidebarState == 0)
+            animateSidebar();
           highlight.clearLayers().addLayer(L.circleMarker([feature.geometry.coordinates[1], feature.geometry.coordinates[0]], highlightStyle));
         }
       });
@@ -393,8 +420,10 @@ var locateControl = L.control.locate({
 /* Larger screens get expanded layer control and visible sidebar */
 if (document.body.clientWidth <= 767) {
   var isCollapsed = true;
+  sidebarState = 0;
 } else {
   var isCollapsed = false;
+  sidebarState = -1;
 }
 
 var baseLayers = {
