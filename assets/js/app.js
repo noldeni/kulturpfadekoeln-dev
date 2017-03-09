@@ -201,6 +201,8 @@ var buildings = L.geoJson(null, {
         color: feature.properties.color,
         weight: 3,
         opacity: 0.8,
+        fill: true,
+        fillColor: feature.properties.color,
         clickable: false
       };
   },
@@ -219,7 +221,7 @@ var markers = L.geoJson(null, {
         radius: 8,
         fillColor: feature.properties.color,
         color: "#000",
-        weight: 0,
+        weight: 1,
         opacity: 1,
         fillOpacity: 0.8
     });
