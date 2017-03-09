@@ -1,4 +1,5 @@
 var map, featureList, boroughSearch = [], markerSearch = [];
+var sidebarState;
 
 $(window).resize(function() {
   sizeLayerControl();
@@ -30,7 +31,16 @@ $("#full-extent-btn").click(function() {
 });
 
 $("#list-btn").click(function() {
-  animateSidebar();
+  if (sidebarState == 0)
+    animateSidebar();
+  else {
+    if (document.getElementById('features').style.display == 'block')
+      animateSidebar();
+    else {
+      toggle_visibility('features', 'block');
+      toggle_visibility('text', 'none');
+    }
+  }
   return false;
 });
 
@@ -38,8 +48,6 @@ $("#nav-btn").click(function() {
   $(".navbar-collapse").collapse("toggle");
   return false;
 });
-
-var sidebarState;
 
 $("#sidebar-toggle-btn").click(function() {
   if (sidebarState == 0)
@@ -56,6 +64,7 @@ $("#sidebar-toggle-btn").click(function() {
 });
 
 $("#sidebar-hide-btn").click(function() {
+  // fix this
   animateSidebar();
   return false;
 });
@@ -92,11 +101,6 @@ function sidebarClick(id) {
   var layer = markers.getLayer(id);
   map.setView([layer.getLatLng().lat, layer.getLatLng().lng], 17);
   layer.fire("click");
-  /* Hide sidebar and go to the map on small screens */
-  if (document.body.clientWidth <= 767) {
-    $("#sidebar").hide();
-    map.invalidateSize();
-  }
 }
 
 function syncSidebar() {
