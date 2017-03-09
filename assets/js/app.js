@@ -188,6 +188,25 @@ $.getJSON("data/tracks.geojson", function (data) {
   tracks.addData(data);
 });
 
+var testTracksFile = getQueryVariable("tracks");
+if (testTracksFile.length > 0) {
+    var testTracks = L.geoJson(null, {
+      style: function (feature) {
+          return {
+            color: "#3300ff",
+            weight: 3,
+            opacity: 1,
+            clickable: false
+          };
+      },
+      onEachFeature: function (feature, layer) {
+      }
+    });
+    $.getJSON(testTracksFile, function (data) {
+      testTracks.addData(data);
+    });
+}
+
 var buildings = L.geoJson(null, {
   style: function (feature) {
       return {
@@ -270,8 +289,13 @@ $.getJSON("data/markers.geojson", function (data) {
   map.addLayer(markerLayer);
 });
 
+var layerList = [mapnik, tracks, buildings, highlight, markers];
+if (testTracksFile.length > 0) {
+  layerList.push( testTracks );
+}
+
 map = L.map("map", {
-  layers: [mapnik, tracks, buildings, highlight, markers],
+  layers: layerList,
   zoomControl: false,
   attributionControl: false
 });
