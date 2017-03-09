@@ -1,6 +1,16 @@
 var map, featureList, boroughSearch = [], markerSearch = [];
 var sidebarState;
 
+function getQueryVariable(variable) {
+       var query = window.location.search.substring(1);
+       var vars = query.split("&");
+       for (var i=0;i<vars.length;i++) {
+               var pair = vars[i].split("=");
+               if(pair[0] == variable){return pair[1];}
+       }
+       return(false);
+}
+
 $(window).resize(function() {
   sizeLayerControl();
 });
@@ -172,35 +182,6 @@ var tracks = L.geoJson(null, {
       };
   },
   onEachFeature: function (feature, layer) {
-    /*
-    if (feature.properties) {
-      var content = "<table class='table table-striped table-bordered table-condensed'>" + "<tr><th>Division</th><td>" + feature.properties.Division + "</td></tr>" + "<tr><th>Line</th><td>" + feature.properties.Line + "</td></tr>" + "<table>";
-      layer.on({
-        click: function (e) {
-          $("#feature-title").html(feature.properties.Line);
-          $("#feature-info").html(content);
-          $("#featureModal").modal("show");
-
-        }
-      });
-    }
-    layer.on({  
-      mouseover: function (e) {
-        var layer = e.target;
-        layer.setStyle({
-          weight: 3,
-          color: "#00FFFF",
-          opacity: 1
-        });
-        if (!L.Browser.ie && !L.Browser.opera) {
-          layer.bringToFront();
-        }
-      },
-      mouseout: function (e) {
-        tracks.resetStyle(e.target);
-      }
-    });
-    */
   }
 });
 $.getJSON("data/tracks.geojson", function (data) {
@@ -217,67 +198,16 @@ var buildings = L.geoJson(null, {
       };
   },
   onEachFeature: function (feature, layer) {
-    /*
-    if (feature.properties) {
-      var content = "<table class='table table-striped table-bordered table-condensed'>" + "<tr><th>Division</th><td>" + feature.properties.Division + "</td></tr>" + "<tr><th>Line</th><td>" + feature.properties.Line + "</td></tr>" + "<table>";
-      layer.on({
-        click: function (e) {
-          $("#feature-title").html(feature.properties.Line);
-          $("#feature-info").html(content);
-          $("#featureModal").modal("show");
-
-        }
-      });
-    }
-    layer.on({
-      mouseover: function (e) {
-        var layer = e.target;
-        layer.setStyle({
-          weight: 3,
-          color: "#00FFFF",
-          opacity: 1
-        });
-        if (!L.Browser.ie && !L.Browser.opera) {
-          layer.bringToFront();
-        }
-      },
-      mouseout: function (e) {
-        buildings.resetStyle(e.target);
-      }
-    });
-    */
   }
 });
 $.getJSON("data/buildings.geojson", function (data) {
   buildings.addData(data);
 });
 
-/* Single marker cluster layer to hold all clusters */
-/*
-var markerClusters = new L.MarkerClusterGroup({
-  spiderfyOnMaxZoom: true,
-  showCoverageOnHover: false,
-  zoomToBoundsOnClick: true,
-  disableClusteringAtZoom: 16
-});
-*/
-
 /* Empty layer placeholder to add to layer control for listening when to add/remove markers to markerClusters layer */
 var markerLayer = L.geoJson(null);
 var markers = L.geoJson(null, {
   pointToLayer: function (feature, latlng) {
-    /*
-    return L.marker(latlng, {
-      icon: L.icon({
-        iconUrl: "assets/img/marker.png",
-        iconSize: [24, 28],
-        iconAnchor: [12, 28],
-        popupAnchor: [0, -25]
-      }),
-      title: feature.properties.NAME,
-      riseOnHover: true
-    });
-    */
     return L.circleMarker(latlng, {
         radius: 8,
         fillColor: feature.properties.color,
@@ -341,8 +271,6 @@ $.getJSON("data/markers.geojson", function (data) {
 });
 
 map = L.map("map", {
-  //zoom: 10,
-  //center: [40.702222, -73.979378],
   layers: [mapnik, tracks, buildings, highlight, markers],
   zoomControl: false,
   attributionControl: false
@@ -363,7 +291,6 @@ map.on("overlayremove", function(e) {
     syncSidebar();
   }
 });
-
 
 /* Filter sidebar feature list to only show features in current map bounds */
 map.on("moveend", function (e) {
