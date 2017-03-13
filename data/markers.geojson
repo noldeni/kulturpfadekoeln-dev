@@ -326,6 +326,85 @@
       "notes": "Der Text beschreibt das umliegende Gebiet."
     },
     "geometry": { "type": "Point", "coordinates": [ 7.0526617, 50.9038232 ]}
+  },
+  {
+    "type": "Feature",
+    "properties": {
+      "color": "#95C51F",
+      "search": "Porz 3.22 Schöffenkreuz (Porz)",
+      "title1": "Schöffenkreuz",
+      "title2": "Porz 3.22 (Porz)",
+      "description": "An das alte dörfliche Porz erinnert das sog. Schöffenkreuz aus Trachyt, gestiftet 1667 vom Schöffen Bertram Hermans und seiner Ehefrau Margriet."
+    },
+    "geometry": { "type": "Point", "coordinates": [ 7.0529418, 50.8879931 ]}
+  },
+  {
+    "type": "Feature",
+    "properties": {
+      "color": "#95C51F",
+      "search": "Porz 3.25 Wohn- u. Geschäftshaus (Porz)",
+      "title1": "Wohn- u. Geschäftshaus",
+      "title2": "Porz 3.25 (Porz)",
+      "description": "1912 ließ Bäckermeister Billstein sein dreigeschossiges Wohn- und Geschäftshaus, Hauptstr. 398, mit rückwärtiger Backstube bauen. Die breite Stuckfassade mit geschungenem Ziergiebel und farbigem Blumendekor, eine reizvolle Mischung aus Jugendstil und Barock, macht das Haus zu einem der auffälligsten der Straße."
+    },
+    "geometry": { "type": "Point", "coordinates": [ 7.055657828857665, 50.88357150349143 ]}
+  },
+  {
+    "type": "Feature",
+    "properties": {
+      "color": "#95C51F",
+      "search": "Porz 3.26 Wohnhaus (Porz)",
+      "title1": "Wohnhaus",
+      "title2": "Porz 3.26 (Porz)",
+      "description": "Um 1900 entstand das zweigeschossige Wohnhaus Hauptstr. 388 mit Mittelgiebel und Zahnfries am Traufgesims. Es ist das einzige hier erhaltene mit einer zweifarbigen Backsteinfassade, mit der es sich sowohl an die frühere dörfliche Bebauung als auch mit der dekorativen Gestaltung an die städtische Architektur anpaßt. Zum historischen Ansemble gehören auch die Häuser Nr. 352, 368, 394, 327."
+    },
+    "geometry": { "type": "Point", "coordinates": [ 7.0556422, 50.8833698 ]}
+  },
+  {
+    "type": "Feature",
+    "properties": {
+      "color": "#95C51F",
+      "search": "Porz 3.27 Villa Dr. Hollstein, Villa Ahren, Villa Broischer (Porz)",
+      "title1": "Villa Dr. Hollstein, Villa Ahren, Villa Broischer",
+      "title2": "Porz 3.27 (Porz)",
+      "description": "Zum historischen Ensemble der Hauptstraße gehören die Villa Dr. Hollstein (Nr. 303), die Villa Ahren (Nr. 305) sowie die Villa Broischer (Nr. 307), die am südlichen Ortsrand des alten Porz in bevorzugter Lage nahe am Rhein liegen. Sie wurden zwischen 1900 (Villa Dr. Hollstein) und 1912 errichtet. Trotz mancher Modernisierungsmaßname ist ihr aufwendiger Wohnstand noch ablesbar. Die Villa Dr. Hollstein besitzt noch den Vorgarten, die originalen schmiedeeisernen Tore mit dem Einfriedungsgitter, sowie die Remise. In den Villengärten stehen noch drei Blutbuchen als Naturdenkmäler."
+    },
+    "geometry": { "type": "Point", "coordinates": [ 7.055240459227818, 50.88032299056969 ]}
+  },
+  {
+    "type": "Feature",
+    "properties": {
+      "color": "#95C51F",
+      "search": "Porz 3.28 Lukaskirche (Porz)",
+      "title1": "Lukaskirche",
+      "title2": "Porz 3.28 (Porz)",
+      "description": "Die evangel. Lukaskirche, Mühlenstr. 2, wurde 1914 von M. Benirschke als Saalkirche mit Rechteckchor und jugendstilgeprägtem, an J. M. Olbrichs Darmstädter Hochzeits-Turm erinnernden Fassadenturm geschaffen. Die expressionistische, sehr farbige Innenausstattung stammt von H. Derckum (vollendet 1927). 1977-80 erfolgte die denkmalpflegerische Wiederherstellung des unsprünglichen Zustandes durch die Architekten Thon und Baedorf.",
+      "wiki": "https://de.wikipedia.org/wiki/Lukaskirche_%28K%C3%B6ln-Porz%29"
+    },
+    "geometry": { "type": "Point", "coordinates": [ 7.055655728020915, 50.88059777263491 ]}
+  },
+  {
+    "type": "Feature",
+    "properties": {
+      "color": "#95C51F",
+      "search": "Porz 3.29 Straßenbahnwartehalle (Porz)",
+      "title1": "Straßenbahnwartehalle",
+      "title2": "Porz 3.29 (Porz)",
+      "description": "Aus der ersten Wiederaufbauphase nach dem Zweiten Weltkrieg verfügt Köln über eine Anzahl von Gebäuden von hoher architektonischer Qualität. Die teilweise leichte, beschwingte Flachdacharchitektur mit organischer Linienführung und gegliedertem Sichtbetonstützwerk wurde auch auf kleine Bauten wie die Straßenbahnwartehalle mit Kiosk, Mühlenstr. o. Nr., übertragen. Sie wurde 1952 über einem gekurvten Grundriß pavillonartig mit großen Fenstern und einem besondere Akzente setzenden, weitvorkragenden Flachdach errichtet."
+    },
+    "geometry": { "type": "Point", "coordinates": [ 7.0586979, 50.8832938 ]}
+  },
+  {
+    "type": "Feature",
+    "properties": {
+      "color": "#95C51F",
+      "search": "Porz 3.30 Germania-Siedlung (Porz)",
+      "title1": "Germania-Siedlung",
+      "title2": "Porz 3.30 (Porz)",
+      "description": "Die Germania-Siedlung (Bahnhofstr.&frasl;Concordiaplatz&frasl;Germaniastr.&frasl;Glasstr.) wurde zwischen 1899 und 1903 abseits der Bürgermeisterei Porz auf rautenförmigem Grundriß angelegt, ein Ensemble aus Fabrik, Direktorenvilla und Park (Concordiaplatz), Meisterhäusern (Germaniastr.), Angestellten- und Arbeiterhäusern (Glasstr.) für die Belegschaft der Germania-Spiegelglaswerke. Anlage und Architektur der Häuser spiegelten die zeitgenössische berufsständische Gliederung des Werks und die soziale Hierarchie der Bewohner wieder; je höher ihr Status, desto näher an der Fabrik wohnten sie! Die noch nahezu geschlossen erhaltene Siedlung von seltener gestalterischer und architektonischer Vielfalt ist die einzige ihrer Art in Köln.",
+      "notes": "Der Text beschreibt das umliegende Gebiet."
+    },
+    "geometry": { "type": "Point", "coordinates": [ 7.0622739, 50.8826081 ]}
   }
 ]
 }
