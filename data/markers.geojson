@@ -9,11 +9,10 @@
       "search": "Rodenkirchen 2.7 Südfriedhof (Zollstock)",
       "title1": "Südfriedhof",
       "title2": "Rodenkirchen 2.7 (Zollstock)",
-      "description": "1901 eröffnet. Entwurf von A. Kowallek. Die landschaftliche Anlage mit Rundwegen und abwechlungsreichen Baum- und Gehölzgruppen ist ein Beispiel für den Stil des Historismus.<br/>Darin ein einglischer, ein italienischer und ein deutscher Ehrenfriedhof, bedeutende Grabstätten von 1900 - 1940 und ein Hochkreuz. Die Einfriedung sowie die oktogonale Trauerkapelle sind 1905 - 1918 nach den Entwürfen von F. Bolte im neuromantischen Stil erbaut.",
+      "description": "1901 eröffnet. Entwurf von A. Kowallek. Die landschaftliche Anlage mit Rundwegen und abwechlungsreichen Baum- und Gehölzgruppen ist ein Beispiel für den Stil des Historismus.<br/>Darin ein englischer, ein italienischer und ein deutscher Ehrenfriedhof, bedeutende Grabstätten von 1900 - 1940 und ein Hochkreuz. Die Einfriedung sowie die oktogonale Trauerkapelle sind 1905 - 1918 nach den Entwürfen von F. Bolte im neuromantischen Stil erbaut.",
       "wiki": "https://de.wikipedia.org/wiki/S%C3%BCdfriedhof_%28K%C3%B6ln%29"
-
     },
-    "geometry": { "type": "Point", "coordinates": [ 6.9438857876, 50.9006497703 ] }
+    "geometry": { "type": "Point", "coordinates": [ 6.943946560809015, 50.90067522526192 ]}
   },
   {
     "type": "Feature",
@@ -22,11 +21,10 @@
       "search": "Porz 2.1 Drehbrücke (Deutz)",
       "title1": "Drehbrücke",
       "title2": "Porz 2.1 (Deutz)",
-      "description": "Die aus der Gründerzeit des Deuter Hafens (Stadtbezirk 1) stammende Drehbrücke, ein technisches Denkmal, wurde 1907 errichtet und 1908 dem Verkehr übergeben. Ihre elektrisch gesteuerte, genietete Gitterträgerkonstruktion mit dem Steuerhäuschen aus Stahlblechen ist bis heute vollständig erhalten geblieben. Auf der von ihr ausgehenden Alfred-Schütte-Allee erreicht man das Poller Rheinufer mit dem in den 20er Jahren angelegten öffentlichen Grünbereich mit Sportanlagen.",
+      "description": "Die aus der Gründerzeit des Deutzer Hafens (Stadtbezirk 1) stammende Drehbrücke, ein technisches Denkmal, wurde 1907 errichtet und 1908 dem Verkehr übergeben. Ihre elektrisch gesteuerte, genietete Gitterträgerkonstruktion mit dem Steuerhäuschen aus Stahlblechen ist bis heute vollständig erhalten geblieben. Auf der von ihr ausgehenden Alfred-Schütte-Allee erreicht man das Poller Rheinufer mit dem in den 20er Jahren angelegten öffentlichen Grünbereich mit Sportanlagen.",
       "wiki": "https://de.wikipedia.org/wiki/Deutzer_Drehbr%C3%BCcke"
-
     },
-    "geometry": { "type": "Point", "coordinates": [ 6.973374, 50.927833 ] }
+    "geometry": { "type": "Point", "coordinates": [ 6.97314244581821, 50.9277952838689 ]}
   },
   {
     "type": "Feature",
@@ -37,9 +35,43 @@
       "title2": "Porz 2.2 (Westhoven)",
       "description": "Die dem Schutzpatron der Schiffer geweihte, ehem. zur Abtei St. Heribert in Deutz gehörende Nikolaus-Kapelle, St. Agatha-Straße, wurde um 1100 errichtet. Der kleine romanische Saalbau (restauriert 1959-64) aus verputztem Tuff- und Kieselmauerwerk mit eingezogenem Rechteckchor, Fachwerkgiebel und einem Dachreiter liegt inmitten des ehem., bis 1929 benutzten Friedhofes mit alten Grabsteinen und Eisenkreuzen (restauriert 1987 vn der Bürgervereinigung Ensen-Westhoven).",
       "wiki": "https://de.wikipedia.org/wiki/Nikolaus-Kapelle_%28K%C3%B6ln%29"
-
     },
-    "geometry": { "type": "Point", "coordinates": [ 7.0162521, 50.8968724 ] }
+    "geometry": { "type": "Point", "coordinates": [ 7.0162521, 50.8968724 ]}
+  },
+  {
+    "type": "Feature",
+    "properties": {
+      "color": "#00ACF3",
+      "search": "Porz 2.4 Rheinuferpromenade (Porz)",
+      "title1": "Rheinuferpromenade",
+      "title2": "Porz 2.4 (Porz)",
+      "description": "Die Rheinuferpromenade, Friedrich-Ebert-Ufer, mit Ufermauer, Treppenaufgang, Fahrkartenpavillon für die Schiffahrt, Löwenmonument und schmiedeeisernen Laternen wurde zwischen 1907 u. 1912 angelegt.",
+      "notes": "osm node 2371130132"
+    },
+    "geometry": { "type": "Point", "coordinates": [ 7.054029, 50.8846978 ]}
+  },
+  {
+    "type": "Feature",
+    "properties": {
+      "color": "#00ACF3",
+      "search": "Porz 2.5 Porzer Rathaus (Porz)",
+      "title1": "Porzer Rathaus",
+      "title2": "Porz 2.5 (Porz)",
+      "description": "Das Porzer Rathaus, Friedrich-Ebert-Ufer 64, ein dreigeschossiger mächtiger, siebenachsiger Bau mit wuchtigem Turm und Arkaden im Erdgeschoß, entstand 1909&frasl;10 nach Plänen des Regierungsbaumeisters Moritz. Der Erweiterungsbau mit Werksteinfassade stammt aus den Jahren 1955&frasl;56; weitere Neubauten aus den 70er und 80er Jahren. Heute ist das Porzer Rathaus Sitz der Bezirksvertretung des Stadtbezirks 7 und der Bezirksverwaltung.",
+      "notes": "osm node 2371130132"
+    },
+    "geometry": { "type": "Point", "coordinates": [ 7.054216878078211, 50.88506916119908 ]}
+  },
+  {
+    "type": "Feature",
+    "properties": {
+      "color": "#00ACF3",
+      "search": "Porz 2.7 Fronhof (Langel)",
+      "title1": "Fronhof",
+      "title2": "Porz 2.7 (Langel)",
+      "description": "Begrenzt von der Frongasse, Rosengasse und Lülsdorfer Straße liegt der erstmals 965, dann 1225 im Urbar von St. Pantaleon in Köln erwähnte Fronhof. 1633 wurde der damals 178 Morgen große Hof, Zentrum eines grundherrschaftlichen Hofverbandes mit einer größeren Anzahl abhängiger Höfe, von einem Feuer vernichtet. Die danach neu entstandene Anlage ging 1803 in den Besitz des preußischen Staates über, der sie 1820 an die Gebrüder Immendorff verkaufte. Der nach starken Beschädigungen im Zweiten Weltkrieg wiederaufgebaute, heute teilw. veränderte Fronhof ist der Mittelpunkt des Langeler Oberdorfes in unmittelbarer Nachbarschaft der Kirche St. Clemens."
+    },
+    "geometry": { "type": "Point", "coordinates": [ 7.0034458, 50.846453 ]}
   },
   {
     "type": "Feature",
@@ -50,9 +82,8 @@
       "title2": "Porz 2.8 (Langel)",
       "description": "Kathol. Pfarrkirche St. Clemens, Lülsdorfer Straße 114, erbaut 1890/91 von Langeler Steinmetzen und Maurern nach Plänen H. Nagelschmidts, eine neugotische dreischiffige Backstein-Hallenkirche mit Schieferdach und Vierkantturm im Westen. Von der Innenausstattung sind 3 gotische Schnitzaltäre und der Orgelprospekt erhalten geblieben und 1982/83 mit einer passenden Kanzel aus Kürten-Bechern ergänzt worden. Wiederherstellung der im Krieg zerstörten Glasfenster in drei Phasen ab 1953 und der ursprgl. Neugotischen Ausmalung 1978/80. Ersetzung der mittleren Chorfenster 1990 durch eine Heiligenfiguren zeigende Buntverglasung im Nazarenerstil a. d. J. 1900. Restliche Fensterflächen 1990 von K. Dedy gestaltet.",
       "wiki": "https://de.wikipedia.org/wiki/St._Clemens_(K%C3%B6ln-Langel)"
-
     },
-    "geometry": { "type": "Point", "coordinates": [ 7.004199285, 50.8457158445 ] }
+    "geometry": { "type": "Point", "coordinates": [ 7.004207848206901, 50.845723969859634]}
   },
   {
     "type": "Feature",
@@ -63,7 +94,7 @@
       "title2": "Porz 2.14 (Langel)",
       "description": "Die ehemalige, 1832&frasl;33 erbaute, baulich stark veränderte Telegraphenstation, Loorweg 155, mit einem heute drei-, früher viergeschossigen Turm, war Teil der preußischen optischen Telegraphenlinie zwischen Berlin und Koblenz. Der Turm verband das Signal in Spich mit demjenigen auf dem Westwerk von St. Pantaleon in Köln."
     },
-    "geometry": { "type": "Point", "coordinates": [ 7.0304843099, 50.8589495708 ] }
+    "geometry": { "type": "Point", "coordinates": [ 7.0304862895066, 50.85895159419718 ]}
   },
   {
     "type": "Feature",
@@ -75,7 +106,7 @@
       "description": "",
       "notes": "Hier startet Tour 3 (Porz)"
     },
-    "geometry": { "type": "Point", "coordinates": [ 6.9975187988, 50.9350904129 ] }
+    "geometry": { "type": "Point", "coordinates": [ 6.9975187988, 50.9350904129 ]}
   },
   {
     "type": "Feature",
@@ -85,9 +116,9 @@
       "title1": "Milchmädchensiedlung",
       "title2": "Porz 3.1 (Poll)",
       "description": "Auf einem durch die Siegburger Straße, die Eisenbahnstrecke und den Friedhof begrenzten Areal (Rolshover Kirchweg, Allerseelenstraße, An den Maien) wurde 1919-21 nach Plänen von E. Mewes die &quot;Milchmädchensiedlung&quot; im Heimatstil städtischer Prägung nach dem Konzept des &quot;stadtnahen Wohnens im Grünen&quot; errichtet. Mit ihr wurde die letzte reine Einfamilienhaus-Siedlung in Köln geschaffen. Städtebaulicher Mittelpunkt ist der Efeuplatz mit &quot;Milchmädchen&quot;-Plastik (um 1922). Obwohl heute im Erscheinungsbild startk verändert, sind ursprl. Aufbau und Gliederung der Siedlung weiterhin gut zu erkennen.",
-      "notes": "Hier konnten wir leider keine Infotafel mehr finden. Der Text beschreibt das umliegende Gebiet"
+      "notes": "Hier konnten wir leider keine Infotafel mehr finden. Der Text beschreibt das umliegende Gebiet."
     },
-    "geometry": { "type": "Point", "coordinates": [ 6.986746, 50.921618 ] }
+    "geometry": { "type": "Point", "coordinates": [ 6.986746, 50.921618 ]}
   },
   {
     "type": "Feature",
@@ -97,9 +128,9 @@
       "title1": "Siedlung Altenberger Kreuzweg",
       "title2": "Porz 3.2 (Poll)",
       "description": "Die Siedlung Altenberger Kreuzweg wurde 1927-29 nach den Plänen von E. Mewes auf den Grundriß eines unregelmäßigen Fünfecks (Am Altenberger Kreuz, Im Mittelfeld, Siegburger Straße, Bahnstraße) als Ergänzung der Milchmädchensiedlung aus zu symmetrischen Reihen geordneten 15 Mehr- und Einfamilienhäusern errichtet. Städtebaulicher Mittelpunkt ist die Dreifaltigkeitskirche, Am Altenberger Kreuz, neu geschaffen von K. Band 1951-54 unter Einbeziehung der Mauerreste der kriegszerstörten Vorgängerin.",
-      "notes": "Hier konnten wir leider keine Infotafel mehr finden. Der Text beschreibt das umliegende Gebiet"
+      "notes": "Hier konnten wir leider keine Infotafel mehr finden. Der Text beschreibt das umliegende Gebiet."
     },
-    "geometry": { "type": "Point", "coordinates": [ 6.988911, 50.919366 ] }
+    "geometry": { "type": "Point", "coordinates": [ 6.988911, 50.919366 ]}
   },
   {
     "type": "Feature",
@@ -111,7 +142,7 @@
       "description": "",
       "notes": "Hier konnten wir leider keine Infotafel mehr finden und das Objekt nicht zuordnen."
     },
-    "geometry": { "type": "Point", "coordinates": [ 6.994814, 50.917005 ] }
+    "geometry": { "type": "Point", "coordinates": [ 6.994814, 50.917005 ]}
   },
   {
     "type": "Feature",
@@ -123,7 +154,7 @@
       "description": "",
       "notes": "Hier konnten wir leider keine Infotafel mehr finden und das Objekt nicht zuordnen."
     },
-    "geometry": { "type": "Point", "coordinates": [ 6.995943, 50.91811 ] }
+    "geometry": { "type": "Point", "coordinates": [ 6.995943, 50.91811 ]}
   },
   {
     "type": "Feature",
@@ -135,7 +166,7 @@
       "description": "",
       "notes": "Hier konnten wir leider keine Infotafel mehr finden und das Objekt nicht zuordnen."
     },
-    "geometry": { "type": "Point", "coordinates": [ 6.998688, 50.919933 ] }
+    "geometry": { "type": "Point", "coordinates": [ 6.998688, 50.919933 ]}
   },
   {
     "type": "Feature",
@@ -146,7 +177,7 @@
       "title2": "Porz 3.6 (Poll)",
       "description": "Das vorstädtische Siedlungswachstum zu Beginn des 20. Jh. und die bauästhetischen Bedürfnisse der Bauherren der Zeit dokumentiert die historische Gebäudegruppe auf dem Sandberg, 92, 96, 98, 112, 114, 116 und 99, […]"
     },
-    "geometry": { "type": "Point", "coordinates": [ 6.9944431398, 50.9159454969541 ] }
+    "geometry": { "type": "Point", "coordinates": [ 6.994455896216291, 50.91596186495499 ]}
   },
   {
     "type": "Feature",
@@ -157,7 +188,7 @@
       "title2": "Porz 3.6 (Poll)",
       "description": "[…] während die Nr. 18 sowie die Nr. 21-21c (drei für einen drei Generationen umfassenden Familienverbund hintereinander errichtete Bauten) an den älteren, dörflichen Charakter Polls bis in die 2. Hälfte des 19. Jh. erinnern."
     },
-    "geometry": { "type": "Point", "coordinates": [ 6.9933090312, 50.9128628129805 ] }
+    "geometry": { "type": "Point", "coordinates": [ 6.993309698951081, 50.912869670057404 ]}
   },
   {
     "type": "Feature",
@@ -168,7 +199,7 @@
       "title2": "Porz 3.7 (Poll)",
       "description": "Das um 1900 erbaute Schulhaus, Poller Hauptstraße 61-65, hat eine reich verzierte mehrfarbige Backsteinfassade."
     },
-    "geometry": { "type": "Point", "coordinates": [ 6.9926208834, 50.9118381982 ] }
+    "geometry": { "type": "Point", "coordinates": [ 6.9926245, 50.9117067 ]}
   },
   {
     "type": "Feature",
@@ -179,7 +210,7 @@
       "title2": "Porz 3.8 (Poll)",
       "description": "Ein Ensemble ein- bis zweigeschossiger, meist giebelständiger Backstin- und Fachwerkhäuser des 19. Jh. (teilweise erneuert) bilden die Bauten Poller Hauptstraße 33, 37, 43-47, 51, 53, 46-50, während ... [Fortsetzung siehe 3.9]"
     },
-    "geometry": { "type": "Point", "coordinates": [ 6.9918168487, 50.911645158 ] }
+    "geometry": { "type": "Point", "coordinates": [ 6.9920208, 50.9116623 ]}
   },
   {
     "type": "Feature",
@@ -188,9 +219,10 @@
       "search": "Porz 3.9 &quot;Gründerzeitliche&quot; Häuser (Poll)",
       "title1": "&quot;Gründerzeitliche&quot; Häuser",
       "title2": "Porz 3.9 (Poll)",
-      "description": "[Fortsetzung zu 3.8] ... die Salmstraße noch eine Anzahl &quot;gründerzeitlicher&quot;, zwischen 1880 und 1912 errichteter zweigeschossiger Häuser mit Stuck-, Backstein- und Putzfassaden aufweist (Nr. 73-85, 91, 74, 76, 94)."
+      "description": "[Fortsetzung zu 3.8] ... die Salmstraße noch eine Anzahl &quot;gründerzeitlicher&quot;, zwischen 1880 und 1912 errichteter zweigeschossiger Häuser mit Stuck-, Backstein- und Putzfassaden aufweist (Nr. 73-85, 91, 74, 76, 94).",
+      "notes": "Haus Nr. 94 existiert mittlerweile nicht mehr."
     },
-    "geometry": { "type": "Point", "coordinates": [ 6.9897921333, 50.9118904686 ] }
+    "geometry": { "type": "Point", "coordinates": [ 6.9898126, 50.9120614 ]}
   },
   {
     "type": "Feature",
@@ -201,7 +233,7 @@
       "title2": "Porz 3.10 (Poll)",
       "description": "Im Ortskern wurde die kathol. Pfarrkirche St. Joseph, Kirchplatz 1a, nach Plänen H. Nagelschmidts 1862-64 als ursprgl. neugotische dreischiffige Backsteinbasilika erbaut und nach schwerer Kriegszerstörung unter Beibehaltung der Umfassungsmauern und der unteren Geschosse des Westturmes seit 1951 von A. Hauk und M. Krantz neu errichtet. Die Chorausstattung hat 1955 H. Rheindorf geschaffen."
     },
-    "geometry": { "type": "Point", "coordinates": [ 6.9890736615, 50.9106579407 ] }
+    "geometry": { "type": "Point", "coordinates": [ 6.988987817869263, 50.91062439502396 ]}
   },
   {
     "type": "Feature",
@@ -212,93 +244,90 @@
       "title2": "Porz 3.10 (Poll)",
       "description": "Am Kirchplatz/Ecke Poller Hauptstraße ein Pestkreuz (1666) aus Trachyt, seit 1891 an seinem jetzigen Ort."
     },
-    "geometry": { "type": "Point", "coordinates": [ 6.9887540741, 50.9109270371 ] }
+    "geometry": { "type": "Point", "coordinates": [ 6.9886726, 50.9109369 ]}
   },
   {
     "type": "Feature",
     "properties": {
       "color": "#95C51F",
-      "search": "Porz 3.11 Wasserwerk (Poll)",
+      "search": "Porz 3.11 Wasserwerk (-)",
       "title1": "Wasserwerk",
-      "title2": "Porz 3.11 (Poll)",
+      "title2": "Porz 3.11 (-)",
       "description": "",
-      "wiki": "https://de.wikipedia.org/wiki/Wasserwerk_Westhoven"
-,
+      "wiki": "https://de.wikipedia.org/wiki/Wasserwerk_Westhoven",
       "notes": "Hier konnten wir leider keine Infotafel mehr finden."
     },
-    "geometry": { "type": "Point", "coordinates": [ 7.0125779734, 50.9078696986 ] }
+    "geometry": { "type": "Point", "coordinates": [ 7.012646, 50.9077943 ]}
   },
   {
     "type": "Feature",
     "properties": {
       "color": "#95C51F",
-      "search": "Porz 3.12 Engelshof (Poll)",
+      "search": "Porz 3.12 Engelshof (-)",
       "title1": "Engelshof",
-      "title2": "Porz 3.12 (Poll)",
+      "title2": "Porz 3.12 (-)",
       "description": "",
-      "wiki": "https://de.wikipedia.org/wiki/Hofanlage_Gut_Engelshof_(K%C3%B6ln)"
-,
+      "wiki": "https://de.wikipedia.org/wiki/Hofanlage_Gut_Engelshof_(K%C3%B6ln)",
       "notes": "Hier konnten wir leider keine Infotafel mehr finden."
     },
-    "geometry": { "type": "Point", "coordinates": [ 7.0206985565, 50.9005305041 ] }
+    "geometry": { "type": "Point", "coordinates": [ 7.0206985565, 50.9005305041 ]}
   },
   {
     "type": "Feature",
     "properties": {
       "color": "#95C51F",
-      "search": "Porz 3.15 Amerikakreuz (Poll)",
+      "search": "Porz 3.15 Amerikakreuz (Ensen)",
       "title1": "Amerikakreuz",
-      "title2": "Porz 3.15 (Poll)",
+      "title2": "Porz 3.15 (Ensen)",
       "description": "Am Marktplatz steht das 4,20 m hohe sog. Amerikakreuz, aus Sandstein, gestiftet 1869 vom Amerika-Auswanderer Balthasar Schmitz, dessen Eltern an der Stelle des heutigen Marktplatzes einen eigenen Hof bewirtschafteten."
     },
-    "geometry": { "type": "Point", "coordinates": [ 7.0286368, 50.8978964 ] }
+    "geometry": { "type": "Point", "coordinates": [ 7.0286681157953685, 50.897884921400255 ]}
   },
   {
     "type": "Feature",
     "properties": {
       "color": "#95C51F",
-      "search": "Porz 3.16 St. Laurentius (Poll)",
+      "search": "Porz 3.16 St. Laurentius (Ensen)",
       "title1": "St. Laurentius",
-      "title2": "Porz 3.16 (Poll)",
+      "title2": "Porz 3.16 (Ensen)",
       "description": "Kathol. Pfarrkirche St. Laurentius, Kölner Straße, 1894-96 von Th. Kremer als neugotische, dreischiffige Stufenhalle mit eingezogenem Chor, Satteldach mit Quergiebeln und Dachreiter und einem Vierkantturm errichtet. Wiederaufbau und Erneuerung der Innenausstattung nach Kriegszerstörung 1951. Die reiche, sich in den Dachzonen von Langhaus und Turm konzentrierende Detailbildung macht den Bau trotz eher bescheidener Ausmaße zum Blickfang vom Rheinufer her.<br/>An der Kirche das 1932 errichtete Kriegerdenkmal (Entwurf H. Euler/Westhoven) für die Gefallenen des Ersten Weltkriegs, eine Stele aus grob gehauenen Backsteinquadern.",
       "wiki": "https://de.wikipedia.org/wiki/St._Laurentius_%28K%C3%B6ln-Ensen%29"
-
     },
-    "geometry": { "type": "Point", "coordinates": [ 7.0342918, 50.8971235 ] }
+    "geometry": { "type": "Point", "coordinates": [ 7.0342918, 50.8971235 ]}
   },
   {
     "type": "Feature",
     "properties": {
       "color": "#95C51F",
-      "search": "Porz 3.18 Alexianer-Krankenhaus-Komplex (Poll)",
+      "search": "Porz 3.18 Alexianer-Krankenhaus-Komplex (Ensen)",
       "title1": "Alexianer-Krankenhaus-Komplex",
-      "title2": "Porz 3.18 (Poll)",
+      "title2": "Porz 3.18 (Ensen)",
       "description": "Das Alexianer-Krankenhaus, Kölner Str. 64, wurde 1905-08 auf dem Gelände des Gutes &quot;Rotes Haus&quot; vom Kölner Diözesan-Baumeister H. Renard als Klinik für psychisch Kranke errichtet. Kernstück der Symmetrischen Mehrflügelanlage inmitten eines Parks ist der dreigeschossige Mittelriegel mit Backstein- und Putzfassade im &quot;Bergischen Barock&quot;, inspiriert von den Schloßbauten des 17. u. 18. Jh. im bergischen Teil des Rheinlandes."
     },
-    "geometry": { "type": "Point", "coordinates": [ 7.0425097921, 50.8974494335 ] }
+    "geometry": { "type": "Point", "coordinates": [ 7.0426783, 50.8972251 ]}
   },
   {
     "type": "Feature",
     "properties": {
       "color": "#95C51F",
-      "search": "Porz 3.19 zwei Villen (Poll)",
+      "search": "Porz 3.19 zwei Villen (Ensen)",
       "title1": "zwei Villen",
-      "title2": "Porz 3.19 (Poll)",
+      "title2": "Porz 3.19 (Ensen)",
       "description": "Die beiden zum Alexianer-Komplex gehörenden zweigeschossigen Villen, Kölner Str. 60 u. 62 in verwinkelter Bauweise mit Stuck- bzw. Putzfassaden, wurden 1905 erbaut."
     },
-    "geometry": { "type": "Point", "coordinates": [ 7.04226575, 50.8968770404 ] }
+    "geometry": { "type": "Point", "coordinates": [ 7.0422445, 50.8968888 ]}
   },
   {
     "type": "Feature",
     "properties": {
       "color": "#95C51F",
-      "search": "Porz 3.20 Siedlung Gremberghoven (Poll)",
+      "search": "Porz 3.20 Siedlung Gremberghoven (Gremberghoven)",
       "title1": "Siedlung Gremberghoven",
-      "title2": "Porz 3.20 (Poll)",
+      "title2": "Porz 3.20 (Gremberghoven)",
       "description": "Ein typisches Beispiel für Arbeitersiedlungen im 1. Drittel des 20. Jh. ist die Siedlung Gremberghoven, 1919-22 nach der Idee der Gartenstadt mit großen Gärten zur Selbstversorgung nach M. Kießlings für die bediensteten des Rangierbahnhofs Gremberg (angelegt 1917-24) errichtet. Ein- bis dreigeschossige Ein- u. Mehrfamilienhäuser mit Putzfassaden vereinen sich mit Straßen und Gärten auf dem ellipsenförmigen Siedlungsgrundriß zu einem großräumigen, symmetrisch gegliederten Rondell. Wiederaufbau 1951 nach Kriegszerstörungen mit gewissen Veränderungen.",
-      "notes": "Der Text beschreibt das umliegende Gebiet"
+      "notes": "Der Text beschreibt das umliegende Gebiet."
     },
-    "geometry": { "type": "Point", "coordinates": [ 7.05482, 50.902818 ] }
+    "geometry": { "type": "Point", "coordinates": [ 7.0526617, 50.9038232 ]}
   }
 ]
 }
