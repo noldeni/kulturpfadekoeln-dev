@@ -274,6 +274,30 @@
     "type": "Feature",
     "properties": {
       "color": "#95C51F",
+      "search": "Porz 3.13  (-)",
+      "title1": "",
+      "title2": "Porz 3.13 (-)",
+      "description": "",
+      "notes": "Hier konnten wir leider keine Infotafel mehr finden."
+    },
+    "geometry": { "type": "Point", "coordinates": [ 7.019391, 50.900284 ]}
+  },
+  {
+    "type": "Feature",
+    "properties": {
+      "color": "#95C51F",
+      "search": "Porz 3.14  (-)",
+      "title1": "",
+      "title2": "Porz 3.14 (-)",
+      "description": "",
+      "notes": "Hier konnten wir leider keine Infotafel mehr finden."
+    },
+    "geometry": { "type": "Point", "coordinates": [ 7.024274, 50.897625 ]}
+  },
+  {
+    "type": "Feature",
+    "properties": {
+      "color": "#95C51F",
       "search": "Porz 3.15 Amerikakreuz (Ensen)",
       "title1": "Amerikakreuz",
       "title2": "Porz 3.15 (Ensen)",
@@ -292,6 +316,18 @@
       "wiki": "https://de.wikipedia.org/wiki/St._Laurentius_%28K%C3%B6ln-Ensen%29"
     },
     "geometry": { "type": "Point", "coordinates": [ 7.0342918, 50.8971235 ]}
+  },
+  {
+    "type": "Feature",
+    "properties": {
+      "color": "#95C51F",
+      "search": "Porz 3.17  (Ensen)",
+      "title1": "",
+      "title2": "Porz 3.17 (Ensen)",
+      "description": "",
+      "notes": "Hier konnten wir leider keine Infotafel mehr finden."
+    },
+    "geometry": { "type": "Point", "coordinates": [ 7.0354888, 50.8977613 ]}
   },
   {
     "type": "Feature",
@@ -331,12 +367,48 @@
     "type": "Feature",
     "properties": {
       "color": "#95C51F",
+      "search": "Porz 3.21  (Gremberghoven)",
+      "title1": "",
+      "title2": "Porz 3.21 (Gremberghoven)",
+      "description": "",
+      "notes": "Hier konnten wir leider keine Infotafel mehr finden."
+    },
+    "geometry": { "type": "Point", "coordinates": [ 7.063396, 50.90513 ]}
+  },
+  {
+    "type": "Feature",
+    "properties": {
+      "color": "#95C51F",
       "search": "Porz 3.22 Schöffenkreuz (Porz)",
       "title1": "Schöffenkreuz",
       "title2": "Porz 3.22 (Porz)",
       "description": "An das alte dörfliche Porz erinnert das sog. Schöffenkreuz aus Trachyt, gestiftet 1667 vom Schöffen Bertram Hermans und seiner Ehefrau Margriet."
     },
     "geometry": { "type": "Point", "coordinates": [ 7.0529418, 50.8879931 ]}
+  },
+  {
+    "type": "Feature",
+    "properties": {
+      "color": "#95C51F",
+      "search": "Porz 3.23  (Porz)",
+      "title1": "",
+      "title2": "Porz 3.23 (Porz)",
+      "description": "",
+      "notes": "Hier war das Gelände leider nicht zugänglich."
+    },
+    "geometry": { "type": "Point", "coordinates": [ 7.055765877901066, 50.88647417062454 ]}
+  },
+  {
+    "type": "Feature",
+    "properties": {
+      "color": "#95C51F",
+      "search": "Porz 3.24 St. Josef (Porz)",
+      "title1": "St. Josef",
+      "title2": "Porz 3.24 (Porz)",
+      "description": "",
+      "notes": "Hier konnten wir leider keine Infotafel mehr finden."
+    },
+    "geometry": { "type": "Point", "coordinates": [ 7.055740192099906, 50.88418135407096 ]}
   },
   {
     "type": "Feature",
@@ -405,6 +477,18 @@
       "notes": "Der Text beschreibt das umliegende Gebiet."
     },
     "geometry": { "type": "Point", "coordinates": [ 7.0622739, 50.8826081 ]}
+  },
+  {
+    "type": "Feature",
+    "properties": {
+      "color": "#95C51F",
+      "search": "Porz 3.31 Bahnhof Porz (Porz)",
+      "title1": "Bahnhof Porz",
+      "title2": "Porz 3.31 (Porz)",
+      "description": "",
+      "notes": "Hier konnten wir leider keine Infotafel mehr finden."
+    },
+    "geometry": { "type": "Point", "coordinates": [ 7.064818336712283, 50.88147079285061 ]}
   }
 ]
 }
