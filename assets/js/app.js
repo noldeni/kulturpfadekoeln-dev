@@ -249,6 +249,7 @@ var markers = L.geoJson(null, {
           if (sidebarState == 0)
             animateSidebar();
           highlight.clearLayers().addLayer(L.circleMarker([feature.geometry.coordinates[1], feature.geometry.coordinates[0]], highlightStyle));
+          history.pushState(null, null, '#'+feature.properties.id);
         },
         mouseover: function (e, feature) {
           Tip(title);
