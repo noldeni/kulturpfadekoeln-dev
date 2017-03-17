@@ -454,3 +454,18 @@ if (!L.Browser.touch) {
 } else {
   L.DomEvent.disableClickPropagation(container);
 }
+
+var docWidth = 0;
+
+//refresh page on browser resize as fix
+$(window).bind('resize', function(e){
+  if (docWidth > 0) {
+    if ( docWidth <= 320 && $(document).width() > 320 || docWidth > 320 && $(document).width() <= 320 ) {
+      if (window.RT) clearTimeout(window.RT);
+        window.RT = setTimeout(function() {
+        this.location.reload(false);
+      }, 200);
+    }
+  }
+  docWidth = $(document).width();
+});
