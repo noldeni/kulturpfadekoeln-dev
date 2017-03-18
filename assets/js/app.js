@@ -1,7 +1,7 @@
 //var map, featureList, boroughSearch = [], markerSearch = [];
 var map, featureList;
 
-toggle_visibility('info-list', 'none'); // FIX this
+toggleVisibility('info-list', 'none'); // FIX this
 
 //function getQueryVariable(variable) {
 //       var query = window.location.search.substring(1);
@@ -12,6 +12,16 @@ toggle_visibility('info-list', 'none'); // FIX this
 //       }
 //       return(false);
 //}
+
+function showInfoList(){
+  toggleVisibility('info-list', 'block');
+  toggleVisibility('info-text', 'none');
+  clearHighlight();
+}
+
+function showInfoText(){
+  
+}
 
 $(document).on("click", ".feature-row", function(e) {
   $(document).off("mouseout", ".feature-row", clearHighlight);
@@ -37,9 +47,7 @@ $("#full-extent-btn").click(function() {
 });
 
 $("#list-btn").click(function() {
-  toggle_visibility('info-list', 'block');
-  toggle_visibility('info-text', 'none');
-  clearHighlight();
+  showInfoList();
   return false;
 });
 
@@ -49,13 +57,11 @@ $("#nav-btn").click(function() {
 });
 
 $("#sidebar-toggle-btn").click(function() {
-  toggle_visibility('info-list', 'block');
-  toggle_visibility('info-text', 'none');
-  clearHighlight();
+  showInfoList();
   return false;
 });
 
-function toggle_visibility(id, display='') {
+function toggleVisibility(id, display='') {
    var e = document.getElementById(id);
    if (display == '')
        if(e.style.display == 'block')
@@ -71,6 +77,7 @@ function clearHighlight() {
 }
 
 function sidebarClick(id) {
+  console.log(id);
   var layer = markers.getLayer(id);
   map.setView([layer.getLatLng().lat, layer.getLatLng().lng], 17);
   layer.fire("click");
@@ -222,8 +229,8 @@ var markers = L.geoJson(null, {
           $("#info-text-title").html(title);
           $("#info-text-body").html(content);
           //$("info-text").scrollTop = 0;         
-          toggle_visibility('info-list', 'none');
-          toggle_visibility('info-text', 'block');
+          toggleVisibility('info-list', 'none');
+          toggleVisibility('info-text', 'block');
           highlight.clearLayers().addLayer(L.circleMarker([feature.geometry.coordinates[1], feature.geometry.coordinates[0]], highlightStyle));
         },
         mouseover: function (e, feature) {
