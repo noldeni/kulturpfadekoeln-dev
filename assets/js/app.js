@@ -1,6 +1,8 @@
 //var map, featureList, boroughSearch = [], markerSearch = [];
 var map, featureList;
 
+toggle_visibility('info-list', 'none'); // FIX this
+
 //function getQueryVariable(variable) {
 //       var query = window.location.search.substring(1);
 //       var vars = query.split("&");
@@ -190,15 +192,29 @@ var markers = L.geoJson(null, {
   onEachFeature: function (feature, layer) {
     if (feature.properties) {
       var content = feature.properties.description;
-      if (feature.properties && feature.properties.notes) {
-        content += "<br/><br/><i>Hinweise der Redaktion</i>:<br/>";
+      
+      if (feature.properties.notes) {
+        if (content.length > 0)
+          content += "<br/><br/>";
+        content += "<i>Hinweise der Redaktion</i>:<br/>";
         content += feature.properties.notes;
       }
-      if (feature.properties && feature.properties.wiki) {
-        content += "<br/><br/><i>Weitere Informationen</i>:<br/><ul>";
+      if (feature.properties.wiki || feature.properties.info) {
+        if (content.length > 0)
+          content += "<br/><br/>";
+        content += "<i>Weitere Informationen</i>:<br/><ul>";
+      }
+      if (feature.properties.wiki) {
         content += "<li><a target=\"new\" href=\"" + feature.properties.wiki + "\">Wikipedia</a></li>";
+      }
+      if (feature.properties.info) {
+        content += feature.properties.info;
+      }
+        
+      if (feature.properties.wiki || feature.properties.info) {
         content += "</ul>";
       }
+      
       var title = "<b>" + feature.properties.title1 + "</b> - " + feature.properties.title2;
 
       layer.on({
@@ -367,8 +383,6 @@ var layerControl = L.control.groupedLayers({}, groupedOverlays, {
 // /* Typeahead search functionality */
 $(document).one("ajaxStop", function () {
     
-  toggle_visibility('info-list', 'none'); // FIX this
-    
   $("#loading").hide();
   /* Fit map to boroughs bounds */
   map.fitBounds(boroughs.getBounds());
@@ -455,17 +469,20 @@ if (!L.Browser.touch) {
   L.DomEvent.disableClickPropagation(container);
 }
 
-var docWidth = 0;
+// land > 0
+// port < 0
+
+var docRatio = 0;
 
 //refresh page on browser resize as fix
 $(window).bind('resize', function(e){
-  if (docWidth > 0) {
-    if ( docWidth <= 320 && $(document).width() > 320 || docWidth > 320 && $(document).width() <= 320 ) {
-      if (window.RT) clearTimeout(window.RT);
-        window.RT = setTimeout(function() {
-        this.location.reload(false);
-      }, 200);
-    }
+  var newDocRatio = $(document).width() - $(document).height();
+  if (docRatio * newDocRatio < 0) {
+    if (window.RT) clearTimeout(window.RT);
+      window.RT = setTimeout(function() {
+      this.location.reload(false);
+    }, 200);
   }
-  docWidth = $(document).width();
+  console.log('orientation changed');
+  docRatio = newDocRatio;
 });

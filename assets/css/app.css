@@ -29,7 +29,7 @@ div#info-text{
   padding: 0.8em;
 }
 
-@media only screen and (max-width: 320px) {
+@media only screen and (orientation:portrait) {
   div#content{
   }
   div#map{
