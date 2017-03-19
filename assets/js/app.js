@@ -1,5 +1,5 @@
 //var map, featureList, boroughSearch = [], markerSearch = [];
-var map, featureList;
+var map, featureList, markerSearch2 = [];
 
 toggleVisibility('info-list', 'none'); // FIX this
 
@@ -13,6 +13,14 @@ toggleVisibility('info-list', 'none'); // FIX this
 //       return(false);
 //}
 
+function search(id, array){
+  for (var i=0; i < array.length; i++) {
+    if (array[i].id === id) {
+      return array[i];
+    }
+  }
+}
+
 function showInfoList(){
   toggleVisibility('info-list', 'block');
   toggleVisibility('info-text', 'none');
@@ -22,6 +30,15 @@ function showInfoList(){
 function showInfoText(){
   
 }
+
+function jumpToInfo(id){
+  var marker = search(id, markerSearch2);
+  var layer = markers.getLayer(marker.layer);
+  map.setView([layer.getLatLng().lat, layer.getLatLng().lng]);
+  layer.fire("click");
+}
+
+
 
 $(document).on("click", ".feature-row", function(e) {
   $(document).off("mouseout", ".feature-row", clearHighlight);
@@ -77,7 +94,6 @@ function clearHighlight() {
 }
 
 function sidebarClick(id) {
-  console.log(id);
   var layer = markers.getLayer(id);
   map.setView([layer.getLatLng().lat, layer.getLatLng().lng], 17);
   layer.fire("click");
@@ -220,7 +236,12 @@ var markers = L.geoJson(null, {
         
       if (feature.properties.wiki || feature.properties.info) {
         content += "</ul>";
+      } else if (feature.properties.next) {
+        content += "<br/><br/>";
       }
+      if (feature.properties.next) {
+        content += "Zum <a href=\"#\" accesskey=\"n\" onclick=\"jumpToInfo('" + feature.properties.next + "')\">nächsten</a> Routenpunkt.";
+      }      
       
       var title = "<b>" + feature.properties.title1 + "</b> - " + feature.properties.title2;
 
@@ -254,6 +275,12 @@ var markers = L.geoJson(null, {
 //        lat: layer.feature.geometry.coordinates[1],
 //        lng: layer.feature.geometry.coordinates[0]
 //      });
+      markerSearch2.push({
+        id: layer.feature.properties.id,
+        layer: L.stamp(layer),
+        lat: layer.feature.geometry.coordinates[1],
+        lng: layer.feature.geometry.coordinates[0]
+      });
     }
   }
 });
