@@ -1,5 +1,6 @@
 //var map, featureList, boroughSearch = [], markerSearch = [];
 var map, featureList, markerSearch2 = [];
+var testHash;
 
 toggleVisibility('info-list', 'none'); // FIX this
 
@@ -14,11 +15,16 @@ toggleVisibility('info-list', 'none'); // FIX this
 //}
 
 function search(id, array){
+  console.log('# search');
+  for (var i=0; i < array.length; i++) {
+    console.log(array[i].id);
+  }
   for (var i=0; i < array.length; i++) {
     if (array[i].id === id) {
       return array[i];
     }
   }
+  return false;
 }
 
 function showInfoList(){
@@ -32,13 +38,58 @@ function showInfoText(){
 }
 
 function jumpToInfo(id){
+  console.log('set new hash: '+id);
   var marker = search(id, markerSearch2);
   var layer = markers.getLayer(marker.layer);
   map.setView([layer.getLatLng().lat, layer.getLatLng().lng]);
   layer.fire("click");
 }
 
+function supportsHistoryApi() {
+  return !!(window.history && history.pushState);
+}
 
+function extractHash(url){ 
+    return url.substring(url.indexOf("#")+1);
+}
+
+function updatePageByHash(h){
+  if (!testHash) { return; }
+  console.log('update page by hash: '+h);
+  jumpToInfo(h)
+}
+
+function setNewHash(h, e){
+    if (!testHash) { return; }
+    console.log('set new hash: '+h);
+    var url = "index.html#"+h;
+    history.pushState(null, null, url);
+    if (typeof e !== 'undefined') {
+        e.preventDefault();
+    }
+}
+
+function initHash(){
+    console.log('init hash');
+    testHash = false;
+    if (!supportsHistoryApi()) { return; }
+    
+    var h = extractHash(window.location.hash);
+    if (h.length > 0) {
+        testHash = true;
+        console.log('test hash active');
+        //updatePageByHash(h);
+    }
+    window.setTimeout(function() {
+        window.addEventListener("popstate", function(e) {
+            if (!testHash) { return; }
+            console.log('pop state');
+            var h = extractHash(window.location.hash);
+            if (h.length > 0)
+                updatePageByHash(h);
+        }, false);
+    }, 1);
+}
 
 $(document).on("click", ".feature-row", function(e) {
   $(document).off("mouseout", ".feature-row", clearHighlight);
@@ -247,12 +298,14 @@ var markers = L.geoJson(null, {
 
       layer.on({
         click: function (e) {
+          console.log('marker on click '+feature.properties.id);
           $("#info-text-title").html(title);
           $("#info-text-body").html(content);
           //$("info-text").scrollTop = 0;         
           toggleVisibility('info-list', 'none');
           toggleVisibility('info-text', 'block');
           highlight.clearLayers().addLayer(L.circleMarker([feature.geometry.coordinates[1], feature.geometry.coordinates[0]], highlightStyle));
+          setNewHash(feature.properties.id);
         },
         mouseover: function (e, feature) {
           Tip(title);
@@ -416,7 +469,7 @@ var layerControl = L.control.groupedLayers({}, groupedOverlays, {
 
 // /* Typeahead search functionality */
 $(document).one("ajaxStop", function () {
-    
+  initHash();
   $("#loading").hide();
   /* Fit map to boroughs bounds */
   map.fitBounds(boroughs.getBounds());
@@ -511,12 +564,12 @@ var docRatio = 0;
 //refresh page on browser resize as fix
 $(window).bind('resize', function(e){
   var newDocRatio = $(document).width() - $(document).height();
-  if (docRatio * newDocRatio < 0) {
+  if (docRatio != 0 && docRatio * newDocRatio < 0) {
+    console.log('orientation changed: '+docRatio+' -> '+newDocRatio);
     if (window.RT) clearTimeout(window.RT);
       window.RT = setTimeout(function() {
       this.location.reload(false);
     }, 200);
   }
-  console.log('orientation changed');
   docRatio = newDocRatio;
 });
