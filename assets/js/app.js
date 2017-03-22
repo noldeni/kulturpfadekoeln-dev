@@ -1,24 +1,24 @@
-//var map, featureList, boroughSearch = [], markerSearch = [];
+/* -------------------------------------------------------------------*/
+/* global variables ------------------------------------------------- */
+
 var map, featureList, markerSearch2 = [];
-var testHash;
 
-toggleVisibility('info-list', 'none'); // FIX this
 
-//function getQueryVariable(variable) {
-//       var query = window.location.search.substring(1);
-//       var vars = query.split("&");
-//       for (var i=0;i<vars.length;i++) {
-//               var pair = vars[i].split("=");
-//               if(pair[0] == variable){return pair[1];}
-//       }
-//       return(false);
-//}
+/* -------------------------------------------------------------------*/
+/* general helper methods ------------------------------------------- */
+
+function toggleVisibility(id, display='') {
+   var e = document.getElementById(id);
+   if (display == '')
+       if(e.style.display == 'block')
+          e.style.display = 'none';
+       else
+          e.style.display = 'block';
+   else
+     e.style.display = display;
+}
 
 function search(id, array){
-  console.log('# search');
-  for (var i=0; i < array.length; i++) {
-    console.log(array[i].id);
-  }
   for (var i=0; i < array.length; i++) {
     if (array[i].id === id) {
       return array[i];
@@ -27,30 +27,31 @@ function search(id, array){
   return false;
 }
 
-function showInfoList(){
-  toggleVisibility('info-list', 'block');
-  toggleVisibility('info-text', 'none');
-  clearHighlight();
+
+/* -------------------------------------------------------------------*/
+/* url parser ------------------------------------------------------- */
+
+//function getQueryVariable(variable) {
+//  var query = window.location.search.substring(1);
+//  var vars = query.split("&");
+//  for (var i=0;i<vars.length;i++) {
+//     var pair = vars[i].split("=");
+//     if(pair[0] == variable){return pair[1];}
+//   }
+//   return(false);
+//}
+
+function extractHash(url){ 
+  return url.substring(url.indexOf("#")+1);
 }
 
-function showInfoText(){
-  
-}
 
-function jumpToInfo(id){
-  console.log('set new hash: '+id);
-  var marker = search(id, markerSearch2);
-  var layer = markers.getLayer(marker.layer);
-  map.setView([layer.getLatLng().lat, layer.getLatLng().lng]);
-  layer.fire("click");
-}
+/* -------------------------------------------------------------------*/
+/* hash helper ------------------------------------------------------ */
+var testHash;
 
 function supportsHistoryApi() {
   return !!(window.history && history.pushState);
-}
-
-function extractHash(url){ 
-    return url.substring(url.indexOf("#")+1);
 }
 
 function updatePageByHash(h){
@@ -70,30 +71,102 @@ function setNewHash(h, e){
 }
 
 function initHash(){
-    console.log('init hash');
-    testHash = false;
-    if (!supportsHistoryApi()) { return; }
-    
-    var h = extractHash(window.location.hash);
-    if (h.length > 0) {
-        testHash = true;
-        console.log('test hash active');
-        //updatePageByHash(h);
-    }
-    window.setTimeout(function() {
-        window.addEventListener("popstate", function(e) {
-            if (!testHash) { return; }
-            console.log('pop state');
-            var h = extractHash(window.location.hash);
-            if (h.length > 0)
-                updatePageByHash(h);
-        }, false);
-    }, 1);
+  console.log('init hash');
+  testHash = false;
+  if (!supportsHistoryApi()) { return; }
+  
+  var h = extractHash(window.location.hash);
+  if (h.length > 0) {
+    testHash = true;
+    console.log('test hash active');
+    //updatePageByHash(h);
+  }
+  window.setTimeout(function() {
+    window.addEventListener("popstate", function(e) {
+      if (!testHash) { return; }
+      console.log('pop state');
+      var h = extractHash(window.location.hash);
+      if (h.length > 0)
+        updatePageByHash(h);
+    }, false);
+  }, 1);
 }
+
+
+/* -------------------------------------------------------------------*/
+/* info area helper ------------------------------------------------- */
+
+function showInfoList(){
+  toggleVisibility('info-list', 'block');
+  toggleVisibility('info-text', 'none');
+  clearHighlight();
+}
+
+function getInfoTextContent(feature){
+  var content = "";
+  if (typeof feature == 'undefined' || !feature.properties) {
+    content += "<b>Herzlich Wilkommen";
+  } else {
+    content += "<b>" + feature.properties.title1 + "</b> - " + feature.properties.title2 + "<br/>";
+     
+    content += feature.properties.description;
+    
+    if (feature.properties.notes) {
+      if (content.length > 0)
+        content += "<br/><br/>";
+      content += "<i>Hinweise der Redaktion</i>:<br/>";
+      content += feature.properties.notes;
+    }
+    if (feature.properties.wiki || feature.properties.info) {
+      if (content.length > 0)
+        content += "<br/><br/>";
+      content += "<i>Weitere Informationen</i>:<br/><ul>";
+    }
+    if (feature.properties.wiki) {
+      content += "<li><a target=\"new\" href=\"" + feature.properties.wiki + "\">Wikipedia</a></li>";
+    }
+    if (feature.properties.info) {
+      content += feature.properties.info;
+    }
+      
+    if (feature.properties.wiki || feature.properties.info) {
+      content += "</ul>";
+    } else if (feature.properties.next) {
+      content += "<br/><br/>";
+    }
+    if (feature.properties.next) {
+      content += "Zum <a href=\"#\" accesskey=\"n\" onclick=\"jumpToInfo('" + feature.properties.next + "')\">nächsten</a> Routenpunkt.";
+    }   
+  }
+  return content;
+}
+
+function showInfoText(feature){
+  $("#info-text").html(getInfoTextContent(feature));
+  //$("info-text").scrollTop = 0;         
+  toggleVisibility('info-list', 'none');
+  toggleVisibility('info-text', 'block');
+  if (typeof feature !== 'undefined') {
+    highlight.clearLayers().addLayer(L.circleMarker([feature.geometry.coordinates[1], feature.geometry.coordinates[0]], highlightStyle));
+    setNewHash(feature.properties.id);
+  }
+}
+
+function jumpToInfo(id){
+  console.log('jump to info: '+id);
+  var marker = search(id, markerSearch2);
+  var layer = markers.getLayer(marker.layer);
+  map.setView([layer.getLatLng().lat, layer.getLatLng().lng]);
+  layer.fire("click");
+}
+
+
+/* -------------------------------------------------------------------*/
+/* info list -------------------------------------------------------- */
 
 $(document).on("click", ".feature-row", function(e) {
   $(document).off("mouseout", ".feature-row", clearHighlight);
-  sidebarClick(parseInt($(this).attr("id"), 10));
+  listClick(parseInt($(this).attr("id"), 10));
 });
 
 if ( !("ontouchstart" in window) ) {
@@ -101,6 +174,29 @@ if ( !("ontouchstart" in window) ) {
     highlight.clearLayers().addLayer(L.circleMarker([$(this).attr("lat"), $(this).attr("lng")], highlightStyle));
   });
 }
+
+function listClick(id) {
+  var layer = markers.getLayer(id);
+  map.setView([layer.getLatLng().lat, layer.getLatLng().lng], 17);
+  layer.fire("click");
+}
+
+function syncList() {
+  /* Empty sidebar features */
+  $("#feature-list tbody").empty();  
+  /* Loop through markers layer and add only features which are in the map bounds */
+  markers.eachLayer(function (layer) {
+    if (map.hasLayer(markerLayer)) {
+      if (map.getBounds().contains(layer.getLatLng())) {
+        $("#feature-list tbody").append('<tr class="feature-row" id="' + L.stamp(layer) + '" lat="' + layer.getLatLng().lat + '" lng="' + layer.getLatLng().lng + '"><td class="feature-name">' + layer.feature.properties.search + '</td><td style="vertical-align: middle;"><i class="fa fa-chevron-right pull-right"></i></td></tr>');
+      }
+    }
+  });
+}
+
+
+/* -------------------------------------------------------------------*/
+/* nav bar ---------------------------------------------------------- */
 
 $("#about-btn").click(function() {
   $("#aboutModal").modal("show");
@@ -129,53 +225,18 @@ $("#sidebar-toggle-btn").click(function() {
   return false;
 });
 
-function toggleVisibility(id, display='') {
-   var e = document.getElementById(id);
-   if (display == '')
-       if(e.style.display == 'block')
-          e.style.display = 'none';
-       else
-          e.style.display = 'block';
-   else
-     e.style.display = display;
-}
+
+/* -------------------------------------------------------------------*/
+/* map functionality ------------------------------------------------ */
 
 function clearHighlight() {
   highlight.clearLayers();
 }
 
-function sidebarClick(id) {
-  var layer = markers.getLayer(id);
-  map.setView([layer.getLatLng().lat, layer.getLatLng().lng], 17);
-  layer.fire("click");
-}
-
-function syncSidebar() {
-  /* Empty sidebar features */
-  $("#feature-list tbody").empty();  
-  /* Loop through markers layer and add only features which are in the map bounds */
-  markers.eachLayer(function (layer) {
-    if (map.hasLayer(markerLayer)) {
-      if (map.getBounds().contains(layer.getLatLng())) {
-        $("#feature-list tbody").append('<tr class="feature-row" id="' + L.stamp(layer) + '" lat="' + layer.getLatLng().lat + '" lng="' + layer.getLatLng().lng + '"><td class="feature-name">' + layer.feature.properties.search + '</td><td style="vertical-align: middle;"><i class="fa fa-chevron-right pull-right"></i></td></tr>');
-      }
-    }
-  });
-//  /* Update list.js featureList */
-//  featureList = new List("features", {
-//    valueNames: ["feature-name"]
-//  });
-//  featureList.sort("feature-name", {
-//    order: "asc"
-//  });
-}
-
- /* Basemap Layers */
 var mapnik = L.tileLayer('https://tiles.wmflabs.org/bw-mapnik/{z}/{x}/{y}.png', {
               attribution: '<h4>Beitragende</h4><a target="_blank" href="http://www.openstreetmap.org/copyright">OpenStreetMap</a>, <a target="_blank" href="https://commons.wikimedia.org">Wikimedia Commons</a>, <a target="_blank" href="http://www.offenedaten-koeln.de/">Offene Daten Köln</a>, <a target="_blank" href="https://github.com/bmcbride/bootleaf">Bootleaf</a>, <a target="_blank" href="http://leafletjs.com/">Leaflet</a>, <a target="_blank" href="http://getbootstrap.com/">Bootstrap 3</a>, <a target="_blank" href="http://twitter.github.io/typeahead.js/">typeahead.js</a>, <a target="_blank" href="http://www.walterzorn.de/tooltip/tooltip.htm">wz_tooltip</a>'
           });
 
- /* Overlay Layers */
 var highlight = L.geoJson(null);
 var highlightStyle = {
   radius: 8,
@@ -197,12 +258,6 @@ var boroughs = L.geoJson(null, {
     };
   },
   onEachFeature: function (feature, layer) {
-//    boroughSearch.push({
-//      name: layer.feature.properties.BoroName,
-//      source: "Boroughs",
-//      id: L.stamp(layer),
-//      bounds: layer.getBounds()
-//    });
   }
 });
 $.getJSON("data/boroughs.geojson", function (data) {
@@ -225,13 +280,6 @@ $.getJSON("data/tracks.geojson", function (data) {
   tracks.addData(data);
 });
 
-//var testTracksFile = getQueryVariable("tracks");
-//if (testTracksFile.length > 0) {
-//    $.getJSON(testTracksFile, function (data) {
-//      tracks.addData(data);
-//    });
-//}
-
 var buildings = L.geoJson(null, {
   style: function (feature) {
       return {
@@ -250,7 +298,6 @@ $.getJSON("data/buildings.geojson", function (data) {
   buildings.addData(data);
 });
 
- /* Empty layer placeholder to add to layer control for listening when to add/remove markers to markerClusters layer */
 var markerLayer = L.geoJson(null);
 var markers = L.geoJson(null, {
   pointToLayer: function (feature, latlng) {
@@ -265,76 +312,30 @@ var markers = L.geoJson(null, {
   },
   onEachFeature: function (feature, layer) {
     if (feature.properties) {
-      var content = feature.properties.description;
       
-      if (feature.properties.notes) {
-        if (content.length > 0)
-          content += "<br/><br/>";
-        content += "<i>Hinweise der Redaktion</i>:<br/>";
-        content += feature.properties.notes;
-      }
-      if (feature.properties.wiki || feature.properties.info) {
-        if (content.length > 0)
-          content += "<br/><br/>";
-        content += "<i>Weitere Informationen</i>:<br/><ul>";
-      }
-      if (feature.properties.wiki) {
-        content += "<li><a target=\"new\" href=\"" + feature.properties.wiki + "\">Wikipedia</a></li>";
-      }
-      if (feature.properties.info) {
-        content += feature.properties.info;
-      }
-        
-      if (feature.properties.wiki || feature.properties.info) {
-        content += "</ul>";
-      } else if (feature.properties.next) {
-        content += "<br/><br/>";
-      }
-      if (feature.properties.next) {
-        content += "Zum <a href=\"#\" accesskey=\"n\" onclick=\"jumpToInfo('" + feature.properties.next + "')\">nächsten</a> Routenpunkt.";
-      }      
-      
-      var title = "<b>" + feature.properties.title1 + "</b> - " + feature.properties.title2;
-
       layer.on({
         click: function (e) {
-          console.log('marker on click '+feature.properties.id);
-          $("#info-text-title").html(title);
-          $("#info-text-body").html(content);
-          //$("info-text").scrollTop = 0;         
-          toggleVisibility('info-list', 'none');
-          toggleVisibility('info-text', 'block');
-          highlight.clearLayers().addLayer(L.circleMarker([feature.geometry.coordinates[1], feature.geometry.coordinates[0]], highlightStyle));
-          setNewHash(feature.properties.id);
+          showInfoText(feature);
         },
         mouseover: function (e, feature) {
-          Tip(title);
+          // FIX this feature is unknown
+          //var title = content += "<b>" + feature.properties.title1 + "</b> - " + feature.properties.title2;
+          //Tip(title);
         },
         mouseout: function (e) {
-          UnTip();
+          //UnTip();
         }
       });
-      
-      layer.on({
-      
-    });
-      
+            
       $("#feature-list tbody").append('<tr class="feature-row" id="' + L.stamp(layer) + '" lat="' + layer.getLatLng().lat + '" lng="' + layer.getLatLng().lng + '"><td style="vertical-align: middle;"><td class="feature-name">' + layer.feature.properties.search + '</td><td style="vertical-align: middle;"><i class="fa fa-chevron-right pull-right"></i></td></tr>');
-//      markerSearch.push({
-//        name: layer.feature.properties.NAME,
-//        address: layer.feature.properties.ADDRESS1,
-//        source: "Markers",
-//        id: L.stamp(layer),
-//        lat: layer.feature.geometry.coordinates[1],
-//        lng: layer.feature.geometry.coordinates[0]
-//      });
+
       markerSearch2.push({
         id: layer.feature.properties.id,
         layer: L.stamp(layer),
         lat: layer.feature.geometry.coordinates[1],
         lng: layer.feature.geometry.coordinates[0]
       });
-    }
+    } // feature.properties
   }
 });
 $.getJSON("data/markers.geojson", function (data) {
@@ -342,41 +343,32 @@ $.getJSON("data/markers.geojson", function (data) {
   map.addLayer(markerLayer);
 });
 
-//var testMarkersFile = getQueryVariable("markers");
-//if (testMarkersFile.length > 0) {
-//    $.getJSON(testMarkersFile, function (data) {
-//      markers.addData(data);
-//    });
-//}
-
 map = L.map("map", {
   layers: [mapnik, tracks, buildings, highlight, markers],
   zoomControl: false,
   attributionControl: false
 });
 
- /* Layer control listeners that allow for a single markerClusters layer */
-
 map.on("overlayadd", function(e) {
   if (e.layer === markerLayer) {
     markerClusters.addLayer(markers);
-    syncSidebar();
+    syncList();
   }
 });
 
 map.on("overlayremove", function(e) {
   if (e.layer === markerLayer) {
     markerClusters.removeLayer(markers);
-    syncSidebar();
+    syncList();
   }
 });
 
- /* Filter sidebar feature list to only show features in current map bounds */
+// Filter sidebar feature list to only show features in current map bounds
 map.on("moveend", function (e) {
-  syncSidebar();
+  syncList();
 });
 
- /* Attribution control */
+// Attribution control
 function updateAttribution(e) {
   $.each(map._layers, function(index, layer) {
     if (layer.getAttribution) {
@@ -401,7 +393,7 @@ var zoomControl = L.control.zoom({
   position: "bottomright"
 }).addTo(map);
 
- /* GPS enabled geolocation control set to follow the user's location */
+// GPS enabled geolocation control set to follow the user's location
 var locateControl = L.control.locate({
   position: "bottomright",
   drawCircle: true,
@@ -451,100 +443,22 @@ var layerControl = L.control.groupedLayers({}, groupedOverlays, {
   collapsed: true
 }).addTo(map);
 
-// /* Highlight search box text on click */
-//$("#searchbox").click(function () {
-//  $(this).select();
-//});
 
-// /* Prevent hitting enter from refreshing the page */
-//$("#searchbox").keypress(function (e) {
-//  if (e.which == 13) {
-//    e.preventDefault();
-//  }
-//});
+/* -------------------------------------------------------------------*/
+/* page initialisation ---------------------------------------------- */
 
-//$("#featureModal").on("hidden.bs.modal", function (e) {
-//  $(document).on("mouseout", ".feature-row", clearHighlight);
-//});
-
-// /* Typeahead search functionality */
 $(document).one("ajaxStop", function () {
   initHash();
+  showInfoText();
   $("#loading").hide();
-  /* Fit map to boroughs bounds */
   map.fitBounds(boroughs.getBounds());
-//  featureList = new List("features", {valueNames: ["feature-name"]});
-//  featureList.sort("feature-name", {order:"asc"});
-//
-//  var boroughsBH = new Bloodhound({
-//    name: "Boroughs",
-//    datumTokenizer: function (d) {
-//      return Bloodhound.tokenizers.whitespace(d.name);
-//    },
-//    queryTokenizer: Bloodhound.tokenizers.whitespace,
-//    local: boroughSearch,
-//    limit: 10
-//  });
-//
-//  var markersBH = new Bloodhound({
-//    name: "Markers",
-//    datumTokenizer: function (d) {
-//      return Bloodhound.tokenizers.whitespace(d.name);
-//    },
-//    queryTokenizer: Bloodhound.tokenizers.whitespace,
-//    local: markerSearch,
-//    limit: 10
   });
+  
 
-//  boroughsBH.initialize();
-//  markersBH.initialize();
+/* -------------------------------------------------------------------*/
+/* fixes ------------------------------------------------------------ */
 
-//  /* instantiate the typeahead UI */
-//  $("#searchbox").typeahead({
-//    minLength: 3,
-//    highlight: true,
-//    hint: false
-//  }, {
-//    name: "Stadtbezirke",
-//    displayKey: "name",
-//    source: boroughsBH.ttAdapter(),
-//    templates: {
-//      header: "<h4 class='typeahead-header'>Stadtbezirke</h4>"
-//    }
-//  }, {
-//    name: "Markers",
-//    displayKey: "name",
-//    source: markersBH.ttAdapter(),
-//    templates: {
-//      header: "<h4 class='typeahead-header'><img src='assets/img/marker.png' width='24' height='28'>&nbsp;Infotafeln</h4>",
-//      suggestion: Handlebars.compile(["{{name}}<br>&nbsp;<small>{{address}}</small>"].join(""))
-//    }
-//  }).on("typeahead:selected", function (obj, datum) {
-//    if (datum.source === "Boroughs") {
-//      map.fitBounds(datum.bounds);
-//    }
-//    if (datum.source === "Markers") {
-//      if (!map.hasLayer(markerLayer)) {
-//        map.addLayer(markerLayer);
-//      }
-//      map.setView([datum.lat, datum.lng], 17);
-//      if (map._layers[datum.id]) {
-//        map._layers[datum.id].fire("click");
-//      }
-//    }
-//    if ($(".navbar-collapse").height() > 50) {
-//      $(".navbar-collapse").collapse("hide");
-//    }
-//  }).on("typeahead:opened", function () {
-//    $(".navbar-collapse.in").css("max-height", $(document).height() - $(".navbar-header").height());
-//    $(".navbar-collapse.in").css("height", $(document).height() - $(".navbar-header").height());
-//  }).on("typeahead:closed", function () {
-//    $(".navbar-collapse.in").css("max-height", "");
-//    $(".navbar-collapse.in").css("height", "");
-//  });
-//  $(".twitter-typeahead").css("position", "static");
-//  $(".twitter-typeahead").css("display", "block");
-//});
+toggleVisibility('info-list', 'none'); // FIX this
 
 // Leaflet patch to make layer control scrollable on touch browsers
 var container = $(".leaflet-control-layers")[0];
@@ -556,12 +470,8 @@ if (!L.Browser.touch) {
   L.DomEvent.disableClickPropagation(container);
 }
 
-// land > 0
-// port < 0
-
-var docRatio = 0;
-
 //refresh page on browser resize as fix
+var docRatio = 0;
 $(window).bind('resize', function(e){
   var newDocRatio = $(document).width() - $(document).height();
   if (docRatio != 0 && docRatio * newDocRatio < 0) {

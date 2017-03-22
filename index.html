@@ -38,6 +38,7 @@
 
 <body>
   
+  <!-- Navbar -->
   <nav class="navbar navbar-inverse navbar-fixed-top">
     <div class="container">
       <div class="navbar-header">
@@ -47,7 +48,6 @@
         </div>
         <a class="navbar-brand" href="#">Kulturpfade Köln</a>
       </div>
-      
       <div class="navbar-collapse collapse">
         <ul class="nav navbar-nav">
           <li><a href="#" data-toggle="collapse" data-target=".navbar-collapse.in" id="about-btn"><i class="fa fa-question-circle white"></i>&nbsp;&nbsp;About</a></li>
@@ -59,48 +59,29 @@
           </li>
           <li class="hidden-xs"><a href="#" data-toggle="collapse" data-target=".navbar-collapse.in" id="list-btn"><i class="fa fa-list white"></i>&nbsp;&nbsp;Übersicht</a></li>
         </ul>
-      </div><!--/.navbar-collapse -->
-
+      </div>
     </div>
   </nav>
-
+  
   <div id="content">
+    <!-- info area -->
     <div id="info-wrapper">
       <div id="info">
-        <div id="info-text">
-          <div id="info-text-title"><b>Herzlich wilkommen!</b></div>
-          <div id="info-text-body">Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.</div>
-        </div>
+        <div id="info-text"></div>
         <div id="info-list">
-          <!--
-          <div class="panel-body">
-            <div class="row" style="margin-top: -10px">
-              <input type="text" class="form-control search" placeholder="Filter" />
-            </div>
-          </div>
-          -->
-          <div class="sidebar-tableX" style="margin-top: -10px">
+          <div style="margin-top: -10px">
             <table class="table table-hover" id="feature-list">
-              <thead class="hidden">
-                <tr>
-                  <th>Icon</th>
-                <tr>
-                <tr>
-                  <th>Name</th>
-                <tr>
-                <tr>
-                  <th>Chevron</th>
-                <tr>
-              </thead>
               <tbody class="list"></tbody>
             </table>
           </div>
         </div>
       </div>
     </div>
+    <!-- map -->
     <div id="map"></div>
   </div>
-    
+  
+  <!-- loading indicator -->
   <div id="loading">
     <div class="loading-indicator">
       <div class="progress progress-striped active">
@@ -108,7 +89,8 @@
       </div>
     </div>
   </div>
-
+  
+  <!-- about modal -->
   <div class="modal fade" id="aboutModal" tabindex="-1" role="dialog">
     <div class="modal-dialog modal-lg">
       <div class="modal-content">
@@ -187,10 +169,11 @@
         <div class="modal-footer">
           <button type="button" class="btn btn-default" data-dismiss="modal">Schließen</button>
         </div>
-      </div><!-- /.modal-content -->
-    </div><!-- /.modal-dialog -->
-  </div><!-- /.modal -->
+      </div>
+    </div>
+  </div>
   
+  <!-- attribution modal -->
   <div class="modal fade" id="attributionModal" tabindex="-1" role="dialog">
     <div class="modal-dialog">
       <div class="modal-content">
@@ -204,9 +187,9 @@
         <div class="modal-body">
           <div id="attribution"></div>
         </div>
-      </div><!-- /.modal-content -->
-    </div><!-- /.modal-dialog -->
-  </div><!-- /.modal -->
+      </div>
+    </div>
+  </div>
   
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
   <script>window.jQuery || document.write('<script src="https://getbootstrap.com/assets/js/vendor/jquery.min.js"><\/script>')</script>
