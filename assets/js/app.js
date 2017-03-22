@@ -105,7 +105,10 @@ function showInfoList(){
 function getInfoTextContent(feature){
   var content = "";
   if (typeof feature == 'undefined' || !feature.properties) {
-    content += "<b>Herzlich Wilkommen";
+    content += "\
+<b>Herzlich Wilkommen!</b><br/>\
+<p>Die Kulturpfade Köln sind eine Reihe von Rad- bzw. Wanderwegen im Kölner Stadtgebiet. Die Pfade sind mit Informationstafeln aufbereitet und führen an sehenswürdigen Plätzen und Gebäuden entlang.</p>\
+<p>Allerdings ist der Weg nicht ausgeschildert und einige Informationstafeln existieren nicht mehr. Daher soll diese Seite die Routen vervollständigen und in einer nutzbaren Form darstellen.</p>";
   } else {
     content += "<b>" + feature.properties.title1 + "</b> - " + feature.properties.title2 + "<br/>";
      
