@@ -7,14 +7,14 @@ var map, featureList, markerSearch2 = [];
 /* -------------------------------------------------------------------*/
 /* general helper methods ------------------------------------------- */
 
-function toggleVisibility(id, show='') {
+function toggleVisibility(id, show) {
    var e = document.getElementById(id);
-   if (show == '')
+   if (typeof e === 'undefined') {
        if(e.style.display == 'block')
           e.style.display = 'none';
        else
           e.style.display = 'block';
-   else
+   } else
      e.style.display = show;
 }
 
