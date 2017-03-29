@@ -236,9 +236,7 @@ function clearHighlight() {
   highlight.clearLayers();
 }
 
-var mapnik = L.tileLayer('https://tiles.wmflabs.org/bw-mapnik/{z}/{x}/{y}.png', {
-              attribution: attrib
-          });
+var mapnik = L.tileLayer('https://tiles.wmflabs.org/bw-mapnik/{z}/{x}/{y}.png', {});
 
 var highlight = L.geoJson(null);
 var highlightStyle = {
@@ -372,16 +370,6 @@ map.on("moveend", function (e) {
 });
 
 // Attribution control
-function updateAttribution(e) {
-  $.each(map._layers, function(index, layer) {
-    if (layer.getAttribution) {
-      $("#attribution").html((layer.getAttribution()));
-    }
-  });
-}
-map.on("layeradd", updateAttribution);
-map.on("layerremove", updateAttribution);
-
 var attributionControl = L.control({
   position: "bottomright"
 });
