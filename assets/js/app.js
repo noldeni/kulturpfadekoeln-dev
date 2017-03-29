@@ -146,7 +146,7 @@ function getInfoTextContent(feature){
 
 function showInfoText(feature){
   $("#info-text").html(getInfoTextContent(feature));
-  //$("info-text").scrollTop = 0;         
+  $("#info-wrapper").scrollTop(0);
   toggleVisibility('info-list', 'none');
   toggleVisibility('info-text', 'block');
   if (typeof feature !== 'undefined') {
