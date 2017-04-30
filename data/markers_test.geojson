@@ -9,6 +9,7 @@
       "color": "#3300ff",
       "title1": "Rodenkirchen #1",
       "title2": "Rodenkirchen . ()",
+      "title3": "Rodenkirchen . Rodenkirchen #1 ()",
       "description": "",
       "notes": "TESTMODUS"
     },
@@ -21,6 +22,7 @@
       "color": "#3300ff",
       "title1": "Rodenkirchen #2",
       "title2": "Rodenkirchen . ()",
+      "title3": "Rodenkirchen . Rodenkirchen #2 ()",
       "description": "",
       "notes": "TESTMODUS"
     },
@@ -33,6 +35,7 @@
       "color": "#3300ff",
       "title1": "Rodenkirchen #3 Benedinerinnenkloster",
       "title2": "Rodenkirchen . ()",
+      "title3": "Rodenkirchen . Rodenkirchen #3 Benedinerinnenkloster ()",
       "description": "",
       "notes": "TESTMODUS"
     },
@@ -45,6 +48,7 @@
       "color": "#3300ff",
       "title1": "Rodenkirchen #4",
       "title2": "Rodenkirchen . ()",
+      "title3": "Rodenkirchen . Rodenkirchen #4 ()",
       "description": "",
       "notes": "TESTMODUS"
     },
@@ -57,6 +61,7 @@
       "color": "#3300ff",
       "title1": "Rodenkirchen #5",
       "title2": "Lindenthal . ()",
+      "title3": "Lindenthal . Rodenkirchen #5 ()",
       "description": "",
       "notes": "TESTMODUS"
     },
@@ -69,6 +74,7 @@
       "color": "#FFF200",
       "title1": "Urbanuskreuz",
       "title2": "Porz 1.1 ()",
+      "title3": "Porz 1.1 Urbanuskreuz ()",
       "description": "Das Urbanuskreuz wurde 1729 zusammen mit fünf Sommerlinden an der alten Bonner Straße errichtet. 1948 wurde der Standort zur Urbanusstraße verlegt. Das Kreuz wurde dem heiligen Urban, Schutzpatron der Weinreben, gewidmet.",
       "notes": "TESTMODUS"
     },
@@ -81,6 +87,7 @@
       "color": "#FFF200",
       "title1": "Stompeler Kreuz",
       "title2": "Porz 1.2 ()",
+      "title3": "Porz 1.2 Stompeler Kreuz ()",
       "description": "Ein typisches Feldkreuz, dass 1906 mit 3 Rosskastanien errichtet worden ist.",
       "notes": "TESTMODUS"
     },
@@ -93,6 +100,7 @@
       "color": "#FFF200",
       "title1": "Bröhls Kreuz",
       "title2": "Porz 1.3 ()",
+      "title3": "Porz 1.3 Bröhls Kreuz ()",
       "description": "Gedenkkreuz von 1882 für die Eheleute Jodokus Bröhl und Klara Küster. Zwei höllandische Linden sind Begleitbäume (Naturdenkmal). Der Standort zeigt die Südseite der Allmende, des Gemeindeflures, an. Das Kreuz ist eine besonders sorgfältige bildhauerische Arbeit mit durchgearbeiteter Konsole, Profilen und Nischeneinfassung. In der Nische steht eine Muttergottesstatue.",
       "notes": "TESTMODUS"
     },
@@ -105,6 +113,7 @@
       "color": "#FFF200",
       "title1": "Hölser Kreuz",
       "title2": "Porz 1.4 ()",
+      "title3": "Porz 1.4 Hölser Kreuz ()",
       "description": "Vorbei am Pleienpool (Kleih-Kuhle) steht das Wegekreuz an einer alten Kreuzung, die von Uckendorf über Stockum nach Spich führte. Gusseisenkreuz und Sandsteinsockel wurden 1787 von den namensgebenden Eheleuten errichtet. 1900 wurde es zerstört und wieder aufgebaut.",
       "notes": "TESTMODUS"
     },
@@ -117,6 +126,7 @@
       "color": "#FFF200",
       "title1": "Pastor-Huthmacher-Straße",
       "title2": "Porz 1.5 ()",
+      "title3": "Porz 1.5 Pastor-Huthmacher-Straße ()",
       "description": "Die Pastor-Huthmacher-Straße weist noch Zeugnisse der typischen älteren Bebauung (Ende 19. Jh.) des Weilers Libur auf (Nr. 2, 10, 16, 22). Eine einheitliche Fluchtlinie fehlt noch. Das Haus Nr.2 ist ein zweigeschossiges, giebelständiges Fachwerkhaus mit vorgesetztem Backsteingiebel aus dem 19. Jahrhundert; Nr.1O ein kleines, zweigeschossiges, traufständiges Backsteinhaus, erbaut um 1900; Nr.16 ein zweigeschossiges Fachwerkgehöft aus dem späten 18. Jahrhundert mit verputztem Erdgeschoß und einem Walmdach; Nr.22 ein zweigeschossiges Wohnhaus (1882 inschr. dat.) einer ehem. Hofanlage, mit einer mehrfarbigen Backsteinfassade, Mittelrisalit (ital. &quot;risalto&quot;: Vorsprung; Teil eines Gebäudes, der über dessen Fluchtlinie in ganzer Höhe hervortritt, man unterscheidet Mittel-‚ Seiten- und Eckrisalit) mit übergiebeltem Eingangsbereich und Madonna in einer Nische.",
       "notes": "TESTMODUS"
     },
@@ -129,6 +139,7 @@
       "color": "#FFF200",
       "title1": "St. Margareta",
       "title2": "Porz 1.6 ()",
+      "title3": "Porz 1.6 St. Margareta ()",
       "description": "Katholische Pfarrkirche St. Margareta an der Pastor-Huthmacher-Straße, erbaut 1909–1911 nach Vorlagen des Pfarrers Hubert Huthmacher, eine neugotische dreischiffige Backsteinbasilika, der ursprüngliche Innenausstattung (steinerne Altäre, Kanzel, Orgelempore, Fenster, Skulpturen) gut erhalten blieben ist. 1981 nach denkmalpflegerischen Gesichtspunkten restauriert. Neben der Kirche der alte Friedhof mit bis auf das Jahr 1650 zurückgehenden Grabsteinen.",
       "wiki": "https://de.wikipedia.org/wiki/St._Margareta_(K%C3%B6ln-Libur)",
       "notes": "TESTMODUS"
@@ -142,6 +153,7 @@
       "color": "#FFF200",
       "title1": "Wohn- und Geschäftshäuser Frankfurter Str. 529",
       "title2": "Porz 1.22 ()",
+      "title3": "Porz 1.22 Wohn- und Geschäftshäuser Frankfurter Str. 529 ()",
       "description": "Unmittelbar an der Kreuzung der beiden Urbacher Hauptstraßen gelegen, ist das 1903 erbaute zweigeschossige Wohn- und Geschäftshaus eines der wenigen im Ort erhaltenen Beispiele einer städtisch beeinflussten Architektur im Jugendstil.",
       "notes": "TESTMODUS"
     },
@@ -154,6 +166,7 @@
       "color": "#FFF200",
       "title1": "Ensemble Frankfurter Straße mit Ossenbach-Mühle",
       "title2": "Porz 1.23 ()",
+      "title3": "Porz 1.23 Ensemble Frankfurter Straße mit Ossenbach-Mühle ()",
       "description": "Im historischen städtebaulichen Kontext ist das Ensemble ein- bis zweigeschossiger Häuser aus dem 19. u. beginnenden 20. Jh. zu betrachten: die ländl. geprägten Gebäude Nr. 511, 513 und die Nr. 519, die ehem. Issenbach-Müghle, ein eingeschossiges, giebelständiges Fachwerkhaus (Mitte 19. Jh.) mit langgestrecktem, traufständigen Anbau (1981–1983) Gesamtrestaurierung, sowie die Nr. 515, 527 u. 512 ländliche Bauten mit städtischen Einflüssen.",
       "notes": "TESTMODUS"
     },
@@ -166,6 +179,7 @@
       "color": "#FFF200",
       "title1": "Maarhof",
       "title2": "Porz 1.24 ()",
+      "title3": "Porz 1.24 Maarhof ()",
       "description": "Der 1613 erstmals erwähnte Maarhof, Frankfurter Straße 540, eine geschlossene, vierflügelige Hofanlage des 18./19. Jh., besitzt ein zweigeschossiges Herrenhaus mit reicher Stuckfassade (1896) und Schopfwalmdach. Die ehem. Wirtschaftsgebäude sind aus Backstein. Nach Aufgabe der lanschwirtschftl. Nutzung erfolgten die innere und äußere Restaurierung und der Umbau der Stallungen zur Wohnanlage (1984/86). Der Maarhof bildete den Abschluss und Höhepunkt der Bebauung der Frankfurter Straße. Trotz aller Änderungen ist die Anlage ein unverzichtbarer Bestandteil der nur noch teilw. ländlichen Struktur des Ortes.",
       "notes": "TESTMODUS"
     },
@@ -178,6 +192,7 @@
       "color": "#FFF200",
       "title1": "St. Bartolomäus",
       "title2": "Porz 1.25 ()",
+      "title3": "Porz 1.25 St. Bartolomäus ()",
       "description": "Die kathol. Pfarrkirche St. Bartholomäus, Frankfurter Straße 522, entstand 1879/80 nach Plänen H. Nagelschmidts als dreischiffige Hallenkirche mit Querschiff, Chorraum und drei Halbkreisenapsidden, erbaut in der Form des rheinisch-romanisierenden Rundbogenstils. Der Vierkantturm stammt a.d. Jahr 1899. Vom Turm des romanischen Vorgängerbaus ist der Ostbogen im heutigen Bau erhalten. Teile der Innenausstattung der alten Urbacher Pfarrkirche sind bewahrt geblieben. Der barocke Orgelprospekt stammt aus Klein-St. Martin in Köln. Hauptaltar und Ambo gestaltet von H. Gernot (1970); innere Farbgestaltung von 1978.",
       "notes": "TESTMODUS"
     },
@@ -190,6 +205,7 @@
       "color": "#FFF200",
       "title1": "Urbacher Friedhof",
       "title2": "Porz 1.27 ()",
+      "title3": "Porz 1.27 Urbacher Friedhof ()",
       "description": "Dieser typische Dorffriedhof wurde zur Zeit der Bürgermeisterei Heumar am Ortsrand errichtet. Die gemischt-konfessionelle Friedhof enthält Gräber der 60er und 70er Jahren des 19. Jh. Ein prächtiges Grabmal aus weißem Marmor (1982) des Urbacher Bürgermeisters Bernhard Sternenberg und seiner Frau Eva, geb. Balchoss sticht hervor. Auf dem Gelände zum Mühlenweg hin befindet sich das Ehrenmal der UdSSR für die im Zweiten Weltkrieg getöteten Zwangsarbeiter.",
       "notes": "TESTMODUS"
     },
@@ -202,6 +218,7 @@
       "color": "#FFF200",
       "title1": "Wohnhaus Frankfurter Straße 482",
       "title2": "Porz 1.28 ()",
+      "title3": "Porz 1.28 Wohnhaus Frankfurter Straße 482 ()",
       "description": "Das 1880 errichtete zweigeschossige, traufständige Wohnhaus mit Backsteinfassade, Stichbögen, Ankersplinten erinnert noch an das ursprüngliche Straßenbild.",
       "notes": "TESTMODUS"
     },
@@ -214,6 +231,7 @@
       "color": "#00ACF3",
       "title1": "Porz #1",
       "title2": "Porz 2.6 ()",
+      "title3": "Porz 2.6 Porz #1 ()",
       "description": "",
       "notes": "TESTMODUS"
     },
@@ -226,6 +244,7 @@
       "color": "#00ACF3",
       "title1": "Sog. Friedenseiche (Naturdenkmal)",
       "title2": "Porz 2.12 (Langel)",
+      "title3": "Porz 2.12 Sog. Friedenseiche (Naturdenkmal) (Langel)",
       "description": "Die &quot;Friedenseiche&quot; wurde zum Gedenken an den deutsch-französischen Krieg 1870/71 und die Reichsgrndung von 1871 an der Wegekreuzung vom ehem. Langeler Unterdorf nach Lülsdorf und vom Oberdorf nach Zündorf gepflanzt.",
       "notes": "TESTMODUS"
     },
@@ -238,6 +257,7 @@
       "color": "#00ACF3",
       "title1": "Porz #2",
       "title2": "Porz 2.13 ()",
+      "title3": "Porz 2.13 Porz #2 ()",
       "description": "",
       "notes": "TESTMODUS"
     },
@@ -250,6 +270,7 @@
       "color": "#E486B9",
       "title1": "St. Michael",
       "title2": "Porz 4.11 (Poll)",
+      "title3": "Porz 4.11 St. Michael (Poll)",
       "description": "St. Michael am Burgweg, die alte Pfarrkirche Niederzündorfs (11.–17. Jh.), auf einer leichten Anhöhe über einem alten Rheinarm gelegen, ist ein romanischer Saalbau mit reich verziertem Vierkantturm mit Rautenhelm (1170) im Westen, dreiseitigem Chor im Osten, Kapelle im Süden und Sakristei (1662) im Norden. Das nördl. Seitenschiff wurde 1906 abgebrochen. Im Innern 2 Tafelgemälde aus der Barthel Bruyn-Schule mit Kalvarienberg u. Anbetung der hl. 3 Könige (2. Hälfte 16. Jh.), ein merowingisches Ranklenrelief (7. Jh.) u. Grabsteine des 17. Jh. Der ummauerte Friedhofsbezirk ist mittelalterlichen Ursprungs; auf dem Eingangstor ein 1630 datiertes Grabkreuz.",
       "wiki": "https://de.wikipedia.org/wiki/St._Michael_%28K%C3%B6ln-Z%C3%BCndorf%29",
       "notes": "TESTMODUS"
@@ -263,6 +284,7 @@
       "color": "#E486B9",
       "title1": "Historische Gebäude am Burgweg",
       "title2": "Porz 4.12 (Poll)",
+      "title3": "Porz 4.12 Historische Gebäude am Burgweg (Poll)",
       "description": "Das 1 1/2-geschossige Fachwerkhäuschen (mit verputzter Traufseite) Burgweg Nr. 9 datiert aus dem Jahr 1677. Der Bitzhof, Burgweg Nr. 12, stammt aus dem Jahre 1836. Das zweigeschossige Fachwerkhaus mit einläufiger Außentreppe wurde 1982 innen und außen aufwendig restauriert.",
       "notes": "TESTMODUS"
     },
@@ -275,6 +297,7 @@
       "color": "#E486B9",
       "title1": "Börschhof",
       "title2": "Porz 4.18 (Poll)",
+      "title3": "Porz 4.18 Börschhof (Poll)",
       "description": "Der Börschhof (ehemaliger Abtshof), Hauptstraße 2, ist eine geschlossene Hofanlage von 1780/81 mit zweigeschossigem, fünfachsigem Herrenhaus und eingeschossigen Wirtschaftsgebäuden (alle in Backstein). Der Hof markiert die südliche Grenze Zündorfs und prägt zusammen mit den anderen Hofanlagen das Dorfbild entlang der Hauptstraße.",
       "notes": "TESTMODUS"
     },
@@ -287,6 +310,7 @@
       "color": "#3300ff",
       "title1": "Porz #3",
       "title2": "Porz . ()",
+      "title3": "Porz . Porz #3 ()",
       "description": "",
       "notes": "TESTMODUS"
     },
@@ -299,6 +323,7 @@
       "color": "#3300ff",
       "title1": "Porz #7 4.8 Marktplatz mit Nepomuk-Statue und Kriegerdenkmal",
       "title2": "Porz . ()",
+      "title3": "Porz . Porz #7 4.8 Marktplatz mit Nepomuk-Statue und Kriegerdenkmal ()",
       "description": "",
       "notes": "TESTMODUS"
     },
@@ -311,6 +336,7 @@
       "color": "#3300ff",
       "title1": "Porz #9",
       "title2": "Porz . ()",
+      "title3": "Porz . Porz #9 ()",
       "description": "",
       "notes": "TESTMODUS"
     },
@@ -323,6 +349,7 @@
       "color": "#3300ff",
       "title1": "Porz #10",
       "title2": "Porz . ()",
+      "title3": "Porz . Porz #10 ()",
       "description": "",
       "notes": "TESTMODUS"
     },

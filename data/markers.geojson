@@ -9,6 +9,7 @@
       "color": "#E58100",
       "title1": "Südfriedhof",
       "title2": "Rodenkirchen 2.7 (Zollstock)",
+      "title3": "Rodenkirchen 2.7 Südfriedhof (Zollstock)",
       "description": "1901 eröffnet. Entwurf von A. Kowallek. Die landschaftliche Anlage mit Rundwegen und abwechlungsreichen Baum- und Gehölzgruppen ist ein Beispiel für den Stil des Historismus.<br/>Darin ein englischer, ein italienischer und ein deutscher Ehrenfriedhof, bedeutende Grabstätten von 1900 - 1940 und ein Hochkreuz. Die Einfriedung sowie die oktogonale Trauerkapelle sind 1905 - 1918 nach den Entwürfen von F. Bolte im neuromantischen Stil erbaut.",
       "wiki": "https://de.wikipedia.org/wiki/S%C3%BCdfriedhof_%28K%C3%B6ln%29",
       "info": "<li><a target=\"_blank\" href=\"http://www.bilderbuch-koeln.de/Denkmale/201\">Denkmalliste</a></li>"
@@ -22,6 +23,7 @@
       "color": "#00ACF3",
       "title1": "Drehbrücke",
       "title2": "Porz 2.1 (Deutz)",
+      "title3": "Porz 2.1 Drehbrücke (Deutz)",
       "description": "Die aus der Gründerzeit des Deutzer Hafens (Stadtbezirk 1) stammende Drehbrücke, ein technisches Denkmal, wurde 1907 errichtet und 1908 dem Verkehr übergeben. Ihre elektrisch gesteuerte, genietete Gitterträgerkonstruktion mit dem Steuerhäuschen aus Stahlblechen ist bis heute vollständig erhalten geblieben. Auf der von ihr ausgehenden Alfred-Schütte-Allee erreicht man das Poller Rheinufer mit dem in den 20er Jahren angelegten öffentlichen Grünbereich mit Sportanlagen.",
       "wiki": "https://de.wikipedia.org/wiki/Deutzer_Drehbr%C3%BCcke",
       "info": "<li><a target=\"_blank\" href=\"http://www.bilderbuch-koeln.de/Denkmale/4\">Denkmalliste</a></li>",
@@ -36,6 +38,7 @@
       "color": "#00ACF3",
       "title1": "Nikolaus-Kapelle",
       "title2": "Porz 2.2 (Westhoven)",
+      "title3": "Porz 2.2 Nikolaus-Kapelle (Westhoven)",
       "description": "Die dem Schutzpatron der Schiffer geweihte, ehem. zur Abtei St. Heribert in Deutz gehörende Nikolaus-Kapelle, St. Agatha-Straße, wurde um 1100 errichtet. Der kleine romanische Saalbau (restauriert 1959-64) aus verputztem Tuff- und Kieselmauerwerk mit eingezogenem Rechteckchor, Fachwerkgiebel und einem Dachreiter liegt inmitten des ehem., bis 1929 benutzten Friedhofes mit alten Grabsteinen und Eisenkreuzen (restauriert 1987 vn der Bürgervereinigung Ensen-Westhoven).",
       "wiki": "https://de.wikipedia.org/wiki/Nikolaus-Kapelle_%28K%C3%B6ln%29",
       "info": "<li><a target=\"_blank\" href=\"http://www.bilderbuch-koeln.de/Denkmale/1295\">Denkmalliste</a></li>",
@@ -50,6 +53,7 @@
       "color": "#00ACF3",
       "title1": "Rheinuferpromenade",
       "title2": "Porz 2.4 (Porz)",
+      "title3": "Porz 2.4 Rheinuferpromenade (Porz)",
       "description": "Die Rheinuferpromenade, Friedrich-Ebert-Ufer, mit Ufermauer, Treppenaufgang, Fahrkartenpavillon für die Schiffahrt, Löwenmonument und schmiedeeisernen Laternen wurde zwischen 1907 u. 1912 angelegt.",
       "info": "<li><a target=\"_blank\" href=\"http://www.bilderbuch-koeln.de/Denkmale/538\">Denkmalliste</a></li>",
       "next": "7.2.5"
@@ -63,6 +67,7 @@
       "color": "#00ACF3",
       "title1": "Porzer Rathaus",
       "title2": "Porz 2.5 (Porz)",
+      "title3": "Porz 2.5 Porzer Rathaus (Porz)",
       "description": "Das Porzer Rathaus, Friedrich-Ebert-Ufer 64, ein dreigeschossiger mächtiger, siebenachsiger Bau mit wuchtigem Turm und Arkaden im Erdgeschoß, entstand 1909&frasl;10 nach Plänen des Regierungsbaumeisters Moritz. Der Erweiterungsbau mit Werksteinfassade stammt aus den Jahren 1955&frasl;56; weitere Neubauten aus den 70er und 80er Jahren. Heute ist das Porzer Rathaus Sitz der Bezirksvertretung des Stadtbezirks 7 und der Bezirksverwaltung.",
       "next": "7.2.7"
     },
@@ -75,6 +80,7 @@
       "color": "#00ACF3",
       "title1": "Fronhof",
       "title2": "Porz 2.7 (Langel)",
+      "title3": "Porz 2.7 Fronhof (Langel)",
       "description": "Begrenzt von der Frongasse, Rosengasse und Lülsdorfer Straße liegt der erstmals 965, dann 1225 im Urbar von St. Pantaleon in Köln erwähnte Fronhof. 1633 wurde der damals 178 Morgen große Hof, Zentrum eines grundherrschaftlichen Hofverbandes mit einer größeren Anzahl abhängiger Höfe, von einem Feuer vernichtet. Die danach neu entstandene Anlage ging 1803 in den Besitz des preußischen Staates über, der sie 1820 an die Gebrüder Immendorff verkaufte. Der nach starken Beschädigungen im Zweiten Weltkrieg wiederaufgebaute, heute teilw. veränderte Fronhof ist der Mittelpunkt des Langeler Oberdorfes in unmittelbarer Nachbarschaft der Kirche St. Clemens.",
       "next": "7.2.8"
     },
@@ -87,6 +93,7 @@
       "color": "#00ACF3",
       "title1": "St. Clemens",
       "title2": "Porz 2.8 (Langel)",
+      "title3": "Porz 2.8 St. Clemens (Langel)",
       "description": "Kathol. Pfarrkirche St. Clemens, Lülsdorfer Straße 114, erbaut 1890/91 von Langeler Steinmetzen und Maurern nach Plänen H. Nagelschmidts, eine neugotische dreischiffige Backstein-Hallenkirche mit Schieferdach und Vierkantturm im Westen. Von der Innenausstattung sind 3 gotische Schnitzaltäre und der Orgelprospekt erhalten geblieben und 1982/83 mit einer passenden Kanzel aus Kürten-Bechern ergänzt worden. Wiederherstellung der im Krieg zerstörten Glasfenster in drei Phasen ab 1953 und der ursprgl. Neugotischen Ausmalung 1978/80. Ersetzung der mittleren Chorfenster 1990 durch eine Heiligenfiguren zeigende Buntverglasung im Nazarenerstil a. d. J. 1900. Restliche Fensterflächen 1990 von K. Dedy gestaltet.",
       "wiki": "https://de.wikipedia.org/wiki/St._Clemens_(K%C3%B6ln-Langel)",
       "next": "7.2.14"
@@ -100,6 +107,7 @@
       "color": "#00ACF3",
       "title1": "ehem. Telegraphenstation",
       "title2": "Porz 2.14 (Langel)",
+      "title3": "Porz 2.14 ehem. Telegraphenstation (Langel)",
       "description": "Die ehemalige, 1832&frasl;33 erbaute, baulich stark veränderte Telegraphenstation, Loorweg 155, mit einem heute drei-, früher viergeschossigen Turm, war Teil der preußischen optischen Telegraphenlinie zwischen Berlin und Koblenz. Der Turm verband das Signal in Spich mit demjenigen auf dem Westwerk von St. Pantaleon in Köln.",
       "info": "<li><a target=\"_blank\" href=\"http://www.bilderbuch-koeln.de/Denkmale/4905\">Denkmalliste</a></li>"
     },
@@ -112,6 +120,7 @@
       "color": "#95C51F",
       "title1": "Start Tour 3",
       "title2": "Porz 3.0 (Porz)",
+      "title3": "Porz 3.0 Start Tour 3 (Porz)",
       "description": "",
       "next": "7.3.1",
       "notes": "Hier startet Tour 3 (Porz)"
@@ -125,6 +134,7 @@
       "color": "#95C51F",
       "title1": "Milchmädchensiedlung",
       "title2": "Porz 3.1 (Poll)",
+      "title3": "Porz 3.1 Milchmädchensiedlung (Poll)",
       "description": "Auf einem durch die Siegburger Straße, die Eisenbahnstrecke und den Friedhof begrenzten Areal (Rolshover Kirchweg, Allerseelenstraße, An den Maien) wurde 1919-21 nach Plänen von E. Mewes die &quot;Milchmädchensiedlung&quot; im Heimatstil städtischer Prägung nach dem Konzept des &quot;stadtnahen Wohnens im Grünen&quot; errichtet. Mit ihr wurde die letzte reine Einfamilienhaus-Siedlung in Köln geschaffen. Städtebaulicher Mittelpunkt ist der Efeuplatz mit &quot;Milchmädchen&quot;-Plastik (um 1922). Obwohl heute im Erscheinungsbild startk verändert, sind ursprl. Aufbau und Gliederung der Siedlung weiterhin gut zu erkennen.",
       "info": "<li><a target=\"_blank\" href=\"http://www.bilderbuch-koeln.de/Denkmale/532\">Denkmalliste</a></li>",
       "next": "7.3.2",
@@ -139,6 +149,7 @@
       "color": "#95C51F",
       "title1": "Siedlung Altenberger Kreuzweg",
       "title2": "Porz 3.2 (Poll)",
+      "title3": "Porz 3.2 Siedlung Altenberger Kreuzweg (Poll)",
       "description": "Die Siedlung Altenberger Kreuzweg wurde 1927-29 nach den Plänen von E. Mewes auf den Grundriß eines unregelmäßigen Fünfecks (Am Altenberger Kreuz, Im Mittelfeld, Siegburger Straße, Bahnstraße) als Ergänzung der Milchmädchensiedlung aus zu symmetrischen Reihen geordneten 15 Mehr- und Einfamilienhäusern errichtet. Städtebaulicher Mittelpunkt ist die Dreifaltigkeitskirche, Am Altenberger Kreuz, neu geschaffen von K. Band 1951-54 unter Einbeziehung der Mauerreste der kriegszerstörten Vorgängerin.",
       "next": "7.3.3",
       "notes": "Hier konnten wir leider keine Infotafel mehr finden. Der Text beschreibt das umliegende Gebiet."
@@ -152,6 +163,7 @@
       "color": "#95C51F",
       "title1": "Wegekreuz",
       "title2": "Porz 3.3 (Poll)",
+      "title3": "Porz 3.3 Wegekreuz (Poll)",
       "description": "",
       "info": "<li><a target=\"_blank\" href=\"http://www.bilderbuch-koeln.de/Denkmale/568\">Denkmalliste</a></li>",
       "next": "7.3.4",
@@ -166,6 +178,7 @@
       "color": "#95C51F",
       "title1": "Rolshover Hof",
       "title2": "Porz 3.4 (Poll)",
+      "title3": "Porz 3.4 Rolshover Hof (Poll)",
       "description": "",
       "info": "<li><a target=\"_blank\" href=\"http://www.bilderbuch-koeln.de/Denkmale/2518\">Denkmalliste</a></li>",
       "next": "7.3.5",
@@ -180,6 +193,7 @@
       "color": "#95C51F",
       "title1": "Bildstock",
       "title2": "Porz 3.5 (Poll)",
+      "title3": "Porz 3.5 Bildstock (Poll)",
       "description": "",
       "info": "<li><a target=\"_blank\" href=\"http://www.bilderbuch-koeln.de/Denkmale/567\">Denkmalliste</a></li>",
       "next": "7.3.6a",
@@ -194,6 +208,7 @@
       "color": "#95C51F",
       "title1": "Histor. Gebäudegruppe Auf dem Sandberg (Teil 1)",
       "title2": "Porz 3.6 (Poll)",
+      "title3": "Porz 3.6 Histor. Gebäudegruppe Auf dem Sandberg (Teil 1) (Poll)",
       "description": "Das vorstädtische Siedlungswachstum zu Beginn des 20. Jh. und die bauästhetischen Bedürfnisse der Bauherren der Zeit dokumentiert die historische Gebäudegruppe auf dem Sandberg, 92, 96, 98, 112, 114, 116 und 99, […]",
       "next": "7.3.6b"
     },
@@ -206,6 +221,7 @@
       "color": "#95C51F",
       "title1": "Histor. Gebäudegruppe Auf dem Sandberg (Teil 2)",
       "title2": "Porz 3.6 (Poll)",
+      "title3": "Porz 3.6 Histor. Gebäudegruppe Auf dem Sandberg (Teil 2) (Poll)",
       "description": "[…] während die Nr. 18 sowie die Nr. 21-21c (drei für einen drei Generationen umfassenden Familienverbund hintereinander errichtete Bauten) an den älteren, dörflichen Charakter Polls bis in die 2. Hälfte des 19. Jh. erinnern.",
       "next": "7.3.7"
     },
@@ -218,6 +234,7 @@
       "color": "#95C51F",
       "title1": "Alte Poller Schule",
       "title2": "Porz 3.7 (Poll)",
+      "title3": "Porz 3.7 Alte Poller Schule (Poll)",
       "description": "Das um 1900 erbaute Schulhaus, Poller Hauptstraße 61-65, hat eine reich verzierte mehrfarbige Backsteinfassade.",
       "info": "<li><a target=\"_blank\" href=\"http://www.bilderbuch-koeln.de/Denkmale/5520\">Denkmalliste</a></li>",
       "next": "7.3.8"
@@ -231,6 +248,7 @@
       "color": "#95C51F",
       "title1": "Backstein- u. Fachwerkhäuser des 19. Jh.",
       "title2": "Porz 3.8 (Poll)",
+      "title3": "Porz 3.8 Backstein- u. Fachwerkhäuser des 19. Jh. (Poll)",
       "description": "Ein Ensemble ein- bis zweigeschossiger, meist giebelständiger Backstin- und Fachwerkhäuser des 19. Jh. (teilweise erneuert) bilden die Bauten Poller Hauptstraße 33, 37, 43-47, 51, 53, 46-50, während ... [Fortsetzung siehe 3.9]",
       "next": "7.3.9"
     },
@@ -243,6 +261,7 @@
       "color": "#95C51F",
       "title1": "&quot;Gründerzeitliche&quot; Häuser",
       "title2": "Porz 3.9 (Poll)",
+      "title3": "Porz 3.9 &quot;Gründerzeitliche&quot; Häuser (Poll)",
       "description": "[Fortsetzung zu 3.8] ... die Salmstraße noch eine Anzahl &quot;gründerzeitlicher&quot;, zwischen 1880 und 1912 errichteter zweigeschossiger Häuser mit Stuck-, Backstein- und Putzfassaden aufweist (Nr. 73-85, 91, 74, 76, 94).",
       "next": "7.3.10a",
       "notes": "Haus Nr. 94 existiert mittlerweile nicht mehr."
@@ -256,6 +275,7 @@
       "color": "#95C51F",
       "title1": "St. Joseph",
       "title2": "Porz 3.10 (Poll)",
+      "title3": "Porz 3.10 St. Joseph (Poll)",
       "description": "Im Ortskern wurde die kathol. Pfarrkirche St. Joseph, Kirchplatz 1a, nach Plänen H. Nagelschmidts 1862-64 als ursprgl. neugotische dreischiffige Backsteinbasilika erbaut und nach schwerer Kriegszerstörung unter Beibehaltung der Umfassungsmauern und der unteren Geschosse des Westturmes seit 1951 von A. Hauk und M. Krantz neu errichtet. Die Chorausstattung hat 1955 H. Rheindorf geschaffen.",
       "info": "<li><a target=\"_blank\" href=\"http://www.bilderbuch-koeln.de/Denkmale/1278\">Denkmalliste</a></li>",
       "next": "7.3.10b"
@@ -269,6 +289,7 @@
       "color": "#95C51F",
       "title1": "Pestkreuz",
       "title2": "Porz 3.10 (Poll)",
+      "title3": "Porz 3.10 Pestkreuz (Poll)",
       "description": "Am Kirchplatz/Ecke Poller Hauptstraße ein Pestkreuz (1666) aus Trachyt, seit 1891 an seinem jetzigen Ort.",
       "info": "<li><a target=\"_blank\" href=\"http://www.bilderbuch-koeln.de/Denkmale/565\">Denkmalliste</a></li>",
       "next": "7.3.11"
@@ -282,6 +303,7 @@
       "color": "#95C51F",
       "title1": "Wasserwerk",
       "title2": "Porz 3.11 (-)",
+      "title3": "Porz 3.11 Wasserwerk (-)",
       "description": "",
       "wiki": "https://de.wikipedia.org/wiki/Wasserwerk_Westhoven",
       "info": "<li><a target=\"_blank\" href=\"http://www.bilderbuch-koeln.de/Denkmale/7670\">Denkmalliste</a></li>",
@@ -297,6 +319,7 @@
       "color": "#95C51F",
       "title1": "Engelshof",
       "title2": "Porz 3.12 (-)",
+      "title3": "Porz 3.12 Engelshof (-)",
       "description": "",
       "wiki": "https://de.wikipedia.org/wiki/Hofanlage_Gut_Engelshof_(K%C3%B6ln)",
       "info": "<li><a target=\"_blank\" href=\"http://www.bilderbuch-koeln.de/Denkmale/561\">Denkmalliste</a></li>",
@@ -312,6 +335,7 @@
       "color": "#95C51F",
       "title1": "",
       "title2": "Porz 3.13 (-)",
+      "title3": "Porz 3.13  (-)",
       "description": "",
       "next": "7.3.14",
       "notes": "Hier konnten wir leider keine Infotafel mehr finden."
@@ -325,6 +349,7 @@
       "color": "#95C51F",
       "title1": "",
       "title2": "Porz 3.14 (-)",
+      "title3": "Porz 3.14  (-)",
       "description": "",
       "next": "7.3.15",
       "notes": "Hier konnten wir leider keine Infotafel mehr finden."
@@ -338,6 +363,7 @@
       "color": "#95C51F",
       "title1": "Amerikakreuz",
       "title2": "Porz 3.15 (Ensen)",
+      "title3": "Porz 3.15 Amerikakreuz (Ensen)",
       "description": "Am Marktplatz steht das 4,20 m hohe sog. Amerikakreuz, aus Sandstein, gestiftet 1869 vom Amerika-Auswanderer Balthasar Schmitz, dessen Eltern an der Stelle des heutigen Marktplatzes einen eigenen Hof bewirtschafteten.",
       "info": "<li><a target=\"_blank\" href=\"http://www.bilderbuch-koeln.de/Denkmale/526\">Denkmalliste</a></li>",
       "next": "7.3.16"
@@ -351,6 +377,7 @@
       "color": "#95C51F",
       "title1": "St. Laurentius",
       "title2": "Porz 3.16 (Ensen)",
+      "title3": "Porz 3.16 St. Laurentius (Ensen)",
       "description": "Kathol. Pfarrkirche St. Laurentius, Kölner Straße, 1894-96 von Th. Kremer als neugotische, dreischiffige Stufenhalle mit eingezogenem Chor, Satteldach mit Quergiebeln und Dachreiter und einem Vierkantturm errichtet. Wiederaufbau und Erneuerung der Innenausstattung nach Kriegszerstörung 1951. Die reiche, sich in den Dachzonen von Langhaus und Turm konzentrierende Detailbildung macht den Bau trotz eher bescheidener Ausmaße zum Blickfang vom Rheinufer her.<br/>An der Kirche das 1932 errichtete Kriegerdenkmal (Entwurf H. Euler/Westhoven) für die Gefallenen des Ersten Weltkriegs, eine Stele aus grob gehauenen Backsteinquadern.",
       "wiki": "https://de.wikipedia.org/wiki/St._Laurentius_%28K%C3%B6ln-Ensen%29",
       "info": "<li><a target=\"_blank\" href=\"http://www.bilderbuch-koeln.de/Denkmale/1284\">Denkmalliste Kirche</a></li><li><a target=\"_blank\" href=\"http://www.bilderbuch-koeln.de/Denkmale/5834\">Denkmalliste Denkmal</a></li><li><a target=\"_blank\" href=\"http://www.bilderbuch-koeln.de/Denkmale/545\">Denkmalliste Allee</a></li>",
@@ -365,6 +392,7 @@
       "color": "#95C51F",
       "title1": "",
       "title2": "Porz 3.17 (Ensen)",
+      "title3": "Porz 3.17  (Ensen)",
       "description": "",
       "next": "7.3.18",
       "notes": "Hier konnten wir leider keine Infotafel mehr finden."
@@ -378,6 +406,7 @@
       "color": "#95C51F",
       "title1": "Alexianer-Krankenhaus-Komplex",
       "title2": "Porz 3.18 (Ensen)",
+      "title3": "Porz 3.18 Alexianer-Krankenhaus-Komplex (Ensen)",
       "description": "Das Alexianer-Krankenhaus, Kölner Str. 64, wurde 1905-08 auf dem Gelände des Gutes &quot;Rotes Haus&quot; vom Kölner Diözesan-Baumeister H. Renard als Klinik für psychisch Kranke errichtet. Kernstück der Symmetrischen Mehrflügelanlage inmitten eines Parks ist der dreigeschossige Mittelriegel mit Backstein- und Putzfassade im &quot;Bergischen Barock&quot;, inspiriert von den Schloßbauten des 17. u. 18. Jh. im bergischen Teil des Rheinlandes.",
       "info": "<li><a target=\"_blank\" href=\"http://www.bilderbuch-koeln.de/Denkmale/1285\">Denkmalliste</a></li>",
       "next": "7.3.19"
@@ -391,6 +420,7 @@
       "color": "#95C51F",
       "title1": "zwei Villen",
       "title2": "Porz 3.19 (Ensen)",
+      "title3": "Porz 3.19 zwei Villen (Ensen)",
       "description": "Die beiden zum Alexianer-Komplex gehörenden zweigeschossigen Villen, Kölner Str. 60 u. 62 in verwinkelter Bauweise mit Stuck- bzw. Putzfassaden, wurden 1905 erbaut.",
       "info": "<li><a target=\"_blank\" href=\"http://www.bilderbuch-koeln.de/Denkmale/8246\">Denkmalliste Nr. 60</a></li><li><a target=\"_blank\" href=\"http://www.bilderbuch-koeln.de/Denkmale/8247\">Denkmalliste Nr. 62</a></li>",
       "next": "7.3.20"
@@ -404,6 +434,7 @@
       "color": "#95C51F",
       "title1": "Siedlung Gremberghoven",
       "title2": "Porz 3.20 (Gremberghoven)",
+      "title3": "Porz 3.20 Siedlung Gremberghoven (Gremberghoven)",
       "description": "Ein typisches Beispiel für Arbeitersiedlungen im 1. Drittel des 20. Jh. ist die Siedlung Gremberghoven, 1919-22 nach der Idee der Gartenstadt mit großen Gärten zur Selbstversorgung nach M. Kießlings für die bediensteten des Rangierbahnhofs Gremberg (angelegt 1917-24) errichtet. Ein- bis dreigeschossige Ein- u. Mehrfamilienhäuser mit Putzfassaden vereinen sich mit Straßen und Gärten auf dem ellipsenförmigen Siedlungsgrundriß zu einem großräumigen, symmetrisch gegliederten Rondell. Wiederaufbau 1951 nach Kriegszerstörungen mit gewissen Veränderungen.",
       "next": "7.3.21",
       "notes": "Der Text beschreibt das umliegende Gebiet."
@@ -417,6 +448,7 @@
       "color": "#95C51F",
       "title1": "",
       "title2": "Porz 3.21 (Gremberghoven)",
+      "title3": "Porz 3.21  (Gremberghoven)",
       "description": "",
       "next": "7.3.22",
       "notes": "Hier konnten wir leider keine Infotafel mehr finden."
@@ -430,6 +462,7 @@
       "color": "#95C51F",
       "title1": "Schöffenkreuz",
       "title2": "Porz 3.22 (Porz)",
+      "title3": "Porz 3.22 Schöffenkreuz (Porz)",
       "description": "An das alte dörfliche Porz erinnert das sog. Schöffenkreuz aus Trachyt, gestiftet 1667 vom Schöffen Bertram Hermans und seiner Ehefrau Margriet.",
       "info": "<li><a target=\"_blank\" href=\"http://www.bilderbuch-koeln.de/Denkmale/577\">Denkmalliste</a></li>",
       "next": "7.3.23"
@@ -443,6 +476,7 @@
       "color": "#95C51F",
       "title1": "",
       "title2": "Porz 3.23 (Porz)",
+      "title3": "Porz 3.23  (Porz)",
       "description": "",
       "next": "7.3.24",
       "notes": "Hier war das Gelände leider nicht zugänglich."
@@ -456,6 +490,7 @@
       "color": "#95C51F",
       "title1": "St. Josef",
       "title2": "Porz 3.24 (Porz)",
+      "title3": "Porz 3.24 St. Josef (Porz)",
       "description": "",
       "info": "<li><a target=\"_blank\" href=\"http://www.bilderbuch-koeln.de/Denkmale/1323\">Denkmalliste</a></li>",
       "next": "7.3.25",
@@ -470,6 +505,7 @@
       "color": "#95C51F",
       "title1": "Wohn- u. Geschäftshaus",
       "title2": "Porz 3.25 (Porz)",
+      "title3": "Porz 3.25 Wohn- u. Geschäftshaus (Porz)",
       "description": "1912 ließ Bäckermeister Billstein sein dreigeschossiges Wohn- und Geschäftshaus, Hauptstr. 398, mit rückwärtiger Backstube bauen. Die breite Stuckfassade mit geschungenem Ziergiebel und farbigem Blumendekor, eine reizvolle Mischung aus Jugendstil und Barock, macht das Haus zu einem der auffälligsten der Straße.",
       "info": "<li><a target=\"_blank\" href=\"http://www.bilderbuch-koeln.de/Denkmale/6331\">Denkmalliste</a></li>",
       "next": "7.3.26"
@@ -483,6 +519,7 @@
       "color": "#95C51F",
       "title1": "Wohnhaus",
       "title2": "Porz 3.26 (Porz)",
+      "title3": "Porz 3.26 Wohnhaus (Porz)",
       "description": "Um 1900 entstand das zweigeschossige Wohnhaus Hauptstr. 388 mit Mittelgiebel und Zahnfries am Traufgesims. Es ist das einzige hier erhaltene mit einer zweifarbigen Backsteinfassade, mit der es sich sowohl an die frühere dörfliche Bebauung als auch mit der dekorativen Gestaltung an die städtische Architektur anpaßt. Zum historischen Ansemble gehören auch die Häuser Nr. 352, 368, 394, 327.",
       "info": "<li><a target=\"_blank\" href=\"http://www.bilderbuch-koeln.de/Denkmale/6048\">Denkmalliste Nr. 388</a></li><li><a target=\"_blank\" href=\"http://www.bilderbuch-koeln.de/Denkmale/543\">Denkmalliste Nr. 352</a></li><li><a target=\"_blank\" href=\"http://www.bilderbuch-koeln.de/Denkmale/8244\">Denkmalliste Nr. 394</a></li><li><a target=\"_blank\" href=\"http://www.bilderbuch-koeln.de/Denkmale/8276\">Denkmalliste Nr. 327</a></li>",
       "next": "7.3.27"
@@ -496,6 +533,7 @@
       "color": "#95C51F",
       "title1": "Villa Dr. Hollstein, Villa Ahren, Villa Broischer",
       "title2": "Porz 3.27 (Porz)",
+      "title3": "Porz 3.27 Villa Dr. Hollstein, Villa Ahren, Villa Broischer (Porz)",
       "description": "Zum historischen Ensemble der Hauptstraße gehören die Villa Dr. Hollstein (Nr. 303), die Villa Ahren (Nr. 305) sowie die Villa Broischer (Nr. 307), die am südlichen Ortsrand des alten Porz in bevorzugter Lage nahe am Rhein liegen. Sie wurden zwischen 1900 (Villa Dr. Hollstein) und 1912 errichtet. Trotz mancher Modernisierungsmaßname ist ihr aufwendiger Wohnstand noch ablesbar. Die Villa Dr. Hollstein besitzt noch den Vorgarten, die originalen schmiedeeisernen Tore mit dem Einfriedungsgitter, sowie die Remise. In den Villengärten stehen noch drei Blutbuchen als Naturdenkmäler.",
       "info": "<li><a target=\"_blank\" href=\"http://www.bilderbuch-koeln.de/Denkmale/8160\">Denkmalliste</a></li>",
       "next": "7.3.28"
@@ -509,6 +547,7 @@
       "color": "#95C51F",
       "title1": "Lukaskirche",
       "title2": "Porz 3.28 (Porz)",
+      "title3": "Porz 3.28 Lukaskirche (Porz)",
       "description": "Die evangel. Lukaskirche, Mühlenstr. 2, wurde 1914 von M. Benirschke als Saalkirche mit Rechteckchor und jugendstilgeprägtem, an J. M. Olbrichs Darmstädter Hochzeits-Turm erinnernden Fassadenturm geschaffen. Die expressionistische, sehr farbige Innenausstattung stammt von H. Derckum (vollendet 1927). 1977-80 erfolgte die denkmalpflegerische Wiederherstellung des unsprünglichen Zustandes durch die Architekten Thon und Baedorf.",
       "wiki": "https://de.wikipedia.org/wiki/Lukaskirche_%28K%C3%B6ln-Porz%29",
       "info": "<li><a target=\"_blank\" href=\"http://www.bilderbuch-koeln.de/Denkmale/929\">Denkmalliste</a></li>",
@@ -523,6 +562,7 @@
       "color": "#95C51F",
       "title1": "Straßenbahnwartehalle",
       "title2": "Porz 3.29 (Porz)",
+      "title3": "Porz 3.29 Straßenbahnwartehalle (Porz)",
       "description": "Aus der ersten Wiederaufbauphase nach dem Zweiten Weltkrieg verfügt Köln über eine Anzahl von Gebäuden von hoher architektonischer Qualität. Die teilweise leichte, beschwingte Flachdacharchitektur mit organischer Linienführung und gegliedertem Sichtbetonstützwerk wurde auch auf kleine Bauten wie die Straßenbahnwartehalle mit Kiosk, Mühlenstr. o. Nr., übertragen. Sie wurde 1952 über einem gekurvten Grundriß pavillonartig mit großen Fenstern und einem besondere Akzente setzenden, weitvorkragenden Flachdach errichtet.",
       "info": "<li><a target=\"_blank\" href=\"http://www.bilderbuch-koeln.de/Denkmale/5031\">Denkmalliste</a></li>",
       "next": "7.3.30"
@@ -536,6 +576,7 @@
       "color": "#95C51F",
       "title1": "Germania-Siedlung",
       "title2": "Porz 3.30 (Porz)",
+      "title3": "Porz 3.30 Germania-Siedlung (Porz)",
       "description": "Die Germania-Siedlung (Bahnhofstr.&frasl;Concordiaplatz&frasl;Germaniastr.&frasl;Glasstr.) wurde zwischen 1899 und 1903 abseits der Bürgermeisterei Porz auf rautenförmigem Grundriß angelegt, ein Ensemble aus Fabrik, Direktorenvilla und Park (Concordiaplatz), Meisterhäusern (Germaniastr.), Angestellten- und Arbeiterhäusern (Glasstr.) für die Belegschaft der Germania-Spiegelglaswerke. Anlage und Architektur der Häuser spiegelten die zeitgenössische berufsständische Gliederung des Werks und die soziale Hierarchie der Bewohner wieder; je höher ihr Status, desto näher an der Fabrik wohnten sie! Die noch nahezu geschlossen erhaltene Siedlung von seltener gestalterischer und architektonischer Vielfalt ist die einzige ihrer Art in Köln.",
       "next": "7.3.31",
       "notes": "Der Text beschreibt das umliegende Gebiet."
@@ -549,6 +590,7 @@
       "color": "#95C51F",
       "title1": "Bahnhof Porz",
       "title2": "Porz 3.31 (Porz)",
+      "title3": "Porz 3.31 Bahnhof Porz (Porz)",
       "description": "",
       "info": "<li><a target=\"_blank\" href=\"http://www.bilderbuch-koeln.de/Denkmale/4777\">Denkmalliste</a></li>",
       "notes": "Hier konnten wir leider keine Infotafel mehr finden."
@@ -562,6 +604,7 @@
       "color": "#E486B9",
       "title1": "Autobahnbrücke",
       "title2": "Rodenkirchen 4.1 (Rodenkirchen)",
+      "title3": "Rodenkirchen 4.1 Autobahnbrücke (Rodenkirchen)",
       "description": "Errichtet 1938 - 1941 durch P. Bonatz und F. Leonhardt im Zuge des Kölner Autobahnrings. Erste echte erdverankerte Kabelhängebrücke mit einer Mittelstützweite vom 378 m, seinerzeit weitestgespannte Hängebrücke Europas. Hauptmerkmale: monumentale Torsituation am Naturstein-Brückenkopf, Schlankheit der horizontalen Versteifungsträger, Spannweitenverhältnis zwischen den Trägern un den sie einrahmenden portalartigen Pylonen. 1945 Sprengung, 1952 - 1954 getreuer Wiederaufbau. Ab 1990 Verbreiterung der Brücke durch einen Zwillingsbau an der Nordseite.",
       "wiki": "https://de.wikipedia.org/wiki/Rheinbr%C3%BCcke_K%C3%B6ln-Rodenkirchen",
       "info": "<li><a target=\"_blank\" href=\"http://www.bilderbuch-koeln.de/Denkmale/7837\">Denkmalliste</a></li>",
@@ -576,6 +619,7 @@
       "color": "#E486B9",
       "title1": "St. Maternus",
       "title2": "Rodenkirchen 4.2 (Rodenkirchen)",
+      "title3": "Rodenkirchen 4.2 St. Maternus (Rodenkirchen)",
       "description": "Erbaut 1863 - 1867 nach den Plänen von V. Statz auf dem Gelände des ehemaligen Kartäuserhofes. Dreischiffige Backstein-Hallenkirche mit eingezogenem Chor und Einturmfassade. Bei der Formensprache Rückgriff auf die Hochgotik des 13.&frasl;14. Jahrhunderts. Einziger Bauschmuck am Portal: Tympanon mit dem Hl. Maternus zwischen zwei Engeln vor einem Kölnpanorama. Türgriffbronzereliefs (innen) und Taufbeckendeckel (1978&frasl;79) von H. Kühnapfel. Madonna aus Alt-St. Maternus um 1470. Nebenliegendes, neugotisches ehemaliges Pfarrhaus um 1870.",
       "wiki": "https://de.wikipedia.org/wiki/St._Maternus_(K%C3%B6ln)",
       "info": "<li><a target=\"_blank\" href=\"http://www.bilderbuch-koeln.de/Denkmale/915\">Denkmalliste Kirche</a></li><li><a target=\"_blank\" href=\"http://www.bilderbuch-koeln.de/Denkmale/5502\">Denkmalliste ehem. Pfarrhaus</a></li>",
@@ -590,6 +634,7 @@
       "color": "#E486B9",
       "title1": "Maternus-Bildstock",
       "title2": "Rodenkirchen 4.3 (Rodenkirchen)",
+      "title3": "Rodenkirchen 4.3 Maternus-Bildstock (Rodenkirchen)",
       "description": "",
       "next": "2.4.4",
       "notes": "Hier konnten wir leider keine Infotafel mehr finden."
@@ -603,6 +648,7 @@
       "color": "#E486B9",
       "title1": "Villa Malta",
       "title2": "Rodenkirchen 4.4 (Rodenkirchen)",
+      "title3": "Rodenkirchen 4.4 Villa Malta (Rodenkirchen)",
       "description": "Erbaut 1904&frasl;5 für den ehemaligen Bürgermeister E. Steisel. Die Jugendstil-Villa von den Architektenbrüdern Schauppmeyer hat das Aussehen einer Burg. Villen im sog. Burgenstil waren beliebt. Vielansichtiger Bau: Straßenfassade mit Treppengiebel, malerische asymmetrische Staffelung der Anbauten um hohen Aussichtsturm zur Rheinseite. Hieß zuerst &quot;Villa Angonia&quot;, später &quot;Villa Maria&quot; und seit 1975 nach vorletztem Besitzer, dem Malteserorden, &quot;Villa Malta&quot;.",
       "wiki": "https://de.wikipedia.org/wiki/Villa_Malta_(K%C3%B6ln)",
       "info": "<li><a target=\"_blank\" href=\"http://www.bilderbuch-koeln.de/Denkmale/3938\">Denkmalliste</a></li>",
@@ -617,6 +663,7 @@
       "color": "#E486B9",
       "title1": "Umgebung von Alt-St. Maternus",
       "title2": "Rodenkirchen 4.5 (Rodenkirchen)",
+      "title3": "Rodenkirchen 4.5 Umgebung von Alt-St. Maternus (Rodenkirchen)",
       "description": "",
       "wiki": "https://de.wikipedia.org/wiki/Alt_St._Maternus",
       "info": "<li><a target=\"_blank\" href=\"http://www.bilderbuch-koeln.de/Denkmale/938\">Denkmalliste Kirche</a></li><li><a target=\"_blank\" href=\"http://www.bilderbuch-koeln.de/Denkmale/3434\">Denkmalliste Friedhof</a></li><li><a target=\"_blank\" href=\"https://de.wikipedia.org/wiki/Kirchstra%C3%9Fe_13_(K%C3%B6ln)\">Wikipedia</a></li><li><a target=\"_blank\" href=\"http://www.bilderbuch-koeln.de/Denkmale/3455\">Denkmalliste Wohnhaus</a></li><li><a target=\"_blank\" href=\"http://www.bilderbuch-koeln.de/Denkmale/3572\">Denkmalliste Wohn- und Geschäftshaus</a></li>",
@@ -632,6 +679,7 @@
       "color": "#E486B9",
       "title1": "Villenensemble",
       "title2": "Rodenkirchen 4.6 (Rodenkirchen)",
+      "title3": "Rodenkirchen 4.6 Villenensemble (Rodenkirchen)",
       "description": "",
       "next": "2.4.7",
       "notes": "Hier konnten wir leider keine Infotafel mehr finden und das Objekt nicht zuordnen."
@@ -645,6 +693,7 @@
       "color": "#E486B9",
       "title1": "Haus Brügelmann",
       "title2": "Rodenkirchen 4.7 (Rodenkirchen)",
+      "title3": "Rodenkirchen 4.7 Haus Brügelmann (Rodenkirchen)",
       "description": "",
       "next": "2.4.8",
       "notes": "Hier konnten wir leider keine Infotafel mehr finden und das Objekt nicht zuordnen."
@@ -658,6 +707,7 @@
       "color": "#E486B9",
       "title1": "St. Joseph",
       "title2": "Rodenkirchen 4.8 (Rodenkirchen)",
+      "title3": "Rodenkirchen 4.8 St. Joseph (Rodenkirchen)",
       "description": "1954 - 1956, letztes Werk des bekannten Kirchenarchitekten D. Böhm. Vollendung durch G. Böhm. Schlichter Backstein-Hallenbau. Blockhafte Fronttürme im Osten und Westen verweisen auf Taufbecken und Altar im Inneren. Farbverglasung in den Lichtöffnungen des Westturms von W. Teuwen, seitliche Fenster von H. Berke. Ausgrenzung eines Vorplatzes durch im Winkel ansetzende niedrige Gemeindebauten.",
       "next": "2.4.9"
     },
@@ -670,6 +720,7 @@
       "color": "#E486B9",
       "title1": "Gut Schillingsrott (Lennartzhof)",
       "title2": "Rodenkirchen 4.9 (Rodenkirchen)",
+      "title3": "Rodenkirchen 4.9 Gut Schillingsrott (Lennartzhof) (Rodenkirchen)",
       "description": "Einzige erhaltene geschlossene Hofanlage von ehemals zehn größeren Rodenkirchener Höfen. Erstnennung 1171. Vor der Säkularisation 1802 im Besitz des Kölner Stiftes St. Georg. Das heutige barocke Herrenhaus mit Straßen- und Hoffassade aus dem 18. Jahrhundert. Die Lindenbäume nehmen Bezug auf die Fensterachsen. Wappen über der Eingangstür. Wirtschaftsbauten in geschlämmtem Backstein z.Z. 1809 datiert. Seit 1972 Restaurierung durch Heinz D. Stuckmann.",
       "info": "<li><a target=\"_blank\" href=\"http://www.bilderbuch-koeln.de/Denkmale/225\">Denkmalliste</a></li>",
       "next": "2.4.10"
@@ -683,6 +734,7 @@
       "color": "#E486B9",
       "title1": "Diakonie-Dorf Michaelshoven",
       "title2": "Rodenkirchen 4.10 (Rodenkirchen)",
+      "title3": "Rodenkirchen 4.10 Diakonie-Dorf Michaelshoven (Rodenkirchen)",
       "description": "Erbaut 1955 - 1959 nach den Plänen von Dr. E. te Reh. Im Mittelpunkt die zeltförmige Erzengel-Michael-Kirche in ovaler Parkanlage, anfänglich von sechs Häusern umgeben. Die zweiflügeligen, leicht gewinkelten Flachdachbauten besitzen abwechslungsreiche Eingangslösungen, die als kommunikative Zentren dienen. Programm war naturnahes Leben in dörflicher Gemeinschaft für Flüchtlinge, Ausgebombte und Jugendliche ohne Schulabschluss, später auch für Behinderte und Senioren.",
       "wiki": "https://de.wikipedia.org/wiki/Diakonie_Michaelshoven"
     },
