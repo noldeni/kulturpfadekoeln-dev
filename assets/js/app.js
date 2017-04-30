@@ -144,7 +144,10 @@ function getInfoTextContent(feature){
   return content;
 }
 
-function showInfoText(feature){
+function showInfoText(feature, layer){
+  if (typeof layer !== 'undefined') {
+    layer.bringToFront();
+  }
   $("#info-text").html(getInfoTextContent(feature));
   $("#info-wrapper").scrollTop(0);
   toggleVisibility('info-list', 'none');
@@ -316,7 +319,7 @@ var markers = L.geoJson(null, {
       
       layer.on({
         click: function (e) {
-          showInfoText(feature);
+          showInfoText(feature, layer);
         },
         mouseover: function (e, feature) {
           // FIX this feature is unknown
