@@ -178,6 +178,8 @@ $(document).on("click", ".feature-row", function(e) {
 if ( !("ontouchstart" in window) ) {
   $(document).on("mouseover", ".feature-row", function(e) {
     highlight.clearLayers().addLayer(L.circleMarker([$(this).attr("lat"), $(this).attr("lng")], highlightStyle));
+    var layer = markers.getLayer($(this).attr("id"));
+    layer.bringToFront();
   });
 }
 
