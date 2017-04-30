@@ -31,15 +31,15 @@ function search(id, array){
 /* -------------------------------------------------------------------*/
 /* url parser ------------------------------------------------------- */
 
-//function getQueryVariable(variable) {
-//  var query = window.location.search.substring(1);
-//  var vars = query.split("&");
-//  for (var i=0;i<vars.length;i++) {
-//     var pair = vars[i].split("=");
-//     if(pair[0] == variable){return pair[1];}
-//   }
-//   return(false);
-//}
+function getQueryVariable(variable) {
+  var query = window.location.search.substring(1);
+  var vars = query.split("&");
+  for (var i=0;i<vars.length;i++) {
+     var pair = vars[i].split("=");
+     if(pair[0] == variable){return pair[1];}
+   }
+   return(false);
+}
 
 function extractHash(url){ 
   return url.substring(url.indexOf("#")+1);
@@ -126,7 +126,7 @@ function getInfoTextContent(feature){
       content += "<i>Weitere Informationen</i>:<br/><ul>";
     }
     if (feature.properties.wiki) {
-      content += "<li><a target=\"new\" href=\"" + feature.properties.wiki + "\">Wikipedia</a></li>";
+      content += "<li><a target=\"_blank\" href=\"" + feature.properties.wiki + "\">Wikipedia</a></li>";
     }
     if (feature.properties.info) {
       content += feature.properties.info;
@@ -343,6 +343,12 @@ $.getJSON("data/markers.geojson", function (data) {
   markers.addData(data);
   map.addLayer(markerLayer);
 });
+if (getQueryVariable('test') != false) {
+  $.getJSON("data/markers_test.geojson", function (data) {
+    markers.addData(data);
+    map.addLayer(markerLayer);
+  });
+}
 
 map = L.map("map", {
   layers: [mapnik, tracks, buildings, highlight, markers],
@@ -375,7 +381,7 @@ var attributionControl = L.control({
 });
 attributionControl.onAdd = function (map) {
   var div = L.DomUtil.create("div", "leaflet-control-attribution");
-  div.innerHTML = "<span class='hidden-xs'>Entwickelt von <a target=\"new\" href='http://codefor.de/koeln/'>OK Lab Köln</a> | </span><a href='#' onclick='$(\"#attributionModal\").modal(\"show\"); return false;'>Beitragende</a>";
+  div.innerHTML = "<span class='hidden-xs'>Entwickelt von <a target=\"_blank\" href='http://codefor.de/koeln/'>OK Lab Köln</a> | </span><a href='#' onclick='$(\"#attributionModal\").modal(\"show\"); return false;'>Beitragende</a>";
   return div;
 };
 map.addControl(attributionControl);
