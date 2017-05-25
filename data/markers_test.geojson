@@ -70,6 +70,247 @@
   {
     "type": "Feature",
     "properties": {
+      "id": "3.?.1",
+      "color": "#3300ff",
+      "title1": "St. Vitalis und Pfarrhaus",
+      "title2": "Lindenthal ?.1 (Müngersdorf)",
+      "title3": "Lindenthal ?.1 St. Vitalis und Pfarrhaus (Müngersdorf)",
+      "description": "1889/90 wurde die heutige Kirche, eine der ersten neuromanischen Kirchen Kölns, nach Plänen des Architekten Theodor Kremer errichtet. Neben der Kirche befindet sich das 1880 als Backsteinbau errichtete Pfarrhaus.",
+      "notes": "TESTMODUS"
+    },
+    "geometry": { "type": "Point", "coordinates": [ 6.87951744, 50.9399976 ]}
+  },
+  {
+    "type": "Feature",
+    "properties": {
+      "id": "3.?.2",
+      "color": "#3300ff",
+      "title1": "Kirchenhof",
+      "title2": "Lindenthal ?.2 (Müngersdorf)",
+      "title3": "Lindenthal ?.2 Kirchenhof (Müngersdorf)",
+      "description": "Von 1261 bis 1803 gehörte der Kirchenhof zu den Besitztümern der Zisterzienser-Abtei Altenberg.Das Herrenhaus mit Schopfwalmdach, dessen Inneres fast unverändert erhalten ist, datiert aus dem Jahr 1774. Nach der Säkularisation (1803) kam der Hof in Privatbesitz.",
+      "notes": "TESTMODUS"
+    },
+    "geometry": { "type": "Point", "coordinates": [ 6.87985995, 50.9394463 ]}
+  },
+  {
+    "type": "Feature",
+    "properties": {
+      "id": "3.?.3",
+      "color": "#3300ff",
+      "title1": "Haus Fenger-Schöngen",
+      "title2": "Lindenthal ?.3 (Müngersdorf)",
+      "title3": "Lindenthal ?.3 Haus Fenger-Schöngen (Müngersdorf)",
+      "description": "Die ursprünglich in Fachwerk und Backstein errichtete Anlage stammt aus dem 19. Jahrhundert.",
+      "notes": "TESTMODUS"
+    },
+    "geometry": { "type": "Point", "coordinates": [ 6.87863688, 50.9399296 ]}
+  },
+  {
+    "type": "Feature",
+    "properties": {
+      "id": "3.?.4",
+      "color": "#3300ff",
+      "title1": "Marienhof",
+      "title2": "Lindenthal ?.4 (Müngersdorf)",
+      "title3": "Lindenthal ?.4 Marienhof (Müngersdorf)",
+      "description": "Der traufständige Backsteinbau ist das Herrenhaus des ehemaligen  Petershofes, der in früheren Urkunden auch Marienhof oder Liebfrauenhof genannt wird. Das spätbarocke Herrenhaus datiert von 1792.",
+      "notes": "TESTMODUS"
+    },
+    "geometry": { "type": "Point", "coordinates": [ 6.87878, 50.94042 ]}
+  },
+  {
+    "type": "Feature",
+    "properties": {
+      "id": "3.?.5",
+      "color": "#3300ff",
+      "title1": "Stadtvillen",
+      "title2": "Lindenthal ?.5 (Müngersdorf)",
+      "title3": "Lindenthal ?.5 Stadtvillen (Müngersdorf)",
+      "description": "In direkter Nachbarschaft von kleinen Wohnhäusern und großen Hofanlagen entstanden Anfang des 20. Jahrhunderts die Häuser Belvederestraße 20, 22 und 24, aber auch andere Stadtvillen im alten Ortskern.",
+      "notes": "TESTMODUS"
+    },
+    "geometry": { "type": "Point", "coordinates": [ 6.8777001, 50.9410432 ]}
+  },
+  {
+    "type": "Feature",
+    "properties": {
+      "id": "3.?.6",
+      "color": "#3300ff",
+      "title1": "Petershof",
+      "title2": "Lindenthal ?.6 (Müngersdorf)",
+      "title3": "Lindenthal ?.6 Petershof (Müngersdorf)",
+      "description": "Die in Backstein errichtete geschlossene Hofanlage wurde 1896 errichtet. Seit 1926 gehört der Hof der Stadt Köln und beherbergt seit 1945 eine städtische Kindertagesstätte.",
+      "notes": "TESTMODUS"
+    },
+    "geometry": { "type": "Point", "coordinates": [ 6.87737703, 50.9405283 ]}
+  },
+  {
+    "type": "Feature",
+    "properties": {
+      "id": "3.?.7",
+      "color": "#3300ff",
+      "title1": "Haus Josef Haubrich",
+      "title2": "Lindenthal ?.7 (Müngersdorf)",
+      "title3": "Lindenthal ?.7 Haus Josef Haubrich (Müngersdorf)",
+      "description": "Dieses markante Wohnhaus erbaute Wilhelm Riphahn in den Jahren 1951/52 im Bauhaus-Stil der 1920er-Jahre für den bedeutenden Kölner Rechtsanwalt und Kunstsammler Josef Haubrich (1889 bis 1961).",
+      "notes": "TESTMODUS"
+    },
+    "geometry": { "type": "Point", "coordinates": [ 6.87543, 50.93993 ]}
+  },
+  {
+    "type": "Feature",
+    "properties": {
+      "id": "3.?.8",
+      "color": "#3300ff",
+      "title1": "Pesche Hüsje",
+      "title2": "Lindenthal ?.8 (Müngersdorf)",
+      "title3": "Lindenthal ?.8 Pesche Hüsje (Müngersdorf)",
+      "description": "Fachwerkhäuser dieser Bauweise und Größe, in denen hauptsächlich Landarbeiter und Handwerker wohnten, waren einst ortsprägend für Müngersdorf. Errichtet wurde das &quot;Pesche Hüsje&quot; entweder um 1640 oder um 1710. Damit gehört es zu den ältesten Wohnhäusern Kölns.",
+      "notes": "TESTMODUS"
+    },
+    "geometry": { "type": "Point", "coordinates": [ 6.87538, 50.94181 ]}
+  },
+  {
+    "type": "Feature",
+    "properties": {
+      "id": "3.?.9",
+      "color": "#3300ff",
+      "title1": "?",
+      "title2": "Lindenthal ?.9 (Müngersdorf)",
+      "title3": "Lindenthal ?.9 ? (Müngersdorf)",
+      "description": "1958/59 baute der Architekt Oswald Mathias Ungers (1926 bis 2007) sein Wohnhaus mit zwei Einliegerwohnungen und einem Büro. Zur Quadrather Straße schließt sich seit 1990 der Bibliothekskubus aus Basaltlava an. Hier befindet sich das &quot;Ungers Archiv für Architekturwissenschaft (UAA)&quot;. ",
+      "notes": "TESTMODUS"
+    },
+    "geometry": { "type": "Point", "coordinates": [ 6.87504, 50.94264 ]}
+  },
+  {
+    "type": "Feature",
+    "properties": {
+      "id": "3.?.10",
+      "color": "#3300ff",
+      "title1": "?",
+      "title2": "Lindenthal ?.10 (Müngersdorf)",
+      "title3": "Lindenthal ?.10 ? (Müngersdorf)",
+      "description": "1994 bis 96 errichtete Oswald Mathias Ungers hier für sich sein letztes Wohnhaus als architektonisches Manifest. Heute ist das Haus Sitz der &quot;Dr. Speck Literaturstiftung&quot;.",
+      "notes": "TESTMODUS"
+    },
+    "geometry": { "type": "Point", "coordinates": [ 6.87297, 50.94315 ]}
+  },
+  {
+    "type": "Feature",
+    "properties": {
+      "id": "3.?.11",
+      "color": "#3300ff",
+      "title1": "?",
+      "title2": "Lindenthal ?.11 (Müngersdorf)",
+      "title3": "Lindenthal ?.11 ? (Müngersdorf)",
+      "description": "Der Architekt Theodor Edwin Merrill errichtete dieses Wohnhaus mit zwei Ateliers 1929 für die Bildhauerin Hildegard Domizlaff (1898 bis 1987) und die Malerin Helen Wiehen.",
+      "notes": "TESTMODUS"
+    },
+    "geometry": { "type": "Point", "coordinates": [ 6.87329, 50.94416 ]}
+  },
+  {
+    "type": "Feature",
+    "properties": {
+      "id": "3.?.12",
+      "color": "#3300ff",
+      "title1": "Bahnhof Belvedere",
+      "title2": "Lindenthal ?.12 (Müngersdorf)",
+      "title3": "Lindenthal ?.12 Bahnhof Belvedere (Müngersdorf)",
+      "description": "Der am 2. August 1839 eröffnete Bahnhof Belvedere, heute das älteste erhaltene Bahnhofsgebäude Deutschlands, ist die erste Station der weltweit ältes-ten grenzüberschreitenden Eisenbahnstrecke Köln\u2013Antwerpen.",
+      "notes": "TESTMODUS"
+    },
+    "geometry": { "type": "Point", "coordinates": [ 6.87161, 50.94699 ]}
+  },
+  {
+    "type": "Feature",
+    "properties": {
+      "id": "3.?.13",
+      "color": "",
+      "title1": "Haus Gerhard Marcks ",
+      "title2": "Lindenthal ?.13 (Müngersdorf)",
+      "title3": "Lindenthal ?.13 Haus Gerhard Marcks  (Müngersdorf)",
+      "description": "Dies war das Wohn- und Atelierhaus des Bildhauers und Bauhausmeisters Gerhard Marcks (1889 bis1981), das 1948/50 von Wilhelm Riphahn errichtet wurde. "
+    },
+    "geometry": { "type": "Point", "coordinates": [ 6.86926603, 50.9469639 ]}
+  },
+  {
+    "type": "Feature",
+    "properties": {
+      "id": "3.?.14",
+      "color": "",
+      "title1": "Freiluga / Zwischenwerk Va",
+      "title2": "Lindenthal ?.14 (Müngersdorf)",
+      "title3": "Lindenthal ?.14 Freiluga / Zwischenwerk Va (Müngersdorf)",
+      "description": "Auf dem Gelände des Zwischenwerks Va des ehemaligen preußischen Festungsrings entstand auf Initiative des Stadtschulrats Fritz Schu im  Jahr 1925 die Städtische Freiluft- und Gartenarbeitsschule (Freiluga)."
+    },
+    "geometry": { "type": "Point", "coordinates": [ 6.86927, 50.94828 ]}
+  },
+  {
+    "type": "Feature",
+    "properties": {
+      "id": "3.?.15",
+      "color": "",
+      "title1": "Schule",
+      "title2": "Lindenthal ?.15 (Müngersdorf)",
+      "title3": "Lindenthal ?.15 Schule (Müngersdorf)",
+      "description": "Der mächtige Putzbau mit Backstein- und Fachwerkgliederungen ist in  seiner Architektur an den &quot;romantisch&quot; gruppierten spätmittelalterlichen Burgenbau angelehnt."
+    },
+    "geometry": { "type": "Point", "coordinates": [ 6.87968, 50.94102 ]}
+  },
+  {
+    "type": "Feature",
+    "properties": {
+      "id": "3.?.16",
+      "color": "",
+      "title1": "Hof &quot;Im St.\u00a0Wendelin&quot;",
+      "title2": "Lindenthal ?.16 (Müngersdorf)",
+      "title3": "Lindenthal ?.16 Hof &quot;Im St.\u00a0Wendelin&quot; (Müngersdorf)",
+      "description": "Dieses zweigeschossige Fachwerk-gebäude aus dem Anfang des 18. Jahrhunderts gehört zu den ältesten erhaltenen Gebäuden in Müngersdorf und wurde schon früh als Bauernschänke und Pferdetränke genutzt. "
+    },
+    "geometry": { "type": "Point", "coordinates": [ 6.8791, 50.94143 ]}
+  },
+  {
+    "type": "Feature",
+    "properties": {
+      "id": "3.?.17",
+      "color": "",
+      "title1": "Hermannshof / Hofgut Hartzheim ",
+      "title2": "Lindenthal ?.17 (Müngersdorf)",
+      "title3": "Lindenthal ?.17 Hermannshof / Hofgut Hartzheim  (Müngersdorf)",
+      "description": "Um 1870 ließ Heinrich Hartzheim den Hof in Backstein als geschlossene Hofanlage neu erbauen. "
+    },
+    "geometry": { "type": "Point", "coordinates": [ 6.87912708, 50.9419348 ]}
+  },
+  {
+    "type": "Feature",
+    "properties": {
+      "id": "3.?.18",
+      "color": "",
+      "title1": "Gashäuser",
+      "title2": "Lindenthal ?.18 (Müngersdorf)",
+      "title3": "Lindenthal ?.18 Gashäuser (Müngersdorf)",
+      "description": "Acht Gebäudeeinheiten wurden in unterschiedlicher Komposition aus Backsteinmauerwerk, gelben und roten Klinkern, verputzten Wandstücken und Fachwerk zusammengefügt."
+    },
+    "geometry": { "type": "Point", "coordinates": [ 6.88546, 50.94693 ]}
+  },
+  {
+    "type": "Feature",
+    "properties": {
+      "id": "3.?.?",
+      "color": "#3300ff",
+      "title1": "Wohnhaus Heinrich Böll",
+      "title2": "Lindenthal ?.? (Müngersdorf)",
+      "title3": "Lindenthal ?.? Wohnhaus Heinrich Böll (Müngersdorf)",
+      "description": "",
+      "notes": "TESTMODUS"
+    },
+    "geometry": { "type": "Point", "coordinates": [ 6.87616736, 50.9415779 ]}
+  },
+  {
+    "type": "Feature",
+    "properties": {
       "id": "7.1.1",
       "color": "#FFF200",
       "title1": "Urbanuskreuz",
