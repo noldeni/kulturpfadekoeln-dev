@@ -27,6 +27,14 @@ function search(id, array){
   return false;
 }
 
+function showAttribution(){
+  document.getElementById("attribution-nav").click();  
+}
+
+$('.modal-toggle').click(function (e) {
+    var tab = e.target.hash; 
+    $('li > a[href="' + tab + '"]').tab("show");
+});
 
 /* -------------------------------------------------------------------*/
 /* url parser ------------------------------------------------------- */
@@ -108,7 +116,8 @@ function getInfoTextContent(feature){
     content += "\
 <b>Herzlich Wilkommen!</b><br/>\
 <p>Die Kulturpfade Köln sind eine Reihe von Rad- bzw. Wanderwegen im Kölner Stadtgebiet. Die Pfade sind mit Informationstafeln aufbereitet und führen an sehenswürdigen Plätzen und Gebäuden entlang.</p>\
-<p>Allerdings ist der Weg nicht ausgeschildert und einige Informationstafeln existieren nicht mehr. Daher soll diese Seite die Routen vervollständigen und in einer nutzbaren Form darstellen.</p>";
+<p>Allerdings ist der Weg nicht ausgeschildert und einige Informationstafeln existieren nicht mehr. Daher soll diese Seite die Informationen vervollständigen und in einer nutzbaren Form darstellen.</p>\
+<br/><i><a onclick=\"showAttribution();\" href=\"#\">Quellen/Beitragende<a></i>";
   } else {
     content += "<b>" + feature.properties.title1 + "</b> - " + feature.properties.title2 + "<br/>";
      
@@ -138,8 +147,8 @@ function getInfoTextContent(feature){
       content += "<br/><br/>";
     }
     if (feature.properties.next) {
-      content += "Zum <a href=\"#\" accesskey=\"n\" onclick=\"jumpToInfo('" + feature.properties.next + "')\">nächsten</a> Routenpunkt.";
-    }   
+      content += "Zur <a href=\"#\" accesskey=\"n\" onclick=\"jumpToInfo('" + feature.properties.next + "')\">nächsten</a> Station.";
+    } 
   }
   return content;
 }
@@ -386,7 +395,7 @@ var attributionControl = L.control({
 });
 attributionControl.onAdd = function (map) {
   var div = L.DomUtil.create("div", "leaflet-control-attribution");
-  div.innerHTML = "<span class='hidden-xs'>Entwickelt von <a target=\"_blank\" href='http://codefor.de/koeln/'>OK Lab Köln</a> | </span><a href='#' onclick='$(\"#attributionModal\").modal(\"show\"); return false;'>Beitragende</a>";
+  div.innerHTML = "<span class='hidden-xs'>Entwickelt im <a target=\"_blank\" href='http://codefor.de/koeln/'>OK Lab Köln</a> | </span><a onclick=\"showAttribution();\" href=\"#\">Beitragende</a>";
   return div;
 };
 map.addControl(attributionControl);
@@ -436,7 +445,7 @@ var groupedOverlays = {
     "Stadtbezirke": boroughs,
   },
   "Kulturpfade": {
-    "Routen": tracks,
+    "Pfade": tracks,
     "Gebäude": buildings
   }
 };

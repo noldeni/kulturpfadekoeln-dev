@@ -43,7 +43,7 @@
       </div>
       <div class="navbar-collapse collapse">
         <ul class="nav navbar-nav">
-          <li><a href="#" data-toggle="collapse" data-target=".navbar-collapse.in" id="about-btn"><i class="fa fa-question-circle white"></i>&nbsp;&nbsp;About</a></li>
+          <li><a href="#about" class="modal-toggle" data-toggle="collapse" data-target=".navbar-collapse.in" id="about-btn"><i class="fa fa-question-circle white"></i>&nbsp;&nbsp;Info</a></li>
           <li class="dropdown">
             <a id="toolsDrop" href="#" role="button" class="dropdown-toggle" data-toggle="dropdown"><i class="fa fa-globe white"></i>&nbsp;&nbsp;Tools <b class="caret"></b></a>
             <ul class="dropdown-menu">
@@ -51,6 +51,7 @@
             </ul>
           </li>
           <li class="hidden-xs"><a href="#" data-toggle="collapse" data-target=".navbar-collapse.in" id="list-btn"><i class="fa fa-list white"></i>&nbsp;&nbsp;Übersicht</a></li>
+          <li class="hidden"><a id="attribution-nav" href="#attribution" class="modal-toggle" data-toggle="modal" data-target="#aboutModal">Quellen</a></li>
         </ul>
       </div>
     </div>
@@ -95,12 +96,13 @@
           <ul class="nav nav-tabs nav-justified" id="aboutTabs">
             <li class="active"><a href="#about" data-toggle="tab"><i class="fa fa-question-circle"></i>&nbsp;Info</a></li>
             <li><a href="#disclaimer" data-toggle="tab"><i class="fa fa-exclamation-circle"></i>&nbsp;Disclaimer</a></li>
+            <li><a href="#attribution" data-toggle="tab"><i class="fa fa-globe"></i>&nbsp;Quellen/Beitragende</a></li>
             <li class="dropdown">
               <a href="#" class="dropdown-toggle" data-toggle="dropdown"><i class="fa fa-globe"></i>&nbsp;Metadata <b class="caret"></b></a>
               <ul class="dropdown-menu">
                 <li><a href="#boroughs-tab" data-toggle="tab">Stadtbezirke</a></li>
                 <li><a href="#markers-tab" data-toggle="tab">Infotafeln</a></li>
-                <li><a href="#tracks-tab" data-toggle="tab">Routen</a></li>
+                <li><a href="#tracks-tab" data-toggle="tab">Pfade</a></li>
                 <li><a href="#buildings-tab" data-toggle="tab">Gebäude</a></li>
               </ul>
             </li>
@@ -110,10 +112,10 @@
               <p><i>Interaktive Karte der Kulturpfade Köln</i></p>
                 
               <p>Die Kulturpfade Köln sind eine Reihe von Rad- bzw. Wanderwegen im Kölner Stadtgebiet. Die Pfade sind mit Informationstafeln aufbereitet und führen an sehenswürdigen Plätzen und Gebäuden entlang.</p>
-              <p>Allerdings ist der Weg nicht ausgeschildert und einige Informationstafeln existieren nicht mehr. Daher soll diese Seite die Routen vervollständigen und in einer nutzbaren Form darstellen.</p>
+              <p>Allerdings ist der Weg nicht ausgeschildert und einige Informationstafeln existieren nicht mehr. Daher soll diese Seite die Informationen vervollständigen und in einer nutzbaren Form darstellen.</p>
                 
               <p>Erstellt wurde das Projekt im <a target="new" href="http://codefor.de/koeln/">OK Lab Köln</a>, einer Initiative, die an nützlichen Anwendungen rund um Offene Daten arbeit.
-              Wer interessiert ist, kann auf <a target="_blank" href="http://www.meetup.com/OKLab-Koln-Meetup">meetup</a> oder <a target="_blank" href="https://github.com/chfinke/kulturpfadekoeln">github</a> mitmachen.</p>
+              Wer interessiert ist, kann auf <a target="_blank" href="http://www.meetup.com/OKLab-Koln-Meetup">meetup</a> oder <a target="_blank" href="https://github.com/chfinke/kulturpfadekoeln">github</a> mitmachen.</p>              
             </div>
             <div id="disclaimer" class="tab-pane fade text-danger">
               <p>
@@ -141,6 +143,35 @@
                 <strong>Quelle</strong>: <a target="_blank" href="https://www.mustervorlage.net/homepage-kostenlos">Disclaimer und Websites erstellen</a>
               </p>
             </div>
+            <div class="tab-pane fade" id="attribution">
+              <h4>
+                Entwicket im <a target="_blank" href='https://codefor.de/koeln/'>OK Lab Köln</a>
+              </h4>
+              <a target="_blank" href="https://github.com/chfinke/kulturpfadekoeln/">github</a>
+              
+              <h4>Beitragende</h4>
+              <h5>technisch:</h5>
+              <ul>
+                <li/><a target="_blank" href="https://github.com/bmcbride/bootleaf">Bootleaf</a>
+                <li/><a target="_blank" href="http://leafletjs.com/">Leaflet</a>
+                <li/><a target="_blank" href="http://getbootstrap.com/">Bootstrap 3</a>
+                <li/><a target="_blank" href="http://www.walterzorn.de/tooltip/tooltip.htm">wz_tooltip</a>
+              </ul>
+              <h5>inhaltlich:</h5>
+              <ul>
+                <li/><a target="_blank" href="http://www.openstreetmap.org/copyright">OpenStreetMap</a>
+                <li/><a target="_blank" href="https://commons.wikimedia.org">Wikimedia Commons</a>
+                <ul>
+                  <li/><a target="_blank" href="https://de.wikipedia.org/wiki/Kulturpfad_Porz">Kulturpfade Porz</a>
+                  <li/>...
+                </ul>
+                <li/><a target="_blank" href="http://www.offenedaten-koeln.de/">Offene Daten Köln</a>
+                <ul>
+                  <li/><a target="_blank" href="https://www.offenedaten-koeln.de/dataset/stadtbezirke-k%C3%B6ln">Stadtbezirke</a>
+                </ul>
+                <li/>...
+              </ul>
+            </div>
             <div class="tab-pane fade" id="boroughs-tab">
               <p>Die Stadtbezirke sind aus der Initiative <a target="_blank" href="https://www.offenedaten-koeln.de/">Offene Daten Köln</a> entnommen und angepasst.</p>
               Daten herunterladen:<br/>
@@ -152,11 +183,11 @@
               <a target="_blank" href="./data/markers.geojson">alle Infotafeln</a> [geojson]
             </div>
             <div class="tab-pane fade" id="tracks-tab">
-              <p>Anhand der Infotafeln wurden die Routen nachgebildet und aus <a target="_blank" href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> übernommen.</p>
+              <p>Anhand der Infotafeln wurden die Pfade nachgebildet und aus <a target="_blank" href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> übernommen.</p>
               Daten herunterladen:<br/>
-              <a target="_blank" href="./data/tracks.geojson">Alle Routen</a> [geojson]<br/>
-              <a target="_blank" href="./data/trackRodenkirchen4.gpx">Route Rodenkirchen 4</a> [gpx]<br/>
-              <a target="_blank" href="./data/trackPorz3.gpx">Route Porz 3</a> [gpx]
+              <a target="_blank" href="./data/tracks.geojson">Alle Pfade</a> [geojson]<br/>
+              <a target="_blank" href="./data/trackRodenkirchen4.gpx">Pfad Rodenkirchen 4</a> [gpx]<br/>
+              <a target="_blank" href="./data/trackPorz3.gpx">Pfad Porz 3</a> [gpx]
             </div>
             <div class="tab-pane fade" id="buildings-tab">
               <p>Anhand der Infotafeln wurden die Gebäude identifiziert und aus <a target="_blank" href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> übernommen.</p>
@@ -171,35 +202,7 @@
       </div>
     </div>
   </div>
-  
-  <!-- attribution modal -->
-  <div class="modal fade" id="attributionModal" tabindex="-1" role="dialog">
-    <div class="modal-dialog">
-      <div class="modal-content">
-        <div class="modal-header">
-          <button class="close" type="button" data-dismiss="modal" aria-hidden="true">&times;</button>
-          <h4 class="modal-title">
-            Entwicket von <a target="_blank" href='https://codefor.de/koeln/'>OK Lab Köln</a>
-          </h4>
-          <a target="_blank" href="https://github.com/chfinke/kulturpfadekoeln/">github</a>
-        </div>
-        <div class="modal-body">
-          <h4>Beitragende</h4>
-            <h5>technisch:</h5>
-              <a target="_blank" href="https://github.com/bmcbride/bootleaf">Bootleaf</a>, 
-              <a target="_blank" href="http://leafletjs.com/">Leaflet</a>, 
-              <a target="_blank" href="http://getbootstrap.com/">Bootstrap 3</a>, 
-              <a target="_blank" href="http://www.walterzorn.de/tooltip/tooltip.htm">wz_tooltip</a>
-            <h5>inhaltlich:</h5>
-              <a target="_blank" href="http://www.openstreetmap.org/copyright">OpenStreetMap</a>, 
-              <a target="_blank" href="https://commons.wikimedia.org">Wikimedia Commons</a>, 
-              <a target="_blank" href="http://www.offenedaten-koeln.de/">Offene Daten Köln</a>, 
-              ...
-        </div>
-      </div>
-    </div>
-  </div>
-  
+    
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
   <script>window.jQuery || document.write('<script src="https://getbootstrap.com/assets/js/vendor/jquery.min.js"><\/script>')</script>
   <script src="./assets/js/bootstrap.min.js"></script>
