@@ -334,13 +334,12 @@ var markers = L.geoJson(null, {
         click: function (e) {
           showInfoText(feature, layer);
         },
-        mouseover: function (e, feature) {
-          // FIX this feature is unknown
-          //var title = content += "<b>" + feature.properties.title1 + "</b> - " + feature.properties.title2;
-          //Tip(title);
+        mouseover: function (e) {
+          var title = "<b>" + feature.properties.title1 + "</b> - " + feature.properties.title2;
+          Tip(title);
         },
         mouseout: function (e) {
-          //UnTip();
+          UnTip();
         }
       });
             
