@@ -57,19 +57,6 @@
   {
     "type": "Feature",
     "properties": {
-      "id": "3..",
-      "color": "#3300ff",
-      "title1": "Rodenkirchen #5",
-      "title2": "Lindenthal . ()",
-      "title3": "Lindenthal . Rodenkirchen #5 ()",
-      "description": "",
-      "notes": "TESTMODUS"
-    },
-    "geometry": { "type": "Point", "coordinates": [ 6.8908092, 50.9118139 ]}
-  },
-  {
-    "type": "Feature",
-    "properties": {
       "id": "3.?.1",
       "color": "#3300ff",
       "title1": "St. Vitalis und Pfarrhaus",
@@ -179,7 +166,7 @@
       "title1": "?",
       "title2": "Lindenthal ?.9 (Müngersdorf)",
       "title3": "Lindenthal ?.9 ? (Müngersdorf)",
-      "description": "1958/59 baute der Architekt Oswald Mathias Ungers (1926 bis 2007) sein Wohnhaus mit zwei Einliegerwohnungen und einem Büro. Zur Quadrather Straße schließt sich seit 1990 der Bibliothekskubus aus Basaltlava an. Hier befindet sich das &quot;Ungers Archiv für Architekturwissenschaft (UAA)&quot;. ",
+      "description": "1958/59 baute der Architekt Oswald Mathias Ungers (1926 bis 2007) sein Wohnhaus mit zwei Einliegerwohnungen und einem Büro. Zur Quadrather Straße schließt sich seit 1990 der Bibliothekskubus aus Basaltlava an. Hier befindet sich das &quot;Ungers Archiv für Architekturwissenschaft (UAA)&quot;.",
       "notes": "TESTMODUS"
     },
     "geometry": { "type": "Point", "coordinates": [ 6.87504, 50.94264 ]}
@@ -226,78 +213,6 @@
   {
     "type": "Feature",
     "properties": {
-      "id": "3.?.13",
-      "color": "",
-      "title1": "Haus Gerhard Marcks ",
-      "title2": "Lindenthal ?.13 (Müngersdorf)",
-      "title3": "Lindenthal ?.13 Haus Gerhard Marcks  (Müngersdorf)",
-      "description": "Dies war das Wohn- und Atelierhaus des Bildhauers und Bauhausmeisters Gerhard Marcks (1889 bis1981), das 1948/50 von Wilhelm Riphahn errichtet wurde. "
-    },
-    "geometry": { "type": "Point", "coordinates": [ 6.86926603, 50.9469639 ]}
-  },
-  {
-    "type": "Feature",
-    "properties": {
-      "id": "3.?.14",
-      "color": "",
-      "title1": "Freiluga / Zwischenwerk Va",
-      "title2": "Lindenthal ?.14 (Müngersdorf)",
-      "title3": "Lindenthal ?.14 Freiluga / Zwischenwerk Va (Müngersdorf)",
-      "description": "Auf dem Gelände des Zwischenwerks Va des ehemaligen preußischen Festungsrings entstand auf Initiative des Stadtschulrats Fritz Schu im  Jahr 1925 die Städtische Freiluft- und Gartenarbeitsschule (Freiluga)."
-    },
-    "geometry": { "type": "Point", "coordinates": [ 6.86927, 50.94828 ]}
-  },
-  {
-    "type": "Feature",
-    "properties": {
-      "id": "3.?.15",
-      "color": "",
-      "title1": "Schule",
-      "title2": "Lindenthal ?.15 (Müngersdorf)",
-      "title3": "Lindenthal ?.15 Schule (Müngersdorf)",
-      "description": "Der mächtige Putzbau mit Backstein- und Fachwerkgliederungen ist in  seiner Architektur an den &quot;romantisch&quot; gruppierten spätmittelalterlichen Burgenbau angelehnt."
-    },
-    "geometry": { "type": "Point", "coordinates": [ 6.87968, 50.94102 ]}
-  },
-  {
-    "type": "Feature",
-    "properties": {
-      "id": "3.?.16",
-      "color": "",
-      "title1": "Hof &quot;Im St.\u00a0Wendelin&quot;",
-      "title2": "Lindenthal ?.16 (Müngersdorf)",
-      "title3": "Lindenthal ?.16 Hof &quot;Im St.\u00a0Wendelin&quot; (Müngersdorf)",
-      "description": "Dieses zweigeschossige Fachwerk-gebäude aus dem Anfang des 18. Jahrhunderts gehört zu den ältesten erhaltenen Gebäuden in Müngersdorf und wurde schon früh als Bauernschänke und Pferdetränke genutzt. "
-    },
-    "geometry": { "type": "Point", "coordinates": [ 6.8791, 50.94143 ]}
-  },
-  {
-    "type": "Feature",
-    "properties": {
-      "id": "3.?.17",
-      "color": "",
-      "title1": "Hermannshof / Hofgut Hartzheim ",
-      "title2": "Lindenthal ?.17 (Müngersdorf)",
-      "title3": "Lindenthal ?.17 Hermannshof / Hofgut Hartzheim  (Müngersdorf)",
-      "description": "Um 1870 ließ Heinrich Hartzheim den Hof in Backstein als geschlossene Hofanlage neu erbauen. "
-    },
-    "geometry": { "type": "Point", "coordinates": [ 6.87912708, 50.9419348 ]}
-  },
-  {
-    "type": "Feature",
-    "properties": {
-      "id": "3.?.18",
-      "color": "",
-      "title1": "Gashäuser",
-      "title2": "Lindenthal ?.18 (Müngersdorf)",
-      "title3": "Lindenthal ?.18 Gashäuser (Müngersdorf)",
-      "description": "Acht Gebäudeeinheiten wurden in unterschiedlicher Komposition aus Backsteinmauerwerk, gelben und roten Klinkern, verputzten Wandstücken und Fachwerk zusammengefügt."
-    },
-    "geometry": { "type": "Point", "coordinates": [ 6.88546, 50.94693 ]}
-  },
-  {
-    "type": "Feature",
-    "properties": {
       "id": "3.?.?",
       "color": "#3300ff",
       "title1": "Wohnhaus Heinrich Böll",
@@ -307,6 +222,19 @@
       "notes": "TESTMODUS"
     },
     "geometry": { "type": "Point", "coordinates": [ 6.87616736, 50.9415779 ]}
+  },
+  {
+    "type": "Feature",
+    "properties": {
+      "id": "3..",
+      "color": "#3300ff",
+      "title1": "Rodenkirchen #5",
+      "title2": "Lindenthal . ()",
+      "title3": "Lindenthal . Rodenkirchen #5 ()",
+      "description": "",
+      "notes": "TESTMODUS"
+    },
+    "geometry": { "type": "Point", "coordinates": [ 6.8908092, 50.9118139 ]}
   },
   {
     "type": "Feature",

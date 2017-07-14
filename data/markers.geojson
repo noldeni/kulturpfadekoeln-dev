@@ -12,9 +12,153 @@
       "title3": "Rodenkirchen 2.7 Südfriedhof (Zollstock)",
       "description": "1901 eröffnet. Entwurf von A. Kowallek. Die landschaftliche Anlage mit Rundwegen und abwechlungsreichen Baum- und Gehölzgruppen ist ein Beispiel für den Stil des Historismus.<br/>Darin ein englischer, ein italienischer und ein deutscher Ehrenfriedhof, bedeutende Grabstätten von 1900 - 1940 und ein Hochkreuz. Die Einfriedung sowie die oktogonale Trauerkapelle sind 1905 - 1918 nach den Entwürfen von F. Bolte im neuromantischen Stil erbaut.",
       "wiki": "https://de.wikipedia.org/wiki/S%C3%BCdfriedhof_%28K%C3%B6ln%29",
-      "info": "<li><a target=\"_blank\" href=\"http://www.bilderbuch-koeln.de/Denkmale/201\">Denkmalliste</a></li>"
+      "info": "<li><a target=\"_blank\" href=\"http://www.bilderbuch-koeln.de/Denkmale/201\">Denkmalliste</a></li>",
+      "notes": "Hier ist der Pfad noch nicht komplett erfasst."
     },
     "geometry": { "type": "Point", "coordinates": [ 6.943946560809015, 50.90067522526192 ]}
+  },
+  {
+    "type": "Feature",
+    "properties": {
+      "id": "2.4.1",
+      "color": "#E486B9",
+      "title1": "Autobahnbrücke",
+      "title2": "Rodenkirchen 4.1 (Rodenkirchen)",
+      "title3": "Rodenkirchen 4.1 Autobahnbrücke (Rodenkirchen)",
+      "description": "Errichtet 1938 - 1941 durch P. Bonatz und F. Leonhardt im Zuge des Kölner Autobahnrings. Erste echte erdverankerte Kabelhängebrücke mit einer Mittelstützweite vom 378 m, seinerzeit weitestgespannte Hängebrücke Europas. Hauptmerkmale: monumentale Torsituation am Naturstein-Brückenkopf, Schlankheit der horizontalen Versteifungsträger, Spannweitenverhältnis zwischen den Trägern un den sie einrahmenden portalartigen Pylonen. 1945 Sprengung, 1952 - 1954 getreuer Wiederaufbau. Ab 1990 Verbreiterung der Brücke durch einen Zwillingsbau an der Nordseite.",
+      "wiki": "https://de.wikipedia.org/wiki/Rheinbr%C3%BCcke_K%C3%B6ln-Rodenkirchen",
+      "info": "<li><a target=\"_blank\" href=\"http://www.bilderbuch-koeln.de/Denkmale/7837\">Denkmalliste</a></li>",
+      "next": "2.4.2"
+    },
+    "geometry": { "type": "Point", "coordinates": [ 6.988880587942347, 50.89773318249941 ]}
+  },
+  {
+    "type": "Feature",
+    "properties": {
+      "id": "2.4.2",
+      "color": "#E486B9",
+      "title1": "St. Maternus",
+      "title2": "Rodenkirchen 4.2 (Rodenkirchen)",
+      "title3": "Rodenkirchen 4.2 St. Maternus (Rodenkirchen)",
+      "description": "Erbaut 1863 - 1867 nach den Plänen von V. Statz auf dem Gelände des ehemaligen Kartäuserhofes. Dreischiffige Backstein-Hallenkirche mit eingezogenem Chor und Einturmfassade. Bei der Formensprache Rückgriff auf die Hochgotik des 13.&frasl;14. Jahrhunderts. Einziger Bauschmuck am Portal: Tympanon mit dem Hl. Maternus zwischen zwei Engeln vor einem Kölnpanorama. Türgriffbronzereliefs (innen) und Taufbeckendeckel (1978&frasl;79) von H. Kühnapfel. Madonna aus Alt-St. Maternus um 1470. Nebenliegendes, neugotisches ehemaliges Pfarrhaus um 1870.",
+      "wiki": "https://de.wikipedia.org/wiki/St._Maternus_(K%C3%B6ln)",
+      "info": "<li><a target=\"_blank\" href=\"http://www.bilderbuch-koeln.de/Denkmale/915\">Denkmalliste Kirche</a></li><li><a target=\"_blank\" href=\"http://www.bilderbuch-koeln.de/Denkmale/5502\">Denkmalliste ehem. Pfarrhaus</a></li>",
+      "next": "2.4.3"
+    },
+    "geometry": { "type": "Point", "coordinates": [ 6.9917708, 50.8956883 ]}
+  },
+  {
+    "type": "Feature",
+    "properties": {
+      "id": "2.4.3",
+      "color": "#E486B9",
+      "title1": "Maternus-Bildstock",
+      "title2": "Rodenkirchen 4.3 (Rodenkirchen)",
+      "title3": "Rodenkirchen 4.3 Maternus-Bildstock (Rodenkirchen)",
+      "description": "",
+      "next": "2.4.4",
+      "notes": "Hier konnten wir leider keine Infotafel mehr finden."
+    },
+    "geometry": { "type": "Point", "coordinates": [ 6.990123867898285, 50.89725921139025 ]}
+  },
+  {
+    "type": "Feature",
+    "properties": {
+      "id": "2.4.4",
+      "color": "#E486B9",
+      "title1": "Villa Malta",
+      "title2": "Rodenkirchen 4.4 (Rodenkirchen)",
+      "title3": "Rodenkirchen 4.4 Villa Malta (Rodenkirchen)",
+      "description": "Erbaut 1904&frasl;5 für den ehemaligen Bürgermeister E. Steisel. Die Jugendstil-Villa von den Architektenbrüdern Schauppmeyer hat das Aussehen einer Burg. Villen im sog. Burgenstil waren beliebt. Vielansichtiger Bau: Straßenfassade mit Treppengiebel, malerische asymmetrische Staffelung der Anbauten um hohen Aussichtsturm zur Rheinseite. Hieß zuerst &quot;Villa Angonia&quot;, später &quot;Villa Maria&quot; und seit 1975 nach vorletztem Besitzer, dem Malteserorden, &quot;Villa Malta&quot;.",
+      "wiki": "https://de.wikipedia.org/wiki/Villa_Malta_(K%C3%B6ln)",
+      "info": "<li><a target=\"_blank\" href=\"http://www.bilderbuch-koeln.de/Denkmale/3938\">Denkmalliste</a></li>",
+      "next": "2.4.5"
+    },
+    "geometry": { "type": "Point", "coordinates": [ 6.9909433, 50.8964624 ]}
+  },
+  {
+    "type": "Feature",
+    "properties": {
+      "id": "2.4.5",
+      "color": "#E486B9",
+      "title1": "Umgebung von Alt-St. Maternus",
+      "title2": "Rodenkirchen 4.5 (Rodenkirchen)",
+      "title3": "Rodenkirchen 4.5 Umgebung von Alt-St. Maternus (Rodenkirchen)",
+      "description": "",
+      "wiki": "https://de.wikipedia.org/wiki/Alt_St._Maternus",
+      "info": "<li><a target=\"_blank\" href=\"http://www.bilderbuch-koeln.de/Denkmale/938\">Denkmalliste Kirche</a></li><li><a target=\"_blank\" href=\"http://www.bilderbuch-koeln.de/Denkmale/3434\">Denkmalliste Friedhof</a></li><li><a target=\"_blank\" href=\"https://de.wikipedia.org/wiki/Kirchstra%C3%9Fe_13_(K%C3%B6ln)\">Wikipedia</a></li><li><a target=\"_blank\" href=\"http://www.bilderbuch-koeln.de/Denkmale/3455\">Denkmalliste Wohnhaus</a></li><li><a target=\"_blank\" href=\"http://www.bilderbuch-koeln.de/Denkmale/3572\">Denkmalliste Wohn- und Geschäftshaus</a></li>",
+      "next": "2.4.6",
+      "notes": "Hier konnten wir leider keine Infotafel mehr finden und das Objekt nicht zuordnen. Der Text beschreibt das umliegende Gebiet."
+    },
+    "geometry": { "type": "Point", "coordinates": [ 6.9948528, 50.8954673 ]}
+  },
+  {
+    "type": "Feature",
+    "properties": {
+      "id": "2.4.6",
+      "color": "#E486B9",
+      "title1": "Villenensemble",
+      "title2": "Rodenkirchen 4.6 (Rodenkirchen)",
+      "title3": "Rodenkirchen 4.6 Villenensemble (Rodenkirchen)",
+      "description": "",
+      "next": "2.4.7",
+      "notes": "Hier konnten wir leider keine Infotafel mehr finden und das Objekt nicht zuordnen."
+    },
+    "geometry": { "type": "Point", "coordinates": [ 6.99933608343288, 50.89348390401303 ]}
+  },
+  {
+    "type": "Feature",
+    "properties": {
+      "id": "2.4.7",
+      "color": "#E486B9",
+      "title1": "Haus Brügelmann",
+      "title2": "Rodenkirchen 4.7 (Rodenkirchen)",
+      "title3": "Rodenkirchen 4.7 Haus Brügelmann (Rodenkirchen)",
+      "description": "",
+      "next": "2.4.8",
+      "notes": "Hier konnten wir leider keine Infotafel mehr finden und das Objekt nicht zuordnen."
+    },
+    "geometry": { "type": "Point", "coordinates": [ 7.005154235274617, 50.8922971672357 ]}
+  },
+  {
+    "type": "Feature",
+    "properties": {
+      "id": "2.4.8",
+      "color": "#E486B9",
+      "title1": "St. Joseph",
+      "title2": "Rodenkirchen 4.8 (Rodenkirchen)",
+      "title3": "Rodenkirchen 4.8 St. Joseph (Rodenkirchen)",
+      "description": "1954 - 1956, letztes Werk des bekannten Kirchenarchitekten D. Böhm. Vollendung durch G. Böhm. Schlichter Backstein-Hallenbau. Blockhafte Fronttürme im Osten und Westen verweisen auf Taufbecken und Altar im Inneren. Farbverglasung in den Lichtöffnungen des Westturms von W. Teuwen, seitliche Fenster von H. Berke. Ausgrenzung eines Vorplatzes durch im Winkel ansetzende niedrige Gemeindebauten.",
+      "next": "2.4.9"
+    },
+    "geometry": { "type": "Point", "coordinates": [ 7.0025884, 50.8866024 ]}
+  },
+  {
+    "type": "Feature",
+    "properties": {
+      "id": "2.4.9",
+      "color": "#E486B9",
+      "title1": "Gut Schillingsrott (Lennartzhof)",
+      "title2": "Rodenkirchen 4.9 (Rodenkirchen)",
+      "title3": "Rodenkirchen 4.9 Gut Schillingsrott (Lennartzhof) (Rodenkirchen)",
+      "description": "Einzige erhaltene geschlossene Hofanlage von ehemals zehn größeren Rodenkirchener Höfen. Erstnennung 1171. Vor der Säkularisation 1802 im Besitz des Kölner Stiftes St. Georg. Das heutige barocke Herrenhaus mit Straßen- und Hoffassade aus dem 18. Jahrhundert. Die Lindenbäume nehmen Bezug auf die Fensterachsen. Wappen über der Eingangstür. Wirtschaftsbauten in geschlämmtem Backstein z.Z. 1809 datiert. Seit 1972 Restaurierung durch Heinz D. Stuckmann.",
+      "info": "<li><a target=\"_blank\" href=\"http://www.bilderbuch-koeln.de/Denkmale/225\">Denkmalliste</a></li>",
+      "next": "2.4.10"
+    },
+    "geometry": { "type": "Point", "coordinates": [ 6.991541745795261, 50.88342545469553 ]}
+  },
+  {
+    "type": "Feature",
+    "properties": {
+      "id": "2.4.10",
+      "color": "#E486B9",
+      "title1": "Diakonie-Dorf Michaelshoven",
+      "title2": "Rodenkirchen 4.10 (Rodenkirchen)",
+      "title3": "Rodenkirchen 4.10 Diakonie-Dorf Michaelshoven (Rodenkirchen)",
+      "description": "Erbaut 1955 - 1959 nach den Plänen von Dr. E. te Reh. Im Mittelpunkt die zeltförmige Erzengel-Michael-Kirche in ovaler Parkanlage, anfänglich von sechs Häusern umgeben. Die zweiflügeligen, leicht gewinkelten Flachdachbauten besitzen abwechslungsreiche Eingangslösungen, die als kommunikative Zentren dienen. Programm war naturnahes Leben in dörflicher Gemeinschaft für Flüchtlinge, Ausgebombte und Jugendliche ohne Schulabschluss, später auch für Behinderte und Senioren.",
+      "wiki": "https://de.wikipedia.org/wiki/Diakonie_Michaelshoven"
+    },
+    "geometry": { "type": "Point", "coordinates": [ 7.0018152, 50.8774968 ]}
   },
   {
     "type": "Feature",
@@ -27,7 +171,8 @@
       "description": "Die aus der Gründerzeit des Deutzer Hafens (Stadtbezirk 1) stammende Drehbrücke, ein technisches Denkmal, wurde 1907 errichtet und 1908 dem Verkehr übergeben. Ihre elektrisch gesteuerte, genietete Gitterträgerkonstruktion mit dem Steuerhäuschen aus Stahlblechen ist bis heute vollständig erhalten geblieben. Auf der von ihr ausgehenden Alfred-Schütte-Allee erreicht man das Poller Rheinufer mit dem in den 20er Jahren angelegten öffentlichen Grünbereich mit Sportanlagen.",
       "wiki": "https://de.wikipedia.org/wiki/Deutzer_Drehbr%C3%BCcke",
       "info": "<li><a target=\"_blank\" href=\"http://www.bilderbuch-koeln.de/Denkmale/4\">Denkmalliste</a></li>",
-      "next": "7.2.2"
+      "next": "7.2.2",
+      "notes": "Hier ist der Pfad noch nicht komplett erfasst."
     },
     "geometry": { "type": "Point", "coordinates": [ 6.97314244581821, 50.9277952838689 ]}
   },
@@ -42,7 +187,8 @@
       "description": "Die dem Schutzpatron der Schiffer geweihte, ehem. zur Abtei St. Heribert in Deutz gehörende Nikolaus-Kapelle, St. Agatha-Straße, wurde um 1100 errichtet. Der kleine romanische Saalbau (restauriert 1959-64) aus verputztem Tuff- und Kieselmauerwerk mit eingezogenem Rechteckchor, Fachwerkgiebel und einem Dachreiter liegt inmitten des ehem., bis 1929 benutzten Friedhofes mit alten Grabsteinen und Eisenkreuzen (restauriert 1987 vn der Bürgervereinigung Ensen-Westhoven).",
       "wiki": "https://de.wikipedia.org/wiki/Nikolaus-Kapelle_%28K%C3%B6ln%29",
       "info": "<li><a target=\"_blank\" href=\"http://www.bilderbuch-koeln.de/Denkmale/1295\">Denkmalliste</a></li>",
-      "next": "7.2.4"
+      "next": "7.2.4",
+      "notes": "Hier ist der Pfad noch nicht komplett erfasst."
     },
     "geometry": { "type": "Point", "coordinates": [ 7.0162521, 50.8968724 ]}
   },
@@ -56,7 +202,8 @@
       "title3": "Porz 2.4 Rheinuferpromenade (Porz)",
       "description": "Die Rheinuferpromenade, Friedrich-Ebert-Ufer, mit Ufermauer, Treppenaufgang, Fahrkartenpavillon für die Schiffahrt, Löwenmonument und schmiedeeisernen Laternen wurde zwischen 1907 u. 1912 angelegt.",
       "info": "<li><a target=\"_blank\" href=\"http://www.bilderbuch-koeln.de/Denkmale/538\">Denkmalliste</a></li>",
-      "next": "7.2.5"
+      "next": "7.2.5",
+      "notes": "Hier ist der Pfad noch nicht komplett erfasst."
     },
     "geometry": { "type": "Point", "coordinates": [ 7.054029, 50.8846978 ]}
   },
@@ -69,7 +216,8 @@
       "title2": "Porz 2.5 (Porz)",
       "title3": "Porz 2.5 Porzer Rathaus (Porz)",
       "description": "Das Porzer Rathaus, Friedrich-Ebert-Ufer 64, ein dreigeschossiger mächtiger, siebenachsiger Bau mit wuchtigem Turm und Arkaden im Erdgeschoß, entstand 1909&frasl;10 nach Plänen des Regierungsbaumeisters Moritz. Der Erweiterungsbau mit Werksteinfassade stammt aus den Jahren 1955&frasl;56; weitere Neubauten aus den 70er und 80er Jahren. Heute ist das Porzer Rathaus Sitz der Bezirksvertretung des Stadtbezirks 7 und der Bezirksverwaltung.",
-      "next": "7.2.7"
+      "next": "7.2.7",
+      "notes": "Hier ist der Pfad noch nicht komplett erfasst."
     },
     "geometry": { "type": "Point", "coordinates": [ 7.054216878078211, 50.88506916119908 ]}
   },
@@ -82,7 +230,8 @@
       "title2": "Porz 2.7 (Langel)",
       "title3": "Porz 2.7 Fronhof (Langel)",
       "description": "Begrenzt von der Frongasse, Rosengasse und Lülsdorfer Straße liegt der erstmals 965, dann 1225 im Urbar von St. Pantaleon in Köln erwähnte Fronhof. 1633 wurde der damals 178 Morgen große Hof, Zentrum eines grundherrschaftlichen Hofverbandes mit einer größeren Anzahl abhängiger Höfe, von einem Feuer vernichtet. Die danach neu entstandene Anlage ging 1803 in den Besitz des preußischen Staates über, der sie 1820 an die Gebrüder Immendorff verkaufte. Der nach starken Beschädigungen im Zweiten Weltkrieg wiederaufgebaute, heute teilw. veränderte Fronhof ist der Mittelpunkt des Langeler Oberdorfes in unmittelbarer Nachbarschaft der Kirche St. Clemens.",
-      "next": "7.2.8"
+      "next": "7.2.8",
+      "notes": "Hier ist der Pfad noch nicht komplett erfasst."
     },
     "geometry": { "type": "Point", "coordinates": [ 7.0034458, 50.846453 ]}
   },
@@ -96,7 +245,8 @@
       "title3": "Porz 2.8 St. Clemens (Langel)",
       "description": "Kathol. Pfarrkirche St. Clemens, Lülsdorfer Straße 114, erbaut 1890/91 von Langeler Steinmetzen und Maurern nach Plänen H. Nagelschmidts, eine neugotische dreischiffige Backstein-Hallenkirche mit Schieferdach und Vierkantturm im Westen. Von der Innenausstattung sind 3 gotische Schnitzaltäre und der Orgelprospekt erhalten geblieben und 1982/83 mit einer passenden Kanzel aus Kürten-Bechern ergänzt worden. Wiederherstellung der im Krieg zerstörten Glasfenster in drei Phasen ab 1953 und der ursprgl. Neugotischen Ausmalung 1978/80. Ersetzung der mittleren Chorfenster 1990 durch eine Heiligenfiguren zeigende Buntverglasung im Nazarenerstil a. d. J. 1900. Restliche Fensterflächen 1990 von K. Dedy gestaltet.",
       "wiki": "https://de.wikipedia.org/wiki/St._Clemens_(K%C3%B6ln-Langel)",
-      "next": "7.2.14"
+      "next": "7.2.14",
+      "notes": "Hier ist der Pfad noch nicht komplett erfasst."
     },
     "geometry": { "type": "Point", "coordinates": [ 7.004207848206901, 50.845723969859634]}
   },
@@ -109,23 +259,10 @@
       "title2": "Porz 2.14 (Langel)",
       "title3": "Porz 2.14 ehem. Telegraphenstation (Langel)",
       "description": "Die ehemalige, 1832&frasl;33 erbaute, baulich stark veränderte Telegraphenstation, Loorweg 155, mit einem heute drei-, früher viergeschossigen Turm, war Teil der preußischen optischen Telegraphenlinie zwischen Berlin und Koblenz. Der Turm verband das Signal in Spich mit demjenigen auf dem Westwerk von St. Pantaleon in Köln.",
-      "info": "<li><a target=\"_blank\" href=\"http://www.bilderbuch-koeln.de/Denkmale/4905\">Denkmalliste</a></li>"
+      "info": "<li><a target=\"_blank\" href=\"http://www.bilderbuch-koeln.de/Denkmale/4905\">Denkmalliste</a></li>",
+      "notes": "Hier ist der Pfad noch nicht komplett erfasst."
     },
     "geometry": { "type": "Point", "coordinates": [ 7.0304862895066, 50.85895159419718 ]}
-  },
-  {
-    "type": "Feature",
-    "properties": {
-      "id": "7.3.0",
-      "color": "#95C51F",
-      "title1": "Start Tour 3",
-      "title2": "Porz 3.0 (Porz)",
-      "title3": "Porz 3.0 Start Tour 3 (Porz)",
-      "description": "",
-      "next": "7.3.1",
-      "notes": "Hier startet Tour 3 (Porz)"
-    },
-    "geometry": { "type": "Point", "coordinates": [ 6.9975187988, 50.9350904129 ]}
   },
   {
     "type": "Feature",
@@ -600,145 +737,28 @@
   {
     "type": "Feature",
     "properties": {
-      "id": "2.4.1",
-      "color": "#E486B9",
-      "title1": "Autobahnbrücke",
-      "title2": "Rodenkirchen 4.1 (Rodenkirchen)",
-      "title3": "Rodenkirchen 4.1 Autobahnbrücke (Rodenkirchen)",
-      "description": "Errichtet 1938 - 1941 durch P. Bonatz und F. Leonhardt im Zuge des Kölner Autobahnrings. Erste echte erdverankerte Kabelhängebrücke mit einer Mittelstützweite vom 378 m, seinerzeit weitestgespannte Hängebrücke Europas. Hauptmerkmale: monumentale Torsituation am Naturstein-Brückenkopf, Schlankheit der horizontalen Versteifungsträger, Spannweitenverhältnis zwischen den Trägern un den sie einrahmenden portalartigen Pylonen. 1945 Sprengung, 1952 - 1954 getreuer Wiederaufbau. Ab 1990 Verbreiterung der Brücke durch einen Zwillingsbau an der Nordseite.",
-      "wiki": "https://de.wikipedia.org/wiki/Rheinbr%C3%BCcke_K%C3%B6ln-Rodenkirchen",
-      "info": "<li><a target=\"_blank\" href=\"http://www.bilderbuch-koeln.de/Denkmale/7837\">Denkmalliste</a></li>",
-      "next": "2.4.2"
+      "id": "2.4.0",
+      "color": "#FFFFFF",
+      "title1": "Start Tour 4",
+      "title2": "Rodenkirchen 4.0 (Rodenkirchen)",
+      "title3": "Rodenkirchen 4.0 Start Tour 4 (Rodenkirchen)",
+      "description": "Der Pfad Rodenkirchen 4 führt über ca. 7 km durch Rodenkirchen.<br/>Startpunkt ist die Autobahnbrücke und Endpunkt im Diakonie-Dorf Michaelshoven.",
+      "next": "2.4.1"
     },
-    "geometry": { "type": "Point", "coordinates": [ 6.988880587942347, 50.89773318249941 ]}
+    "geometry": { "type": "Point", "coordinates": [ 6.988519, 50.897948 ]}
   },
   {
     "type": "Feature",
     "properties": {
-      "id": "2.4.2",
-      "color": "#E486B9",
-      "title1": "St. Maternus",
-      "title2": "Rodenkirchen 4.2 (Rodenkirchen)",
-      "title3": "Rodenkirchen 4.2 St. Maternus (Rodenkirchen)",
-      "description": "Erbaut 1863 - 1867 nach den Plänen von V. Statz auf dem Gelände des ehemaligen Kartäuserhofes. Dreischiffige Backstein-Hallenkirche mit eingezogenem Chor und Einturmfassade. Bei der Formensprache Rückgriff auf die Hochgotik des 13.&frasl;14. Jahrhunderts. Einziger Bauschmuck am Portal: Tympanon mit dem Hl. Maternus zwischen zwei Engeln vor einem Kölnpanorama. Türgriffbronzereliefs (innen) und Taufbeckendeckel (1978&frasl;79) von H. Kühnapfel. Madonna aus Alt-St. Maternus um 1470. Nebenliegendes, neugotisches ehemaliges Pfarrhaus um 1870.",
-      "wiki": "https://de.wikipedia.org/wiki/St._Maternus_(K%C3%B6ln)",
-      "info": "<li><a target=\"_blank\" href=\"http://www.bilderbuch-koeln.de/Denkmale/915\">Denkmalliste Kirche</a></li><li><a target=\"_blank\" href=\"http://www.bilderbuch-koeln.de/Denkmale/5502\">Denkmalliste ehem. Pfarrhaus</a></li>",
-      "next": "2.4.3"
+      "id": "7.3.0",
+      "color": "#ffffff",
+      "title1": "Start Tour 3",
+      "title2": "Porz 3.0 (Porz)",
+      "title3": "Porz 3.0 Start Tour 3 (Porz)",
+      "description": "Der Pfad Proz 3 führt über Kalk, Poll, Westhofen, Ensen und Gremberghoven nach Porz.<br/>Startpunkt ist an der S-Bahn Haltestelle Trimbornstraße und Endpunkt nahe der Haltestelle Porz(Rhein).<br/><br/><i>Es ist zu beachten, dass der Pfad durch einige Einbahnstraßen entgegen der Fahrtrichtung führt. Hier bitte vom Fahrrad absteigen.</i>",
+      "next": "7.3.1"
     },
-    "geometry": { "type": "Point", "coordinates": [ 6.9917708, 50.8956883 ]}
-  },
-  {
-    "type": "Feature",
-    "properties": {
-      "id": "2.4.3",
-      "color": "#E486B9",
-      "title1": "Maternus-Bildstock",
-      "title2": "Rodenkirchen 4.3 (Rodenkirchen)",
-      "title3": "Rodenkirchen 4.3 Maternus-Bildstock (Rodenkirchen)",
-      "description": "",
-      "next": "2.4.4",
-      "notes": "Hier konnten wir leider keine Infotafel mehr finden."
-    },
-    "geometry": { "type": "Point", "coordinates": [ 6.990123867898285, 50.89725921139025 ]}
-  },
-  {
-    "type": "Feature",
-    "properties": {
-      "id": "2.4.4",
-      "color": "#E486B9",
-      "title1": "Villa Malta",
-      "title2": "Rodenkirchen 4.4 (Rodenkirchen)",
-      "title3": "Rodenkirchen 4.4 Villa Malta (Rodenkirchen)",
-      "description": "Erbaut 1904&frasl;5 für den ehemaligen Bürgermeister E. Steisel. Die Jugendstil-Villa von den Architektenbrüdern Schauppmeyer hat das Aussehen einer Burg. Villen im sog. Burgenstil waren beliebt. Vielansichtiger Bau: Straßenfassade mit Treppengiebel, malerische asymmetrische Staffelung der Anbauten um hohen Aussichtsturm zur Rheinseite. Hieß zuerst &quot;Villa Angonia&quot;, später &quot;Villa Maria&quot; und seit 1975 nach vorletztem Besitzer, dem Malteserorden, &quot;Villa Malta&quot;.",
-      "wiki": "https://de.wikipedia.org/wiki/Villa_Malta_(K%C3%B6ln)",
-      "info": "<li><a target=\"_blank\" href=\"http://www.bilderbuch-koeln.de/Denkmale/3938\">Denkmalliste</a></li>",
-      "next": "2.4.5"
-    },
-    "geometry": { "type": "Point", "coordinates": [ 6.9909433, 50.8964624 ]}
-  },
-  {
-    "type": "Feature",
-    "properties": {
-      "id": "2.4.5",
-      "color": "#E486B9",
-      "title1": "Umgebung von Alt-St. Maternus",
-      "title2": "Rodenkirchen 4.5 (Rodenkirchen)",
-      "title3": "Rodenkirchen 4.5 Umgebung von Alt-St. Maternus (Rodenkirchen)",
-      "description": "",
-      "wiki": "https://de.wikipedia.org/wiki/Alt_St._Maternus",
-      "info": "<li><a target=\"_blank\" href=\"http://www.bilderbuch-koeln.de/Denkmale/938\">Denkmalliste Kirche</a></li><li><a target=\"_blank\" href=\"http://www.bilderbuch-koeln.de/Denkmale/3434\">Denkmalliste Friedhof</a></li><li><a target=\"_blank\" href=\"https://de.wikipedia.org/wiki/Kirchstra%C3%9Fe_13_(K%C3%B6ln)\">Wikipedia</a></li><li><a target=\"_blank\" href=\"http://www.bilderbuch-koeln.de/Denkmale/3455\">Denkmalliste Wohnhaus</a></li><li><a target=\"_blank\" href=\"http://www.bilderbuch-koeln.de/Denkmale/3572\">Denkmalliste Wohn- und Geschäftshaus</a></li>",
-      "next": "2.4.6",
-      "notes": "Hier konnten wir leider keine Infotafel mehr finden und das Objekt nicht zuordnen. Der Text beschreibt das umliegende Gebiet."
-    },
-    "geometry": { "type": "Point", "coordinates": [ 6.9948528, 50.8954673 ]}
-  },
-  {
-    "type": "Feature",
-    "properties": {
-      "id": "2.4.6",
-      "color": "#E486B9",
-      "title1": "Villenensemble",
-      "title2": "Rodenkirchen 4.6 (Rodenkirchen)",
-      "title3": "Rodenkirchen 4.6 Villenensemble (Rodenkirchen)",
-      "description": "",
-      "next": "2.4.7",
-      "notes": "Hier konnten wir leider keine Infotafel mehr finden und das Objekt nicht zuordnen."
-    },
-    "geometry": { "type": "Point", "coordinates": [ 6.99933608343288, 50.89348390401303 ]}
-  },
-  {
-    "type": "Feature",
-    "properties": {
-      "id": "2.4.7",
-      "color": "#E486B9",
-      "title1": "Haus Brügelmann",
-      "title2": "Rodenkirchen 4.7 (Rodenkirchen)",
-      "title3": "Rodenkirchen 4.7 Haus Brügelmann (Rodenkirchen)",
-      "description": "",
-      "next": "2.4.8",
-      "notes": "Hier konnten wir leider keine Infotafel mehr finden und das Objekt nicht zuordnen."
-    },
-    "geometry": { "type": "Point", "coordinates": [ 7.005154235274617, 50.8922971672357 ]}
-  },
-  {
-    "type": "Feature",
-    "properties": {
-      "id": "2.4.8",
-      "color": "#E486B9",
-      "title1": "St. Joseph",
-      "title2": "Rodenkirchen 4.8 (Rodenkirchen)",
-      "title3": "Rodenkirchen 4.8 St. Joseph (Rodenkirchen)",
-      "description": "1954 - 1956, letztes Werk des bekannten Kirchenarchitekten D. Böhm. Vollendung durch G. Böhm. Schlichter Backstein-Hallenbau. Blockhafte Fronttürme im Osten und Westen verweisen auf Taufbecken und Altar im Inneren. Farbverglasung in den Lichtöffnungen des Westturms von W. Teuwen, seitliche Fenster von H. Berke. Ausgrenzung eines Vorplatzes durch im Winkel ansetzende niedrige Gemeindebauten.",
-      "next": "2.4.9"
-    },
-    "geometry": { "type": "Point", "coordinates": [ 7.0025884, 50.8866024 ]}
-  },
-  {
-    "type": "Feature",
-    "properties": {
-      "id": "2.4.9",
-      "color": "#E486B9",
-      "title1": "Gut Schillingsrott (Lennartzhof)",
-      "title2": "Rodenkirchen 4.9 (Rodenkirchen)",
-      "title3": "Rodenkirchen 4.9 Gut Schillingsrott (Lennartzhof) (Rodenkirchen)",
-      "description": "Einzige erhaltene geschlossene Hofanlage von ehemals zehn größeren Rodenkirchener Höfen. Erstnennung 1171. Vor der Säkularisation 1802 im Besitz des Kölner Stiftes St. Georg. Das heutige barocke Herrenhaus mit Straßen- und Hoffassade aus dem 18. Jahrhundert. Die Lindenbäume nehmen Bezug auf die Fensterachsen. Wappen über der Eingangstür. Wirtschaftsbauten in geschlämmtem Backstein z.Z. 1809 datiert. Seit 1972 Restaurierung durch Heinz D. Stuckmann.",
-      "info": "<li><a target=\"_blank\" href=\"http://www.bilderbuch-koeln.de/Denkmale/225\">Denkmalliste</a></li>",
-      "next": "2.4.10"
-    },
-    "geometry": { "type": "Point", "coordinates": [ 6.991541745795261, 50.88342545469553 ]}
-  },
-  {
-    "type": "Feature",
-    "properties": {
-      "id": "2.4.10",
-      "color": "#E486B9",
-      "title1": "Diakonie-Dorf Michaelshoven",
-      "title2": "Rodenkirchen 4.10 (Rodenkirchen)",
-      "title3": "Rodenkirchen 4.10 Diakonie-Dorf Michaelshoven (Rodenkirchen)",
-      "description": "Erbaut 1955 - 1959 nach den Plänen von Dr. E. te Reh. Im Mittelpunkt die zeltförmige Erzengel-Michael-Kirche in ovaler Parkanlage, anfänglich von sechs Häusern umgeben. Die zweiflügeligen, leicht gewinkelten Flachdachbauten besitzen abwechslungsreiche Eingangslösungen, die als kommunikative Zentren dienen. Programm war naturnahes Leben in dörflicher Gemeinschaft für Flüchtlinge, Ausgebombte und Jugendliche ohne Schulabschluss, später auch für Behinderte und Senioren.",
-      "wiki": "https://de.wikipedia.org/wiki/Diakonie_Michaelshoven"
-    },
-    "geometry": { "type": "Point", "coordinates": [ 7.0018152, 50.8774968 ]}
+    "geometry": { "type": "Point", "coordinates": [ 6.9975187988, 50.9350904129 ]}
   }
 ]
 }
