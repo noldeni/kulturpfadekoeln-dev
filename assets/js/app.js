@@ -463,7 +463,7 @@ $(document).one("ajaxStop", function () {
   initHash();
   showInfoText();
   $("#loading").hide();
-  map.fitBounds(boroughs.getBounds());
+  map.fitBounds(markers.getBounds());
   });
   
 
