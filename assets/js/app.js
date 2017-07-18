@@ -119,7 +119,7 @@ function getInfoTextContent(feature){
 <p>Allerdings ist der Weg nicht ausgeschildert und einige Informationstafeln existieren nicht mehr. Daher soll diese Seite die Informationen vervollständigen und in einer nutzbaren Form darstellen.</p>";
     content += news;
     content += "\
-<br/><i><a onclick=\"showAttribution();\" href=\"#\">Quellen/Beitragende<a></i>";
+<br/><small><a onclick=\"showAttribution();\" href=\"#\">Quellen/Beitragende<a></small>";
   } else {
     content += "<b>" + feature.properties.title1 + "</b> - " + feature.properties.title2 + "<br/>";
      

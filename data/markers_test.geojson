@@ -469,7 +469,7 @@
       "description": "Unmittelbar an der Kreuzung der beiden Urbacher Hauptstraßen gelegen, ist das 1903 erbaute zweigeschossige Wohn- und Geschäftshaus eines der wenigen im Ort erhaltenen Beispiele einer städtisch beeinflussten Architektur im Jugendstil.",
       "notes": "TESTMODUS"
     },
-    "geometry": { "type": "Point", "coordinates": [ 7082797, 50.880528 ]}
+    "geometry": { "type": "Point", "coordinates": [ 7.082797, 50.880528 ]}
   },
   {
     "type": "Feature",
