@@ -91,7 +91,12 @@ function getInfoTextContent(feature){
     }
     if (feature.properties.successor) {
       content += "Zur <a href=\"#\" accesskey=\"n\" onclick=\"jumpToInfo('" + feature.properties.successor + "')\">nächsten</a> Infotafel.";
-    } 
+    }
+    content += "<br/><br/><small>\
+    <a href=\"#\" rel=\"nofollow\" onclick=\"this.href='mailto:' + 'ch_finke' + '@' + 'web.de' + '?subject=Kulturpfade Köln (" + 
+    feature.properties.borough_no + "." + feature.properties.track_no + "." + feature.properties.track_point + feature.properties.track_sub
+    + ")'\">\
+    Feedback</a></small>";
   }
   return content;
 }
