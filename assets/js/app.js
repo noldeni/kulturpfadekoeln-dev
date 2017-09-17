@@ -509,6 +509,9 @@ $(document).one("ajaxStop", function () {
   featureList = new List("features", {valueNames: ["feature-name"]});
   featureList.sort("feature-name", {order:"asc"});
 
+  $("#welcomeModal").modal("show");
+  $(".navbar-collapse.in").collapse("hide");
+
   var boroughsBH = new Bloodhound({
     name: "Boroughs",
     datumTokenizer: function (d) {
