@@ -1,3 +1,4 @@
+
 var map, featureList, boroughSearch = [], infoSearch = [], startSearch = [], markerSearch = [];
 
 function fitBounds() {
@@ -272,8 +273,8 @@ var markerClusters = new L.MarkerClusterGroup({
   spiderfyOnMaxZoom: true,
   showCoverageOnHover: false,
   zoomToBoundsOnClick: true,
-  disableClusteringAtZoom: 16
-}); //# missing in old
+  disableClusteringAtZoom: 1
+});
 
 /* Empty layer placeholder to add to layer control for listening when to add/remove infos to markerClusters layer */
 //# check this
