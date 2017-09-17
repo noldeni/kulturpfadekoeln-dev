@@ -20,6 +20,10 @@ function showAttribution(){
   document.getElementById("attribution-nav").click();  
 }
 
+function showInfoList(){
+  $("#sidebar").show();
+}
+
 $('.modal-toggle').click(function (e) {
     var tab = e.target.hash; 
     $('li > a[href="' + tab + '"]').tab("show");
