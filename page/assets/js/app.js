@@ -233,7 +233,7 @@ var boroughs = L.geoJson(null, {
     });
   }
 });
-$.getJSON("https://chfinke.github.io/kulturpfadekoeln-data/geojson/boroughs.geojson", function (data) {
+$.getJSON("./data/geojson/boroughs.geojson", function (data) {
   boroughs.addData(data);
 });
 
@@ -250,7 +250,7 @@ var tracks = L.geoJson(null, {
   onEachFeature: function (feature, layer) {
   }
 });
-$.getJSON("https://chfinke.github.io/kulturpfadekoeln-data/geojson/tracks.geojson", function (data) {
+$.getJSON("./data/geojson/tracks.geojson", function (data) {
   tracks.addData(data);
 });
 
@@ -268,7 +268,7 @@ var buildings = L.geoJson(null, {
   onEachFeature: function (feature, layer) {
   }
 });
-$.getJSON("https://chfinke.github.io/kulturpfadekoeln-data/geojson/buildings.geojson", function (data) {
+$.getJSON("./data/geojson/buildings.geojson", function (data) {
   buildings.addData(data);
 });
 
@@ -323,13 +323,13 @@ var infos = L.geoJson(null, {
     }
   }
 });
-$.getJSON("https://chfinke.github.io/kulturpfadekoeln-data/geojson/infos.geojson", function (data) {
+$.getJSON("./data/geojson/infos.geojson", function (data) {
   infos.addData(data);
   map.addLayer(infoLayer);
 });
 
 if (getQueryVariable('test') != false) {
-  $.getJSON("https://chfinke.github.io/kulturpfadekoeln-data/geojson/test.geojson", function (data) {
+  $.getJSON("./data/geojson/test.geojson", function (data) {
     infos.addData(data);
   });
 }
@@ -370,7 +370,7 @@ var starts = L.geoJson(null, {
     }
   }
 });
-$.getJSON("https://chfinke.github.io/kulturpfadekoeln-data/geojson/starts.geojson", function (data) {
+$.getJSON("./data/geojson/starts.geojson", function (data) {
   starts.addData(data);
 });
 
