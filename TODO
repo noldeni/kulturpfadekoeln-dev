@@ -1,0 +1,19 @@
+TECHNIK
+[_] Refactoring von app.js und entfernen der Änderungszeiger
+[_] Zugriff auf Info per URL [iss7]
+[_] Lokalisierung und nächster Punkt verschieben sich gegenseitig
+
+DATEN
+[_] Infotafeln in gpx einbetten
+[_] Infotafeln und Gebäude in osm gruppieren
+[_] Anleitung zur Pflege der marker.xlsx
+
+PROMO
+[_] Stadt informieren
+[_] Veedelnews
+[_] QR-Aufkleber
+    https://www.aufkleber-produktion.de/index.php?amount=250&width=4&height=4&id=200&product_id=93
+
+NICE TO HAVE
+[_] Englische Übersetzung
+[_] Benutzer kann Punkte 'sammeln' (über QR-Tags)
