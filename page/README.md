@@ -7,4 +7,4 @@ Allerdings ist der Weg nicht ausgeschildert und einige Informationstafeln existi
 
 Erstellt wurde das Projekt im [OK Lab Köln](http://codefor.de/koeln/), einer Initiative, die an nützlichen Anwendungen rund um Offene Daten arbeit. Wer interessiert ist, kann auf [meetup](https://www.meetup.com/de-DE/OKLab-Koln-Meetup/) oder [github](https://github.com/chfinke/kulturpfadekoeln) mitmachen. Oder einen Blick ins [wiki](https://github.com/chfinke/kulturpfadekoeln-dev/wiki) werfen.
 
-*Hinweis: Entwicklungen werden im Repository [kulturpfadekoeln-dev]() durchgeführt.*
+*Hinweis: Entwicklungen werden im Repository [kulturpfadekoeln-dev](https://github.com/chfinke/kulturpfadekoeln-dev/) durchgeführt.*
