@@ -525,6 +525,11 @@ $(document).one("ajaxStop", function () {
   fitBounds();
   featureList = new List("features", {valueNames: ["feature-name"]});
   featureList.sort("feature-name", {order:"asc"});
+  
+  // Fix 
+  markerClusters.removeLayer(starts);
+  markerClusters.addLayer(starts);
+  syncSidebar();
 
   $("#welcomeModal").modal("show");
   $(".navbar-collapse.in").collapse("hide");
