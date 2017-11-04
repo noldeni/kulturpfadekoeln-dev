@@ -53,7 +53,10 @@ def main():
                     dest.write(u',\n      "additional_info": "{}"'.format(entry[u'additional-info']))
                 if entry[u'notes']:
                     dest.write(u',\n      "notes": "{}"'.format(entry[u'notes']))
-                dest.write(u',\n      "color": "{}"'.format(entry[u'color']))
+                if entry[u'active'] == u'T':
+                    dest.write(u',\n      "color": "{}"'.format(u'#3300ff'))
+                else:
+                    dest.write(u',\n      "color": "{}"'.format(entry[u'color']))
                 #dest.write(u',\n      "active": "{}"'.format(entry[u'active']))
                 dest.write(u',\n      "successor": "{}"'.format(entry[u'successor']))
                 #dest.write(u',\n      "internal-note": "{}"'.format(entry[u'internal-note']))

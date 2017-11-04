@@ -29,6 +29,12 @@ from openpyxl import load_workbook
 # 21  TextStatus  description-state
 # 22  BuildingStatus  building-state
 
+def get_value(row, index):
+    try:
+        return row[index].value
+    except IndexError:
+        return u''
+
 def read_entries(source_filename):
 	
     entries = []
@@ -39,31 +45,30 @@ def read_entries(source_filename):
     for row in ws.rows:
             
         entry = {}
-        entry[u'borough-no'] = row[0].value or u''
-        entry[u'borough'] = row[1].value or u''
-        entry[u'quarter'] = row[2].value or u''
-        entry[u'track-no'] = row[3].value or u''
-        entry[u'track-point'] = row[4].value or u''
-        entry[u'track-sub'] = row[5].value or u''
-        entry[u'name'] = row[6].value or u''
-        entry[u'description'] = row[7].value or u''
-        entry[u'map-position'] = row[8].value or u''
-        entry[u'buildings'] = row[9].value or u''
-        entry[u'wiki'] = row[10].value or u''
-        entry[u'additional-info'] = row[11].value or u''
-        entry[u'notes'] = row[12].value or u''
-        entry[u'color'] = row[13].value or u''
-        entry[u'active'] = row[14].value or u''
-        entry[u'successor'] = row[15].value or u''
-        entry[u'internal-note'] = row[16].value or u''
-        entry[u'info-position'] = row[17].value or u''
-        entry[u'monument-no'] = row[18].value or u''
-        entry[u'info-position-state'] = row[19].value or u''
-        entry[u'map-position-state'] = row[20].value or u''
-        entry[u'description-state'] = row[21].value or u''
-        entry[u'building-state'] = row[22].value or u''
+        entry[u'borough-no'] = get_value(row, 0)
+        entry[u'borough'] = get_value(row, 1)
+        entry[u'quarter'] = get_value(row, 2)
+        entry[u'track-no'] = get_value(row, 3)
+        entry[u'track-point'] = get_value(row, 4)
+        entry[u'track-sub'] = get_value(row, 5)
+        entry[u'name'] = get_value(row, 6)
+        entry[u'description'] = get_value(row, 7)
+        entry[u'map-position'] = get_value(row, 8)
+        entry[u'buildings'] = get_value(row, 9)
+        entry[u'wiki'] = get_value(row, 10)
+        entry[u'additional-info'] = get_value(row, 11)
+        entry[u'notes'] = get_value(row, 12)
+        entry[u'color'] = get_value(row, 13)
+        entry[u'active'] = get_value(row, 14)
+        entry[u'successor'] = get_value(row, 15)
+        entry[u'internal-note'] = get_value(row, 16)
+        entry[u'info-position'] = get_value(row, 17)
+        entry[u'monument-no'] = get_value(row, 18)
+        entry[u'info-position-state'] = get_value(row, 19)
+        entry[u'map-position-state'] = get_value(row, 20)
+        entry[u'description-state'] = get_value(row, 21)
+        entry[u'building-state'] = get_value(row, 22)
         
         entries.append(entry)
-
     return entries
 
