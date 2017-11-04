@@ -77,7 +77,7 @@ function getInfoTextContent(feature){
       content += "<i>Hinweise der Redaktion</i>:<br/>";
       content += feature.properties.notes;
     }
-    if (feature.properties.wiki || feature.properties.info) {
+    if (feature.properties.wiki || feature.properties.additional_info) {
       if (content.length > 0)
         content += "<br/><br/>";
       content += "<i>Weitere Informationen</i>:<br/><ul>";
@@ -85,11 +85,11 @@ function getInfoTextContent(feature){
     if (feature.properties.wiki) {
       content += "<li><a target=\"_blank\" href=\"" + feature.properties.wiki + "\">Wikipedia</a></li>";
     }
-    if (feature.properties.info) {
-      content += feature.properties.info;
+    if (feature.properties.additional_info) {
+      content += feature.properties.additional_info;
     }
       
-    if (feature.properties.wiki || feature.properties.info) {
+    if (feature.properties.wiki || feature.properties.additional_info) {
       content += "</ul>";
     } else if (feature.properties.successor) {
       content += "<br/><br/>";
@@ -118,8 +118,8 @@ $(document).on("click", ".feature-row", function(e) {
 if ( !("ontouchstart" in window) ) {
   $(document).on("mouseover", ".feature-row", function(e) {
     highlight.clearLayers().addLayer(L.circleMarker([$(this).attr("lat"), $(this).attr("lng")], highlightStyle));
-    //var layer = infos.getLayer($(this).attr("id")); //# +
-    //layer.bringToFront(); //# +
+    var layer = infos.getLayer($(this).attr("id")); //# +
+    layer.bringToFront(); //# +
   });
 }
 
@@ -259,7 +259,7 @@ var buildings = L.geoJson(null, {
       return {
         color: feature.properties.color,
         weight: 3,
-        opacity: 0.8,
+        opacity: 1,
         fill: true,
         fillColor: feature.properties.color,
         clickable: false
@@ -303,6 +303,13 @@ var infos = L.geoJson(null, {
           $("#feature-info").html(content);
           $("#featureModal").modal("show");
           highlight.clearLayers().addLayer(L.circleMarker([feature.geometry.coordinates[1], feature.geometry.coordinates[0]], highlightStyle));
+        },
+        mouseover: function (e) {
+          var title = feature.properties.borough + " " + feature.properties.track_no + "." + feature.properties.track_point + " " + feature.properties.name + " (" + feature.properties.quarter + ")";
+          Tip(title);
+        },
+        mouseout: function (e) {
+          UnTip();
         }
       });
       $("#feature-list tbody").append('<tr class="feature-row" id="' + L.stamp(layer) + '" lat="' + layer.getLatLng().lat + '" lng="' + layer.getLatLng().lng + '"><td style="vertical-align: middle;"><img width="16" height="18" src="assets/img/theater.png"></td><td class="feature-name">' + layer.feature.properties.borough + ' ' + layer.feature.properties.track_no + '.' + layer.feature.properties.track_point + ' ' + layer.feature.properties.name + ' (' + layer.feature.properties.quarter + ')' + '</td><td style="vertical-align: middle;"><i class="fa fa-chevron-right pull-right"></i></td></tr>');
@@ -357,6 +364,13 @@ var starts = L.geoJson(null, {
           $("#feature-info").html(content);
           $("#featureModal").modal("show");
           highlight.clearLayers().addLayer(L.circleMarker([feature.geometry.coordinates[1], feature.geometry.coordinates[0]], highlightStyle));
+        },
+        mouseover: function (e) {
+          var title = feature.properties.borough + " " + feature.properties.track_no + "." + feature.properties.track_point + " " + feature.properties.name + " (" + feature.properties.quarter + ")";
+          Tip(title);
+        },
+        mouseout: function (e) {
+          UnTip();
         }
       });
       $("#feature-list tbody").append('<tr class="feature-row" id="' + L.stamp(layer) + '" lat="' + layer.getLatLng().lat + '" lng="' + layer.getLatLng().lng + '"><td style="vertical-align: middle;"><img width="16" height="18" src="assets/img/museum.png"></td><td class="feature-name">' + layer.feature.properties.borough + ' ' + layer.feature.properties.track_no + '.' + layer.feature.properties.track_point + ' ' + layer.feature.properties.name + ' (' + layer.feature.properties.quarter + ')' + '</td><td style="vertical-align: middle;"><i class="fa fa-chevron-right pull-right"></i></td></tr>');
@@ -375,13 +389,12 @@ $.getJSON("./data/geojson/starts.geojson", function (data) {
 });
 
 map = L.map("map", {
-  layers: [mapnik, markerClusters, startLayer, buildings, tracks, highlight],
+  layers: [mapnik, tracks, buildings, markerClusters, startLayer, highlight],
   zoomControl: false,
   attributionControl: false
 });
 
 // START HERE
-
 
 /* Layer control listeners that allow for a single markerClusters layer */
 map.on("overlayadd", function(e) {
