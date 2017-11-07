@@ -35,6 +35,23 @@
       "successor": "7.3.1"
     },
     "geometry": { "type": "Point", "coordinates": [ 6.9975187988, 50.9350904129 ]}
+  },
+  {
+    "type": "Feature",
+    "properties": {
+      "id": "7.4.0",
+      "borough_no": "7",
+      "borough": "Porz",
+      "quarter": "Zündorf",
+      "track_no": "4",
+      "track_point": "0",
+      "track_sub": "",
+      "name": "Start Tour 4",
+      "description": "",
+      "color": "#FFFFFF",
+      "successor": "7.4.1"
+    },
+    "geometry": { "type": "Point", "coordinates": [ 7.0602817, 50.8743422 ]}
   }
 ]
 }

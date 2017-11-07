@@ -941,6 +941,167 @@
       "successor": ""
     },
     "geometry": { "type": "Point", "coordinates": [ 7.064818336712283, 50.88147079285061 ]}
+  },
+  {
+    "type": "Feature",
+    "properties": {
+      "id": "7.4.1",
+      "borough_no": "7",
+      "borough": "Porz",
+      "quarter": "Zündorf",
+      "track_no": "4",
+      "track_point": "1",
+      "track_sub": "",
+      "name": "Jüdischer Friedhof",
+      "description": "Aus der jüdischen Gemeinde gingen zahlreiche für Zündorf wichtige Unternehmer hervor. Eine Judengasse war hier 1825 und 1854 verzeichnet. 1880 entstand die bis 1938 bestehende Synagoge (Hauptstr. 159; heute ein Wohnhaus). Der ehemalige jüdische Friedhof ist zwischen Gartenweg und Hasenkaul gelegen<b/>Nach der Befreiung Deutschlands vom Nationalsozialismus 1945 ist die jüdische Gemeinde nicht wiederentstanden.",
+      "additional_info": "<li><a target=\"_blank\" href=\"http://www.bilderbuch-koeln.de/Denkmale/5576\">Denkmalliste</a></li>",
+      "color": "#E486B9",
+      "successor": "7.4.2"
+    },
+    "geometry": { "type": "Point", "coordinates": [ 7.0582487, 50.8720948 ]}
+  },
+  {
+    "type": "Feature",
+    "properties": {
+      "id": "7.4.3",
+      "borough_no": "7",
+      "borough": "Porz",
+      "quarter": "Zündorf",
+      "track_no": "4",
+      "track_point": "3",
+      "track_sub": "",
+      "name": "ehem. Wohnhaus Pelletier",
+      "description": "Das ehem. Wohnhaus des Kaufmanns Pelletier, Gütergasse 33-41, wurde 1750 vom Architekten J.G. Leydel erbaut. 1864 in ein Cellitinnen-Kloster mit Altenheim (St. Josephs-Altenheim) und einer neugotischen (heute profanisierten) Kapelle umgewandelt, entstand 1974 aus dem Komplex eine private Wohnanlage.",
+      "additional_info": "<li><a target=\"_blank\" href=\"http://www.bilderbuch-koeln.de/Denkmale/4931\">Denkmalliste Wohnhaus</a></li><li><a target=\"_blank\" href=\"http://www.bilderbuch-koeln.de/Denkmale/989\">Denkmalliste Josephskapelle und Kellergewölbe</a></li><li><a target=\"_blank\" href=\"http://www.bilderbuch-koeln.de/Denkmale/3744\">Kellergewölbe neben der Kapelle</a></li>",
+      "color": "#E486B9",
+      "successor": "7.4.4"
+    },
+    "geometry": { "type": "Point", "coordinates": [ 7.044656751187311, 50.86992100846941 ]}
+  },
+  {
+    "type": "Feature",
+    "properties": {
+      "id": "7.4.4",
+      "borough_no": "7",
+      "borough": "Porz",
+      "quarter": "Zündorf",
+      "track_no": "4",
+      "track_point": "4",
+      "track_sub": "",
+      "name": "Fachwerkhaus",
+      "description": "Das giebelständige Fachwerkhaus Gütergasse 21 wurde wahrscheinlich im 18. Jh. errichtet (restauriert 1987-90). Das Erdgeschoss soll einst die Dorfapotheke beherbergt haben.",
+      "additional_info": "<li><a target=\"_blank\" href=\"http://www.bilderbuch-koeln.de/Denkmale/4210\">Denkmalliste</a></li>",
+      "color": "#E486B9",
+      "successor": "7.4.5"
+    },
+    "geometry": { "type": "Point", "coordinates": [ 7.04486744875296, 50.86984318741871 ]}
+  },
+  {
+    "type": "Feature",
+    "properties": {
+      "id": "7.4.6",
+      "borough_no": "7",
+      "borough": "Porz",
+      "quarter": "Zündorf",
+      "track_no": "4",
+      "track_point": "6",
+      "track_sub": "",
+      "name": "&quot;Kleines Teehaus&quot;",
+      "description": "Zwischen Turmhof und Markt steht an der Rheinpromenade neben einer Trauerweide (Naturdenkmal) das &quot;Kleine Teehaus&quot; der ehem. Brauerei Immendorff, ein Jugendstil-Pavillon aus dem Jahre 1910.",
+      "color": "#E486B9",
+      "successor": "7.4.7"
+    },
+    "geometry": { "type": "Point", "coordinates": [ 7.043886347701405, 50.87030453353978 ]}
+  },
+  {
+    "type": "Feature",
+    "properties": {
+      "id": "7.4.7",
+      "borough_no": "7",
+      "borough": "Porz",
+      "quarter": "Zündorf",
+      "track_no": "4",
+      "track_point": "7",
+      "track_sub": "",
+      "name": "Groov",
+      "description": "Bis zur Mitte des 18. Jh. eine auch zum Weiden- und Weinanbau benutzte Rheininsel, versandete seit dem Beginn der systematischen Uferbefestigung im Jahre 1815 das Wasser zwischen der Groov und dem Ufer immer mehr. Heute ist die Groov eine Halbinsel (Obere u. Untere Groov), ein beliebtes Ausflugsziel und Freizeitgelände.",
+      "color": "#E486B9",
+      "successor": "7.4.8"
+    },
+    "geometry": { "type": "Point", "coordinates": [ 7.0421282134803675, 50.87019578680792 ]}
+  },
+  {
+    "type": "Feature",
+    "properties": {
+      "id": "7.4.11",
+      "borough_no": "7",
+      "borough": "Porz",
+      "quarter": "Zündorf",
+      "track_no": "4",
+      "track_point": "11",
+      "track_sub": "",
+      "name": "St. Michael",
+      "description": "St. Michael am Burgweg, die alte Pfarrkirche Niederzündorfs (11.–17. Jh.), auf einer leichten Anhöhe über einem alten Rheinarm gelegen, ist ein romanischer Saalbau mit reich verziertem Vierkantturm mit Rautenhelm (1170) im Westen, dreiseitigem Chor im Osten, Kapelle im Süden und Sakristei (1662) im Norden. Das nördl. Seitenschiff wurde 1906 abgebrochen. Im Innern 2 Tafelgemälde aus der Barthel Bruyn-Schule mit Kalvarienberg u. Anbetung der hl. 3 Könige (2. Hälfte 16. Jh.), ein merowingisches Ranklenrelief (7. Jh.) u. Grabsteine des 17. Jh. Der ummauerte Friedhofsbezirk ist mittelalterlichen Ursprungs; auf dem Eingangstor ein 1630 datiertes Grabkreuz.",
+      "wiki": "https://de.wikipedia.org/wiki/St._Michael_%28K%C3%B6ln-Z%C3%BCndorf%29",
+      "additional_info": "<li><a target=\"_blank\" href=\"http://www.bilderbuch-koeln.de/Denkmale/1387\">Denkmalliste</a></li>",
+      "color": "#E486B9",
+      "successor": "7.4.12"
+    },
+    "geometry": { "type": "Point", "coordinates": [ 7.042210448905727, 50.86837813841209 ]}
+  },
+  {
+    "type": "Feature",
+    "properties": {
+      "id": "7.4.12",
+      "borough_no": "7",
+      "borough": "Porz",
+      "quarter": "Zündorf",
+      "track_no": "4",
+      "track_point": "12",
+      "track_sub": "",
+      "name": "Historische Gebäude am Burgweg",
+      "description": "Das 1 1/2-geschossige Fachwerkhäuschen (mit verputzter Traufseite) Burgweg Nr. 9 datiert aus dem Jahr 1677. Der Bitzhof, Burgweg Nr. 12, stammt aus dem Jahre 1836. Das zweigeschossige Fachwerkhaus mit einläufiger Außentreppe wurde 1982 innen und außen aufwendig restauriert.",
+      "additional_info": "<li><a target=\"_blank\" href=\"http://www.bilderbuch-koeln.de/Denkmale/7013\">Denkmalliste Nr. 9</a></li> <li><a target=\"_blank\" href=\"http://www.bilderbuch-koeln.de/Denkmale/3077\">Denkmalliste Nr. 12</a></li>",
+      "color": "#E486B9",
+      "successor": "7.4.13"
+    },
+    "geometry": { "type": "Point", "coordinates": [ 7.0425422, 50.8689435 ]}
+  },
+  {
+    "type": "Feature",
+    "properties": {
+      "id": "7.4.14",
+      "borough_no": "7",
+      "borough": "Porz",
+      "quarter": "Zündorf",
+      "track_no": "4",
+      "track_point": "14",
+      "track_sub": "",
+      "name": "St. Mariä Geburt",
+      "description": "Die kathol. Pfarrkirche St. Mariä Geburt, Hauptstr. 141, 1895&frasl;97 nach den Plänen F. Langenbergs erbaut, ist eine dreischiffige neugotische Backstein-Hallenkirche mit mächtigem, das Ortsbild dominierenden schiefergedeckten Vierkantturm an der Eingangsseite. Im Inneren neben den Resten der originalen neugot. Ausstattung und Relikten as der alten Pfarrkirche (Holzskulptur der auf einer Mondsichel thronenden Muttergottes (eine moderne Ausstattung (v. G. Lossow) und seit 1962 von F. Pauli geschaffene Glasfenster. Neben der Kirche ein Wegkreuz (um 1800) aus farbig gefasstem Sandstein.",
+      "additional_info": "<li><a target=\"_blank\" href=\"http://www.bilderbuch-koeln.de/Denkmale/1375\">Denkmalliste</a></li>",
+      "color": "#E486B9",
+      "successor": "7.4.15"
+    },
+    "geometry": { "type": "Point", "coordinates": [ 7.042566, 50.867644 ]}
+  },
+  {
+    "type": "Feature",
+    "properties": {
+      "id": "7.4.18",
+      "borough_no": "7",
+      "borough": "Porz",
+      "quarter": "Zündorf",
+      "track_no": "4",
+      "track_point": "18",
+      "track_sub": "",
+      "name": "Börschhof",
+      "description": "Der Börschhof (ehemaliger Abtshof), Hauptstraße 2, ist eine geschlossene Hofanlage von 1780/81 mit 2-gechossigem, fünfachsigem Herrenhaus und eingeschossigen Wirtschaftsgebäuden (alle in Backstein). Der Hof markiert die südliche Grenze Zündorfs und prägt zusammen mit den anderen Hofanlagen das Dorfbild entlang der Hauptstraße.",
+      "additional_info": "<li><a target=\"_blank\" href=\"http://www.bilderbuch-koeln.de/Denkmale/708\">Denkmalliste Hofanlage</a></li> <li><a target=\"_blank\" href=\"http://www.bilderbuch-koeln.de/Denkmale/7514\">Denkmalliste Wegkreuz</a></li>",
+      "color": "#E486B9",
+      "successor": "7.4.19"
+    },
+    "geometry": { "type": "Point", "coordinates": [ 7.034015634281348, 50.86086336608961 ]}
   }
 ]
 }
