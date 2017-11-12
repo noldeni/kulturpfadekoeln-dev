@@ -67,7 +67,7 @@ function getInfoTextContent(feature){
     content += "\
 <br/><small><a onclick=\"showAttribution();\" href=\"#\">Quellen/Beitragende<a></small>";
   } else {
-    content += "<b>" + feature.properties.name + "</b> - " + feature.properties.borough + " " + feature.properties.track_no + "." + feature.properties.track_point + " (" + feature.properties.quarter + ")" + "<br/>";
+    content += "<b>" + feature.properties.title + "</b> - " + feature.properties.borough + " " + feature.properties.track_no + "." + feature.properties.track_point + " (" + feature.properties.quarter + ")" + "<br/>";
      
     content += feature.properties.description;
     
@@ -77,19 +77,16 @@ function getInfoTextContent(feature){
       content += "<i>Hinweise der Redaktion</i>:<br/>";
       content += feature.properties.notes;
     }
-    if (feature.properties.wiki || feature.properties.additional_info) {
+    if (feature.properties.additional_info) {
       if (content.length > 0)
         content += "<br/><br/>";
       content += "<i>Weitere Informationen</i>:<br/><ul>";
-    }
-    if (feature.properties.wiki) {
-      content += "<li><a target=\"_blank\" href=\"" + feature.properties.wiki + "\">Wikipedia</a></li>";
     }
     if (feature.properties.additional_info) {
       content += feature.properties.additional_info;
     }
       
-    if (feature.properties.wiki || feature.properties.additional_info) {
+    if (feature.properties.additional_info) {
       content += "</ul>";
     } else if (feature.properties.successor) {
       content += "<br/><br/>";
@@ -99,7 +96,7 @@ function getInfoTextContent(feature){
     }
     content += "<br/><br/><small>\
     <a href=\"#\" rel=\"nofollow\" onclick=\"this.href='mailto:' + 'ch_finke' + '@' + 'web.de' + '?subject=Kulturpfade Köln (" + 
-    feature.properties.borough_no + "." + feature.properties.track_no + "." + feature.properties.track_point + feature.properties.track_sub
+    feature.properties.borough_no + "." + feature.properties.track_no + "." + feature.properties.track_point + feature.properties.track_subpt
     + ")'\">\
     Feedback</a></small>";
   }
@@ -180,7 +177,7 @@ function syncSidebar() {
   infos.eachLayer(function (layer) {
     if (map.hasLayer(infoLayer)) {
       if (map.getBounds().contains(layer.getLatLng())) {
-        $("#feature-list tbody").append('<tr class="feature-row" id="' + L.stamp(layer) + '" lat="' + layer.getLatLng().lat + '" lng="' + layer.getLatLng().lng + '"><td style="background-color:' + layer.feature.properties.color + ';"></td><td class="feature-name">' + layer.feature.properties.borough + ' ' + layer.feature.properties.track_no + '.' + layer.feature.properties.track_point + ' ' + layer.feature.properties.name + ' (' + layer.feature.properties.quarter + ')' + '</td><td style="vertical-align: middle;"><i class="fa fa-chevron-right pull-right"></i></td></tr>');
+        $("#feature-list tbody").append('<tr class="feature-row" id="' + L.stamp(layer) + '" lat="' + layer.getLatLng().lat + '" lng="' + layer.getLatLng().lng + '"><td style="background-color:' + layer.feature.properties.color + ';"></td><td class="feature-name">' + layer.feature.properties.borough + ' ' + layer.feature.properties.track_no + '.' + layer.feature.properties.track_point + ' ' + layer.feature.properties.title + ' (' + layer.feature.properties.quarter + ')' + '</td><td style="vertical-align: middle;"><i class="fa fa-chevron-right pull-right"></i></td></tr>');
       }
     }
   });
@@ -188,7 +185,7 @@ function syncSidebar() {
   starts.eachLayer(function (layer) {
     if (map.hasLayer(startLayer)) {
       if (map.getBounds().contains(layer.getLatLng())) {
-        $("#feature-list tbody").append('<tr class="feature-row" id="' + L.stamp(layer) + '" lat="' + layer.getLatLng().lat + '" lng="' + layer.getLatLng().lng + '"><td></td><td class="feature-name">' + layer.feature.properties.borough + ' ' + layer.feature.properties.track_no + '.' + layer.feature.properties.track_point + ' ' + layer.feature.properties.name + ' (' + layer.feature.properties.quarter + ')' + '</td><td style="vertical-align: middle;"><i class="fa fa-chevron-right pull-right"></i></td></tr>');
+        $("#feature-list tbody").append('<tr class="feature-row" id="' + L.stamp(layer) + '" lat="' + layer.getLatLng().lat + '" lng="' + layer.getLatLng().lng + '"><td></td><td class="feature-name">' + layer.feature.properties.borough + ' ' + layer.feature.properties.track_no + '.' + layer.feature.properties.track_point + ' ' + layer.feature.properties.title + ' (' + layer.feature.properties.quarter + ')' + '</td><td style="vertical-align: middle;"><i class="fa fa-chevron-right pull-right"></i></td></tr>');
       }
     }
   });
@@ -299,22 +296,22 @@ var infos = L.geoJson(null, {
       var content = getInfoTextContent(feature) ;
       layer.on({
         click: function (e) {
-          $("#feature-title").html(feature.properties.borough + " " + feature.properties.track_no + "." + feature.properties.track_point + " " + feature.properties.name + " (" + feature.properties.quarter + ")");
+          $("#feature-title").html(feature.properties.borough + " " + feature.properties.track_no + "." + feature.properties.track_point + " " + feature.properties.title + " (" + feature.properties.quarter + ")");
           $("#feature-info").html(content);
           $("#featureModal").modal("show");
           highlight.clearLayers().addLayer(L.circleMarker([feature.geometry.coordinates[1], feature.geometry.coordinates[0]], highlightStyle));
         },
         mouseover: function (e) {
-          var title = feature.properties.borough + " " + feature.properties.track_no + "." + feature.properties.track_point + " " + feature.properties.name + " (" + feature.properties.quarter + ")";
+          var title = feature.properties.borough + " " + feature.properties.track_no + "." + feature.properties.track_point + " " + feature.properties.title + " (" + feature.properties.quarter + ")";
           Tip(title);
         },
         mouseout: function (e) {
           UnTip();
         }
       });
-      $("#feature-list tbody").append('<tr class="feature-row" id="' + L.stamp(layer) + '" lat="' + layer.getLatLng().lat + '" lng="' + layer.getLatLng().lng + '"><td style="vertical-align: middle;"><img width="16" height="18" src="assets/img/theater.png"></td><td class="feature-name">' + layer.feature.properties.borough + ' ' + layer.feature.properties.track_no + '.' + layer.feature.properties.track_point + ' ' + layer.feature.properties.name + ' (' + layer.feature.properties.quarter + ')' + '</td><td style="vertical-align: middle;"><i class="fa fa-chevron-right pull-right"></i></td></tr>');
+      $("#feature-list tbody").append('<tr class="feature-row" id="' + L.stamp(layer) + '" lat="' + layer.getLatLng().lat + '" lng="' + layer.getLatLng().lng + '"><td style="vertical-align: middle;"><img width="16" height="18" src="assets/img/theater.png"></td><td class="feature-name">' + layer.feature.properties.borough + ' ' + layer.feature.properties.track_no + '.' + layer.feature.properties.track_point + ' ' + layer.feature.properties.title + ' (' + layer.feature.properties.quarter + ')' + '</td><td style="vertical-align: middle;"><i class="fa fa-chevron-right pull-right"></i></td></tr>');
       infoSearch.push({
-        name: layer.feature.properties.borough + " " + layer.feature.properties.track_no + "." + layer.feature.properties.track_point + " " + layer.feature.properties.name + " (" + layer.feature.properties.quarter + ")",
+        name: layer.feature.properties.borough + " " + layer.feature.properties.track_no + "." + layer.feature.properties.track_point + " " + layer.feature.properties.title + " (" + layer.feature.properties.quarter + ")",
         source: "Infos",
         id: L.stamp(layer),
         lat: layer.feature.geometry.coordinates[1],
@@ -360,22 +357,22 @@ var starts = L.geoJson(null, {
       var content = getInfoTextContent(feature);
       layer.on({
         click: function (e) {
-          $("#feature-title").html(feature.properties.borough + " " + feature.properties.track_no + "." + feature.properties.track_point + " " + feature.properties.name + " (" + feature.properties.quarter + ")");
+          $("#feature-title").html(feature.properties.borough + " " + feature.properties.track_no + "." + feature.properties.track_point + " " + feature.properties.title + " (" + feature.properties.quarter + ")");
           $("#feature-info").html(content);
           $("#featureModal").modal("show");
           highlight.clearLayers().addLayer(L.circleMarker([feature.geometry.coordinates[1], feature.geometry.coordinates[0]], highlightStyle));
         },
         mouseover: function (e) {
-          var title = feature.properties.borough + " " + feature.properties.track_no + "." + feature.properties.track_point + " " + feature.properties.name + " (" + feature.properties.quarter + ")";
+          var title = feature.properties.borough + " " + feature.properties.track_no + "." + feature.properties.track_point + " " + feature.properties.title + " (" + feature.properties.quarter + ")";
           Tip(title);
         },
         mouseout: function (e) {
           UnTip();
         }
       });
-      $("#feature-list tbody").append('<tr class="feature-row" id="' + L.stamp(layer) + '" lat="' + layer.getLatLng().lat + '" lng="' + layer.getLatLng().lng + '"><td style="vertical-align: middle;"><img width="16" height="18" src="assets/img/museum.png"></td><td class="feature-name">' + layer.feature.properties.borough + ' ' + layer.feature.properties.track_no + '.' + layer.feature.properties.track_point + ' ' + layer.feature.properties.name + ' (' + layer.feature.properties.quarter + ')' + '</td><td style="vertical-align: middle;"><i class="fa fa-chevron-right pull-right"></i></td></tr>');
+      $("#feature-list tbody").append('<tr class="feature-row" id="' + L.stamp(layer) + '" lat="' + layer.getLatLng().lat + '" lng="' + layer.getLatLng().lng + '"><td style="vertical-align: middle;"><img width="16" height="18" src="assets/img/museum.png"></td><td class="feature-name">' + layer.feature.properties.borough + ' ' + layer.feature.properties.track_no + '.' + layer.feature.properties.track_point + ' ' + layer.feature.properties.title + ' (' + layer.feature.properties.quarter + ')' + '</td><td style="vertical-align: middle;"><i class="fa fa-chevron-right pull-right"></i></td></tr>');
       startSearch.push({
-        name: layer.feature.properties.borough + " " + layer.feature.properties.track_no + "." + layer.feature.properties.track_point + " " + layer.feature.properties.name + " (" + layer.feature.properties.quarter + ")",
+        name: layer.feature.properties.borough + " " + layer.feature.properties.track_no + "." + layer.feature.properties.track_point + " " + layer.feature.properties.title + " (" + layer.feature.properties.quarter + ")",
         source: "starts",
         id: L.stamp(layer),
         lat: layer.feature.geometry.coordinates[1],

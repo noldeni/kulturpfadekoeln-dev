@@ -38,34 +38,42 @@ def main():
                 dest.write(u'    "type": "Feature",\n')
                 dest.write(u'    "properties": {\n')
                 
-                dest.write(u'      "id": "{}.{}.{}{}"'.format(entry[u'borough-no'], entry[u'track-no'], entry[u'track-point'] or u'0', entry[u'track-sub']))
+                dest.write(u'      "id": "{}.{}.{}{}"'.format(entry[u'borough-no'], entry[u'track-no'], entry[u'track-point'] or u'0', entry[u'track-subpt']))
                 dest.write(u',\n      "borough_no": "{}"'.format(entry[u'borough-no']))
                 dest.write(u',\n      "borough": "{}"'.format(entry[u'borough']))
                 dest.write(u',\n      "quarter": "{}"'.format(entry[u'quarter']))
                 dest.write(u',\n      "track_no": "{}"'.format(entry[u'track-no']))
                 dest.write(u',\n      "track_point": "{}"'.format(entry[u'track-point'] or u'0'))
-                dest.write(u',\n      "track_sub": "{}"'.format(entry[u'track-sub']))
-                dest.write(u',\n      "name": "{}"'.format(entry[u'name']))
+                dest.write(u',\n      "track_subpt": "{}"'.format(entry[u'track-subpt']))
+                dest.write(u',\n      "title": "{}"'.format(entry[u'title']))
                 dest.write(u',\n      "description": "{}"'.format(entry[u'description']))
-                if entry[u'wiki']:
-                    dest.write(u',\n      "wiki": "{}"'.format(entry[u'wiki']))
+                # combine additional info
+                text = u''
+                if entry[u'wiki'] and entry[u'wiki'][0] <> u'#':
+                    lis = entry[u'wiki'].split(u',') or [entry[u'wiki']]
+                    for li in lis:
+                        l = li.split(u'[') or li
+                        l.append(u']')
+                        text += u'<li><a target=\\"_blank\\" href=\\"https://de.wikipedia.org/wiki/{}\\">Wikipedia {}</a></li>'.format(l[0], l[1][:-1]);
+                if entry[u'monument-no'] and entry[u'monument-no'][0] <> u'#':
+                    lis = entry[u'monument-no'].split(u',') or [entry[u'monument-no']]
+                    for li in lis:
+                        l = li.split(u'[') or li
+                        l.append(u']')
+                        text += u'<li><a target=\\"_blank\\" href=\\"http://www.bilderbuch-koeln.de/Denkmale/{}\\">Denkmalliste {}</a></li>'.format(l[0], l[1][:-1]);
+                
                 if entry[u'additional-info']:
-                    dest.write(u',\n      "additional_info": "{}"'.format(entry[u'additional-info']))
+                    text += entry[u'additional-info']
+                if text:
+                    dest.write(u',\n      "additional_info": "{}"'.format(text))
+                
                 if entry[u'notes']:
                     dest.write(u',\n      "notes": "{}"'.format(entry[u'notes']))
                 if entry[u'active'] == u'T':
                     dest.write(u',\n      "color": "{}"'.format(u'#3300ff'))
                 else:
                     dest.write(u',\n      "color": "{}"'.format(entry[u'color']))
-                #dest.write(u',\n      "active": "{}"'.format(entry[u'active']))
                 dest.write(u',\n      "successor": "{}"'.format(entry[u'successor']))
-                #dest.write(u',\n      "internal-note": "{}"'.format(entry[u'internal-note']))
-                #dest.write(u',\n      "": "{info-position}"'.format(entry[u'info-position']))
-                #dest.write(u',\n      "": "{monument-no}"'.format(entry[u'monument-no']))
-                #dest.write(u',\n      "": "{info-position-state}"'.format(entry[u'info-position-state']))
-                #dest.write(u',\n      "": "{map-position-state}"'.format(entry[u'map-position-state']))
-                #dest.write(u',\n      "": "{description-state}"'.format(entry[u'description-state']))
-                #dest.write(u',\n      "": "{building-state}"'.format(entry[u'building-state']))                
                 dest.write(u'\n    },\n')
                 dest.write(u'    "geometry": { ')
                 dest.write(u'"type": "Point", "coordinates": {}'.format( entry[u'map-position']))
