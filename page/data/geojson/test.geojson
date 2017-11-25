@@ -5,6 +5,373 @@
   {
     "type": "Feature",
     "properties": {
+      "id": "2.1.1",
+      "borough_no": "2",
+      "borough": "Rodenkirchen",
+      "quarter": "Bayenthal",
+      "track_no": "1",
+      "track_point": "1",
+      "track_subpt": "",
+      "title": "Palais Oppenheim",
+      "description": "",
+      "additional_info": "<li><a target=\"_blank\" href=\"http://www.bilderbuch-koeln.de/Denkmale/8339\">Denkmalliste </a></li>",
+      "notes": "Hier konnten wir leider keine Infotafel mehr finden.",
+      "color": "#3300ff",
+      "successor": "2.1.2"
+    },
+    "geometry": { "type": "Point", "coordinates": [ 6.97642077685039, 50.908107090640065 ]}
+  },
+  {
+    "type": "Feature",
+    "properties": {
+      "id": "2.1.2",
+      "borough_no": "2",
+      "borough": "Rodenkirchen",
+      "quarter": "Bayenthal",
+      "track_no": "1",
+      "track_point": "2",
+      "track_subpt": "",
+      "title": "Alteburger Straße",
+      "description": "",
+      "color": "#3300ff",
+      "successor": "2.1.3"
+    },
+    "geometry": { "type": "Point", "coordinates": [ 6.97084203263639, 50.91055421014461 ]}
+  },
+  {
+    "type": "Feature",
+    "properties": {
+      "id": "2.1.4",
+      "borough_no": "2",
+      "borough": "Rodenkirchen",
+      "quarter": "Bayenthal",
+      "track_no": "1",
+      "track_point": "4",
+      "track_subpt": "",
+      "title": "Stadthäuser Goltsteinstraße",
+      "description": "",
+      "color": "#3300ff",
+      "successor": "2.1.5"
+    },
+    "geometry": { "type": "Point", "coordinates": [ 6.969388944843358, 50.909862440488155 ]}
+  },
+  {
+    "type": "Feature",
+    "properties": {
+      "id": "2.1.5",
+      "borough_no": "2",
+      "borough": "Rodenkirchen",
+      "quarter": "Bayenthal",
+      "track_no": "1",
+      "track_point": "5",
+      "track_subpt": "",
+      "title": "St. Matthias",
+      "description": "",
+      "additional_info": "<li><a target=\"_blank\" href=\"http://www.bilderbuch-koeln.de/Denkmale/925\">Denkmalliste </a></li>",
+      "color": "#3300ff",
+      "successor": "2.1.6"
+    },
+    "geometry": { "type": "Point", "coordinates": [ 6.9664073, 50.9093518 ]}
+  },
+  {
+    "type": "Feature",
+    "properties": {
+      "id": "2.1.6",
+      "borough_no": "2",
+      "borough": "Rodenkirchen",
+      "quarter": "Bayenthal",
+      "track_no": "1",
+      "track_point": "6",
+      "track_subpt": "",
+      "title": "St. Josef-Haus",
+      "description": "",
+      "additional_info": "<li><a target=\"_blank\" href=\"https://de.wikipedia.org/wiki/Bayenthal#Einrichtungen\">Wikipedia </a></li><li><a target=\"_blank\" href=\"http://www.bilderbuch-koeln.de/Denkmale/2832\">Denkmalliste </a></li>",
+      "color": "#3300ff",
+      "successor": "2.1.7"
+    },
+    "geometry": { "type": "Point", "coordinates": [ 6.9678252, 50.9098685 ]}
+  },
+  {
+    "type": "Feature",
+    "properties": {
+      "id": "2.1.7",
+      "borough_no": "2",
+      "borough": "Rodenkirchen",
+      "quarter": "Bayenthal",
+      "track_no": "1",
+      "track_point": "7",
+      "track_subpt": "",
+      "title": "St. Antonius-Krankenhaus",
+      "description": "",
+      "additional_info": "<li><a target=\"_blank\" href=\"https://de.wikipedia.org/wiki/St._Antonius_Krankenhaus_Köln\">Wikipedia </a></li><li><a target=\"_blank\" href=\"http://www.bilderbuch-koeln.de/Denkmale/1213\">Denkmalliste </a></li>",
+      "color": "#3300ff",
+      "successor": "2.1.8"
+    },
+    "geometry": { "type": "Point", "coordinates": [ 6.966067558208099, 50.910438875244665 ]}
+  },
+  {
+    "type": "Feature",
+    "properties": {
+      "id": "2.1.8",
+      "borough_no": "2",
+      "borough": "Rodenkirchen",
+      "quarter": "Raderberg",
+      "track_no": "1",
+      "track_point": "8",
+      "track_subpt": "",
+      "title": "Arbeiter-Kolonie Wilhelmsruhe",
+      "description": "",
+      "additional_info": "<li><a target=\"_blank\" href=\"http://www.bilderbuch-koeln.de/Denkmale/185\">Denkmalliste </a></li>",
+      "color": "#3300ff",
+      "successor": "2.1.9"
+    },
+    "geometry": { "type": "Point", "coordinates": [ 6.9636968, 50.9058974 ]}
+  },
+  {
+    "type": "Feature",
+    "properties": {
+      "id": "2.1.9",
+      "borough_no": "2",
+      "borough": "Rodenkirchen",
+      "quarter": "Raderberg",
+      "track_no": "1",
+      "track_point": "9",
+      "track_subpt": "",
+      "title": "St. Mariä-Empfängnis",
+      "description": "",
+      "color": "#3300ff",
+      "successor": "2.1.10"
+    },
+    "geometry": { "type": "Point", "coordinates": [ 6.957947393893669, 50.90517980938727 ]}
+  },
+  {
+    "type": "Feature",
+    "properties": {
+      "id": "2.1.10",
+      "borough_no": "2",
+      "borough": "Rodenkirchen",
+      "quarter": "Raderberg",
+      "track_no": "1",
+      "track_point": "10",
+      "track_subpt": "",
+      "title": "Benediktinerinnenkloster",
+      "description": "",
+      "additional_info": "<li><a target=\"_blank\" href=\"http://www.bilderbuch-koeln.de/Denkmale/1095 \">Denkmalliste Herz-Jesu-Kloster und Kapelle</a></li>",
+      "color": "#3300ff",
+      "successor": "2.1.11"
+    },
+    "geometry": { "type": "Point", "coordinates": [ 6.9593075, 50.906758 ]}
+  },
+  {
+    "type": "Feature",
+    "properties": {
+      "id": "2.1.11",
+      "borough_no": "2",
+      "borough": "Rodenkirchen",
+      "quarter": "Raderberg",
+      "track_no": "1",
+      "track_point": "11",
+      "track_subpt": "",
+      "title": "Großmarkthalle",
+      "description": "",
+      "additional_info": "<li><a target=\"_blank\" href=\"https://de.wikipedia.org/wiki/Großmarkt_Köln\">Wikipedia </a></li><li><a target=\"_blank\" href=\"http://www.bilderbuch-koeln.de/Denkmale/5313 \">Denkmalliste Großmarkthalle und Versteigerungshalle</a></li><li><a target=\"_blank\" href=\"http://www.bilderbuch-koeln.de/Denkmale/ 210 \">Denkmalliste Bunker</a></li>",
+      "color": "#3300ff",
+      "successor": ""
+    },
+    "geometry": { "type": "Point", "coordinates": [ 6.9598324, 50.9126216 ]}
+  },
+  {
+    "type": "Feature",
+    "properties": {
+      "id": "2.3.0",
+      "borough_no": "2",
+      "borough": "Rodenkirchen",
+      "quarter": "",
+      "track_no": "3",
+      "track_point": "0",
+      "track_subpt": "",
+      "title": "Start Tour 3",
+      "description": "",
+      "color": "#3300ff",
+      "successor": "2.3.1"
+    },
+    "geometry": { "type": "Point", "coordinates": [ 6.9775286, 50.9066641 ]}
+  },
+  {
+    "type": "Feature",
+    "properties": {
+      "id": "2.3.1",
+      "borough_no": "2",
+      "borough": "Rodenkirchen",
+      "quarter": "Marienburg",
+      "track_no": "3",
+      "track_point": "1",
+      "track_subpt": "",
+      "title": "Bismarkturm",
+      "description": "",
+      "color": "#3300ff",
+      "successor": "2.3.2"
+    },
+    "geometry": { "type": "Point", "coordinates": [ 6.9771879, 50.9065304 ]}
+  },
+  {
+    "type": "Feature",
+    "properties": {
+      "id": "2.3.2",
+      "borough_no": "2",
+      "borough": "Rodenkirchen",
+      "quarter": "Marienburg",
+      "track_no": "3",
+      "track_point": "2",
+      "track_subpt": "",
+      "title": "Villenviertel Marienburg",
+      "description": "",
+      "additional_info": "<li><a target=\"_blank\" href=\"https://de.wikipedia.org/wiki/Villenkolonie_Köln-Marienburg\">Wikipedia </a></li>",
+      "color": "#3300ff",
+      "successor": "2.3.3"
+    },
+    "geometry": { "type": "Point", "coordinates": [ 6.973889, 50.9051519 ]}
+  },
+  {
+    "type": "Feature",
+    "properties": {
+      "id": "2.3.3",
+      "borough_no": "2",
+      "borough": "Rodenkirchen",
+      "quarter": "Marienburg",
+      "track_no": "3",
+      "track_point": "3",
+      "track_subpt": "",
+      "title": "Marienburger Str. 11 und die &quot;Marienburg&quot;",
+      "description": "",
+      "color": "#3300ff",
+      "successor": "2.3.4"
+    },
+    "geometry": { "type": "Point", "coordinates": [ 6.978558946834916, 50.90225039952023 ]}
+  },
+  {
+    "type": "Feature",
+    "properties": {
+      "id": "2.3.4",
+      "borough_no": "2",
+      "borough": "Rodenkirchen",
+      "quarter": "Marienburg",
+      "track_no": "3",
+      "track_point": "4",
+      "track_subpt": "",
+      "title": "Villa Vorster",
+      "description": "",
+      "internal_notes": "Weitere Gebäude auf der Route nach dem Zwischenwerk.",
+      "color": "#3300ff",
+      "successor": "2.3.5"
+    },
+    "geometry": { "type": "Point", "coordinates": [ 6.977727, 50.9009304 ]}
+  },
+  {
+    "type": "Feature",
+    "properties": {
+      "id": "2.3.5",
+      "borough_no": "2",
+      "borough": "Rodenkirchen",
+      "quarter": "Marienburg",
+      "track_no": "3",
+      "track_point": "5",
+      "track_subpt": "",
+      "title": "Zwischenwerk VIIIb",
+      "description": "",
+      "color": "#3300ff",
+      "successor": "2.3.6"
+    },
+    "geometry": { "type": "Point", "coordinates": [ 6.9821429, 50.8987378 ]}
+  },
+  {
+    "type": "Feature",
+    "properties": {
+      "id": "2.3.6",
+      "borough_no": "2",
+      "borough": "Rodenkirchen",
+      "quarter": "Marienburg",
+      "track_no": "3",
+      "track_point": "6",
+      "track_subpt": "",
+      "title": "Allerheiligen-Kirche",
+      "description": "",
+      "color": "#3300ff",
+      "successor": "2.3.7"
+    },
+    "geometry": { "type": "Point", "coordinates": [ 6.9674690064341, 50.89430467480777 ]}
+  },
+  {
+    "type": "Feature",
+    "properties": {
+      "id": "2.3.7",
+      "borough_no": "2",
+      "borough": "Rodenkirchen",
+      "quarter": "Marienburg",
+      "track_no": "3",
+      "track_point": "7",
+      "track_subpt": "",
+      "title": "Südpark",
+      "description": "",
+      "color": "#3300ff",
+      "successor": "2.3.8"
+    },
+    "geometry": { "type": "Point", "coordinates": [ 6.9720697, 50.8959464 ]}
+  },
+  {
+    "type": "Feature",
+    "properties": {
+      "id": "2.3.8",
+      "borough_no": "2",
+      "borough": "Rodenkirchen",
+      "quarter": "Marienburg",
+      "track_no": "3",
+      "track_point": "8",
+      "track_subpt": "",
+      "title": "Goethestraße",
+      "description": "",
+      "color": "#3300ff",
+      "successor": "2.3.9"
+    },
+    "geometry": { "type": "Point", "coordinates": [ 6.9720708, 50.897366 ]}
+  },
+  {
+    "type": "Feature",
+    "properties": {
+      "id": "2.3.9",
+      "borough_no": "2",
+      "borough": "Rodenkirchen",
+      "quarter": "Marienburg",
+      "track_no": "3",
+      "track_point": "9",
+      "track_subpt": "",
+      "title": "Ev. Reformationskirche",
+      "description": "",
+      "color": "#3300ff",
+      "successor": "2.3.10"
+    },
+    "geometry": { "type": "Point", "coordinates": [ 6.970002, 50.9019073 ]}
+  },
+  {
+    "type": "Feature",
+    "properties": {
+      "id": "2.3.10",
+      "borough_no": "2",
+      "borough": "Rodenkirchen",
+      "quarter": "Marienburg",
+      "track_no": "3",
+      "track_point": "10",
+      "track_subpt": "",
+      "title": "Pferdmensgesstraße",
+      "description": "",
+      "color": "#3300ff",
+      "successor": ""
+    },
+    "geometry": { "type": "Point", "coordinates": [ 6.9715631, 50.904507 ]}
+  },
+  {
+    "type": "Feature",
+    "properties": {
       "id": "2..0",
       "borough_no": "2",
       "borough": "Rodenkirchen",
@@ -14,6 +381,7 @@
       "track_subpt": "",
       "title": "Rodenkirchen #1",
       "description": "",
+      "internal_notes": "osm node 1638242980",
       "color": "#3300ff",
       "successor": ""
     },
@@ -31,27 +399,11 @@
       "track_subpt": "",
       "title": "Rodenkirchen #2",
       "description": "",
+      "internal_notes": "osm node 3578840790",
       "color": "#3300ff",
       "successor": ""
     },
     "geometry": { "type": "Point", "coordinates": [ 6.9564228, 50.8601176 ]}
-  },
-  {
-    "type": "Feature",
-    "properties": {
-      "id": "2..0",
-      "borough_no": "2",
-      "borough": "Rodenkirchen",
-      "quarter": "",
-      "track_no": "",
-      "track_point": "0",
-      "track_subpt": "",
-      "title": "Rodenkirchen #3 Benedinerinnenkloster",
-      "description": "",
-      "color": "#3300ff",
-      "successor": ""
-    },
-    "geometry": { "type": "Point", "coordinates": [ 6.9595962, 50.9073222 ]}
   },
   {
     "type": "Feature",
@@ -65,6 +417,7 @@
       "track_subpt": "",
       "title": "Rodenkirchen #4",
       "description": "",
+      "internal_notes": "osm node 3578840790",
       "color": "#3300ff",
       "successor": ""
     },
@@ -73,300 +426,300 @@
   {
     "type": "Feature",
     "properties": {
-      "id": "3.?.1",
+      "id": "3.3.1",
       "borough_no": "3",
       "borough": "Lindenthal",
       "quarter": "Müngersdorf",
-      "track_no": "?",
+      "track_no": "3",
       "track_point": "1",
       "track_subpt": "",
       "title": "St. Vitalis und Pfarrhaus",
       "description": "1889/90 wurde die heutige Kirche, eine der ersten neuromanischen Kirchen Kölns, nach Plänen des Architekten Theodor Kremer errichtet. Neben der Kirche befindet sich das 1880 als Backsteinbau errichtete Pfarrhaus.",
       "color": "#3300ff",
-      "successor": ""
+      "successor": "3.3.2"
     },
     "geometry": { "type": "Point", "coordinates": [ 6.87951744, 50.9399976 ]}
   },
   {
     "type": "Feature",
     "properties": {
-      "id": "3.?.2",
+      "id": "3.3.2",
       "borough_no": "3",
       "borough": "Lindenthal",
       "quarter": "Müngersdorf",
-      "track_no": "?",
+      "track_no": "3",
       "track_point": "2",
       "track_subpt": "",
       "title": "Kirchenhof",
       "description": "Von 1261 bis 1803 gehörte der Kirchenhof zu den Besitztümern der Zisterzienser-Abtei Altenberg.Das Herrenhaus mit Schopfwalmdach, dessen Inneres fast unverändert erhalten ist, datiert aus dem Jahr 1774. Nach der Säkularisation (1803) kam der Hof in Privatbesitz.",
       "color": "#3300ff",
-      "successor": ""
+      "successor": "3.3.3"
     },
     "geometry": { "type": "Point", "coordinates": [ 6.87985995, 50.9394463 ]}
   },
   {
     "type": "Feature",
     "properties": {
-      "id": "3.?.3",
+      "id": "3.3.3",
       "borough_no": "3",
       "borough": "Lindenthal",
       "quarter": "Müngersdorf",
-      "track_no": "?",
+      "track_no": "3",
       "track_point": "3",
       "track_subpt": "",
       "title": "Haus Fenger-Schöngen",
       "description": "Die ursprünglich in Fachwerk und Backstein errichtete Anlage stammt aus dem 19. Jahrhundert.",
       "color": "#3300ff",
-      "successor": ""
+      "successor": "3.3.4"
     },
     "geometry": { "type": "Point", "coordinates": [ 6.87863688, 50.9399296 ]}
   },
   {
     "type": "Feature",
     "properties": {
-      "id": "3.?.4",
+      "id": "3.3.4",
       "borough_no": "3",
       "borough": "Lindenthal",
       "quarter": "Müngersdorf",
-      "track_no": "?",
+      "track_no": "3",
       "track_point": "4",
       "track_subpt": "",
       "title": "Marienhof",
       "description": "Der traufständige Backsteinbau ist das Herrenhaus des ehemaligen  Petershofes, der in früheren Urkunden auch Marienhof oder Liebfrauenhof genannt wird. Das spätbarocke Herrenhaus datiert von 1792.",
       "color": "#3300ff",
-      "successor": ""
+      "successor": "3.3.5"
     },
     "geometry": { "type": "Point", "coordinates": [ 6.87878, 50.94042 ]}
   },
   {
     "type": "Feature",
     "properties": {
-      "id": "3.?.5",
+      "id": "3.3.5",
       "borough_no": "3",
       "borough": "Lindenthal",
       "quarter": "Müngersdorf",
-      "track_no": "?",
+      "track_no": "3",
       "track_point": "5",
       "track_subpt": "",
       "title": "Stadtvillen",
       "description": "In direkter Nachbarschaft von kleinen Wohnhäusern und großen Hofanlagen entstanden Anfang des 20. Jahrhunderts die Häuser Belvederestraße 20, 22 und 24, aber auch andere Stadtvillen im alten Ortskern.",
       "color": "#3300ff",
-      "successor": ""
+      "successor": "3.3.6"
     },
     "geometry": { "type": "Point", "coordinates": [ 6.8777001, 50.9410432 ]}
   },
   {
     "type": "Feature",
     "properties": {
-      "id": "3.?.6",
+      "id": "3.3.6",
       "borough_no": "3",
       "borough": "Lindenthal",
       "quarter": "Müngersdorf",
-      "track_no": "?",
+      "track_no": "3",
       "track_point": "6",
       "track_subpt": "",
       "title": "Petershof",
       "description": "Die in Backstein errichtete geschlossene Hofanlage wurde 1896 errichtet. Seit 1926 gehört der Hof der Stadt Köln und beherbergt seit 1945 eine städtische Kindertagesstätte.",
       "color": "#3300ff",
-      "successor": ""
+      "successor": "3.3.7"
     },
     "geometry": { "type": "Point", "coordinates": [ 6.87737703, 50.9405283 ]}
   },
   {
     "type": "Feature",
     "properties": {
-      "id": "3.?.7",
+      "id": "3.3.7",
       "borough_no": "3",
       "borough": "Lindenthal",
       "quarter": "Müngersdorf",
-      "track_no": "?",
+      "track_no": "3",
       "track_point": "7",
       "track_subpt": "",
       "title": "Haus Josef Haubrich",
       "description": "Dieses markante Wohnhaus erbaute Wilhelm Riphahn in den Jahren 1951/52 im Bauhaus-Stil der 1920er-Jahre für den bedeutenden Kölner Rechtsanwalt und Kunstsammler Josef Haubrich (1889 bis 1961).",
       "color": "#3300ff",
-      "successor": ""
+      "successor": "3.3.8"
     },
     "geometry": { "type": "Point", "coordinates": [ 6.87543, 50.93993 ]}
   },
   {
     "type": "Feature",
     "properties": {
-      "id": "3.?.8",
+      "id": "3.3.8",
       "borough_no": "3",
       "borough": "Lindenthal",
       "quarter": "Müngersdorf",
-      "track_no": "?",
+      "track_no": "3",
       "track_point": "8",
       "track_subpt": "",
       "title": "Pesche Hüsje",
       "description": "Fachwerkhäuser dieser Bauweise und Größe, in denen hauptsächlich Landarbeiter und Handwerker wohnten, waren einst ortsprägend für Müngersdorf. Errichtet wurde das &quot;Pesche Hüsje&quot; entweder um 1640 oder um 1710. Damit gehört es zu den ältesten Wohnhäusern Kölns.",
       "color": "#3300ff",
-      "successor": ""
+      "successor": "3.3.9"
     },
     "geometry": { "type": "Point", "coordinates": [ 6.87538, 50.94181 ]}
   },
   {
     "type": "Feature",
     "properties": {
-      "id": "3.?.9",
+      "id": "3.3.9",
       "borough_no": "3",
       "borough": "Lindenthal",
       "quarter": "Müngersdorf",
-      "track_no": "?",
+      "track_no": "3",
       "track_point": "9",
       "track_subpt": "",
-      "title": "?",
+      "title": "Haus und Büro O.M. Ungers",
       "description": "1958/59 baute der Architekt Oswald Mathias Ungers (1926 bis 2007) sein Wohnhaus mit zwei Einliegerwohnungen und einem Büro. Zur Quadrather Straße schließt sich seit 1990 der Bibliothekskubus aus Basaltlava an. Hier befindet sich das &quot;Ungers Archiv für Architekturwissenschaft (UAA)&quot;.",
       "color": "#3300ff",
-      "successor": ""
+      "successor": "3.3.10"
     },
     "geometry": { "type": "Point", "coordinates": [ 6.87504, 50.94264 ]}
   },
   {
     "type": "Feature",
     "properties": {
-      "id": "3.?.10",
+      "id": "3.3.10",
       "borough_no": "3",
       "borough": "Lindenthal",
       "quarter": "Müngersdorf",
-      "track_no": "?",
+      "track_no": "3",
       "track_point": "10",
       "track_subpt": "",
-      "title": "?",
+      "title": "Das Haus ohne Eigenschaften",
       "description": "1994 bis 96 errichtete Oswald Mathias Ungers hier für sich sein letztes Wohnhaus als architektonisches Manifest. Heute ist das Haus Sitz der &quot;Dr. Speck Literaturstiftung&quot;.",
       "color": "#3300ff",
-      "successor": ""
+      "successor": "3.3.11"
     },
     "geometry": { "type": "Point", "coordinates": [ 6.87297, 50.94315 ]}
   },
   {
     "type": "Feature",
     "properties": {
-      "id": "3.?.11",
+      "id": "3.3.11",
       "borough_no": "3",
       "borough": "Lindenthal",
       "quarter": "Müngersdorf",
-      "track_no": "?",
+      "track_no": "3",
       "track_point": "11",
       "track_subpt": "",
-      "title": "?",
+      "title": "Haus Hildegard Domizlaff",
       "description": "Der Architekt Theodor Edwin Merrill errichtete dieses Wohnhaus mit zwei Ateliers 1929 für die Bildhauerin Hildegard Domizlaff (1898 bis 1987) und die Malerin Helen Wiehen.",
       "color": "#3300ff",
-      "successor": ""
+      "successor": "3.3.12"
     },
     "geometry": { "type": "Point", "coordinates": [ 6.87329, 50.94416 ]}
   },
   {
     "type": "Feature",
     "properties": {
-      "id": "3.?.12",
+      "id": "3.3.12",
       "borough_no": "3",
       "borough": "Lindenthal",
       "quarter": "Müngersdorf",
-      "track_no": "?",
+      "track_no": "3",
       "track_point": "12",
       "track_subpt": "",
       "title": "Bahnhof Belvedere",
       "description": "Der am 2. August 1839 eröffnete Bahnhof Belvedere, heute das älteste erhaltene Bahnhofsgebäude Deutschlands, ist die erste Station der weltweit ältes-ten grenzüberschreitenden Eisenbahnstrecke Köln\u2013Antwerpen.",
       "color": "#3300ff",
-      "successor": ""
+      "successor": "3.3.13"
     },
     "geometry": { "type": "Point", "coordinates": [ 6.87161, 50.94699 ]}
   },
   {
     "type": "Feature",
     "properties": {
-      "id": "3.?.13",
+      "id": "3.3.13",
       "borough_no": "3",
       "borough": "Lindenthal",
       "quarter": "Müngersdorf",
-      "track_no": "?",
+      "track_no": "3",
       "track_point": "13",
       "track_subpt": "",
       "title": "Haus Gerhard Marcks",
       "description": "Dies war das Wohn- und Atelierhaus des Bildhauers und Bauhausmeisters Gerhard Marcks (1889 bis1981), das 1948/50 von Wilhelm Riphahn errichtet wurde.",
       "color": "#3300ff",
-      "successor": ""
+      "successor": "3.3.14"
     },
     "geometry": { "type": "Point", "coordinates": [ 6.86926603, 50.9469639 ]}
   },
   {
     "type": "Feature",
     "properties": {
-      "id": "3.?.14",
+      "id": "3.3.14",
       "borough_no": "3",
       "borough": "Lindenthal",
       "quarter": "Müngersdorf",
-      "track_no": "?",
+      "track_no": "3",
       "track_point": "14",
       "track_subpt": "",
       "title": "Freiluga / Zwischenwerk Va",
       "description": "Auf dem Gelände des Zwischenwerks Va des ehemaligen preußischen Festungsrings entstand auf Initiative des Stadtschulrats Fritz Schu im  Jahr 1925 die Städtische Freiluft- und Gartenarbeitsschule (Freiluga).",
       "color": "#3300ff",
-      "successor": ""
+      "successor": "3.3.15"
     },
     "geometry": { "type": "Point", "coordinates": [ 6.86927, 50.94828 ]}
   },
   {
     "type": "Feature",
     "properties": {
-      "id": "3.?.15",
+      "id": "3.3.15",
       "borough_no": "3",
       "borough": "Lindenthal",
       "quarter": "Müngersdorf",
-      "track_no": "?",
+      "track_no": "3",
       "track_point": "15",
       "track_subpt": "",
       "title": "Schule",
       "description": "Der mächtige Putzbau mit Backstein- und Fachwerkgliederungen ist in  seiner Architektur an den &quot;romantisch&quot; gruppierten spätmittelalterlichen Burgenbau angelehnt.",
       "color": "#3300ff",
-      "successor": ""
+      "successor": "3.3.16"
     },
     "geometry": { "type": "Point", "coordinates": [ 6.87968, 50.94102 ]}
   },
   {
     "type": "Feature",
     "properties": {
-      "id": "3.?.16",
+      "id": "3.3.16",
       "borough_no": "3",
       "borough": "Lindenthal",
       "quarter": "Müngersdorf",
-      "track_no": "?",
+      "track_no": "3",
       "track_point": "16",
       "track_subpt": "",
       "title": "Hof &quot;Im St.\u00a0Wendelin&quot;",
       "description": "Dieses zweigeschossige Fachwerk-gebäude aus dem Anfang des 18. Jahrhunderts gehört zu den ältesten erhaltenen Gebäuden in Müngersdorf und wurde schon früh als Bauernschänke und Pferdetränke genutzt.",
       "color": "#3300ff",
-      "successor": ""
+      "successor": "3.3.17"
     },
     "geometry": { "type": "Point", "coordinates": [ 6.8791, 50.94143 ]}
   },
   {
     "type": "Feature",
     "properties": {
-      "id": "3.?.17",
+      "id": "3.3.17",
       "borough_no": "3",
       "borough": "Lindenthal",
       "quarter": "Müngersdorf",
-      "track_no": "?",
+      "track_no": "3",
       "track_point": "17",
       "track_subpt": "",
       "title": "Hermannshof / Hofgut Hartzheim",
       "description": "Um 1870 ließ Heinrich Hartzheim den Hof in Backstein als geschlossene Hofanlage neu erbauen.",
       "color": "#3300ff",
-      "successor": ""
+      "successor": "3.3.18"
     },
     "geometry": { "type": "Point", "coordinates": [ 6.87912708, 50.9419348 ]}
   },
   {
     "type": "Feature",
     "properties": {
-      "id": "3.?.18",
+      "id": "3.3.18",
       "borough_no": "3",
       "borough": "Lindenthal",
       "quarter": "Müngersdorf",
-      "track_no": "?",
+      "track_no": "3",
       "track_point": "18",
       "track_subpt": "",
       "title": "Gashäuser",
@@ -379,11 +732,11 @@
   {
     "type": "Feature",
     "properties": {
-      "id": "3.?.?",
+      "id": "3..?",
       "borough_no": "3",
       "borough": "Lindenthal",
       "quarter": "Müngersdorf",
-      "track_no": "?",
+      "track_no": "",
       "track_point": "?",
       "track_subpt": "",
       "title": "Wohnhaus Heinrich Böll",
@@ -405,6 +758,7 @@
       "track_subpt": "",
       "title": "Rodenkirchen #5",
       "description": "",
+      "internal_notes": "osm node 634349109",
       "color": "#3300ff",
       "successor": ""
     },
@@ -695,6 +1049,7 @@
       "track_subpt": "",
       "title": "Urbacher Friedhof",
       "description": "An Frankfurter Straße und Mühlenweg liegt seit 1857 der alte Urbacher Friedhof mit Grabdenkmälern der 60er und 70er Jahre des 19. Jh. In typischer Lage am Ortsrand an der Ausfallstraße bewahrt er mit den die Grabreihen bzw. zum Teil einzelne Gräber voneinander trennenden beschnittenen Hecken die charakteristischen Merkmale rechtsrheinischer Dorffriedhöfe. Besonders prächtig ist das aus weißem Mamor gefertigte Grabmal des Urbacher Bürgermeisters Sternenberg und seiner Frau Eva (1892). Im hinteren Bereich des Friedhofs das Ehrenmal der UdSSR für die während des Zweiten Weltkriegs getöteten sowjetischen Zwangsarbeiter.",
+      "internal_notes": "osm node 2366089579",
       "color": "#3300ff",
       "successor": ""
     },
@@ -720,74 +1075,70 @@
   {
     "type": "Feature",
     "properties": {
-      "id": "7.2.4",
-      "borough_no": "7",
-      "borough": "Porz",
-      "quarter": "Porz",
-      "track_no": "2",
-      "track_point": "4",
-      "track_subpt": "",
-      "title": "Rheinuferpromenade",
-      "description": "Die Rheinuferpromenade, Friedrich-Ebert-Ufer, mit Ufermauer, Treppenaufgang, Fahrkartenpavillon für die Schiffahrt, Löwenmonument und schmiedeeisernen Laternen wurde zwischen 1907 u. 1912 angelegt.",
-      "additional_info": "<li><a target=\"_blank\" href=\"http://www.bilderbuch-koeln.de/Denkmale/538\">Denkmalliste </a></li>",
-      "notes": "Hier ist der Pfad noch nicht komplett erfasst.",
-      "color": "#3300ff",
-      "successor": "7.2.5"
-    },
-    "geometry": { "type": "Point", "coordinates": [ 7.054029, 50.8846978 ]}
-  },
-  {
-    "type": "Feature",
-    "properties": {
-      "id": "7.2.5",
-      "borough_no": "7",
-      "borough": "Porz",
-      "quarter": "Porz",
-      "track_no": "2",
-      "track_point": "5",
-      "track_subpt": "",
-      "title": "Porzer Rathaus",
-      "description": "Das Porzer Rathaus, Friedrich-Ebert-Ufer 64, ein dreigeschossiger mächtiger, siebenachsiger Bau mit wuchtigem Turm und Arkaden im Erdgeschoß, entstand 1909&frasl;10 nach Plänen des Regierungsbaumeisters Moritz. Der Erweiterungsbau mit Werksteinfassade stammt aus den Jahren 1955&frasl;56; weitere Neubauten aus den 70er und 80er Jahren. Heute ist das Porzer Rathaus Sitz der Bezirksvertretung des Stadtbezirks 7 und der Bezirksverwaltung.",
-      "notes": "Hier ist der Pfad noch nicht komplett erfasst.",
-      "color": "#3300ff",
-      "successor": "7.2.7"
-    },
-    "geometry": { "type": "Point", "coordinates": [ 7.054216878078211, 50.88506916119908 ]}
-  },
-  {
-    "type": "Feature",
-    "properties": {
-      "id": "7.2.6",
+      "id": "7.1.31",
       "borough_no": "7",
       "borough": "Porz",
       "quarter": "",
-      "track_no": "2",
-      "track_point": "6",
+      "track_no": "1",
+      "track_point": "31",
       "track_subpt": "",
-      "title": "Porz #1",
-      "description": "",
+      "title": "",
+      "description": "Burg Wahn",
       "color": "#3300ff",
       "successor": ""
     },
-    "geometry": { "type": "Point", "coordinates": [ 7.02606, 50.861353 ]}
+    "geometry": { "type": "Point", "coordinates": [ 7.082578, 50.857562 ]}
   },
   {
     "type": "Feature",
     "properties": {
-      "id": "7.2.7",
+      "id": "7.1.32",
       "borough_no": "7",
       "borough": "Porz",
-      "quarter": "Langel",
-      "track_no": "2",
-      "track_point": "7",
+      "quarter": "",
+      "track_no": "1",
+      "track_point": "32",
       "track_subpt": "",
-      "title": "Fronhof",
-      "description": "Begrenzt von der Frongasse, Rosengasse und Lülsdorfer Straße liegt der erstmals 965, dann 1225 im Urbar von St. Pantaleon in Köln erwähnte Fronhof. 1633 wurde der damals 178 Morgen große Hof, Zentrum eines grundherrschaftlichen Hofverbandes mit einer größeren Anzahl abhängiger Höfe, von einem Feuer vernichtet. Die danach neu entstandene Anlage ging 1803 in den Besitz des preußischen Staates über, der sie 1820 an die Gebrüder Immendorff verkaufte. Der nach starken Beschädigungen im Zweiten Weltkrieg wiederaufgebaute, heute teilw. veränderte Fronhof ist der Mittelpunkt des Langeler Oberdorfes in unmittelbarer Nachbarschaft der Kirche St. Clemens.",
-      "notes": "Hier ist der Pfad noch nicht komplett erfasst.",
+      "title": "",
+      "description": "Eltzhof",
       "color": "#3300ff",
-      "successor": "7.2.8"
+      "successor": ""
     },
-    "geometry": { "type": "Point", "coordinates": [ 7.0034458, 50.846453 ]}
+    "geometry": { "type": "Point", "coordinates": [ 7.084272, 50.857080 ]}
+  },
+  {
+    "type": "Feature",
+    "properties": {
+      "id": "7.1.33",
+      "borough_no": "7",
+      "borough": "Porz",
+      "quarter": "Wahn",
+      "track_no": "1",
+      "track_point": "33",
+      "track_subpt": "",
+      "title": "Haus Sophia",
+      "description": "Haus Sophia, Burggraben 26, ist eine um 1900 für den Tabakfabrikanten Wien erbaute zweigeschossige großbürgerliche Landvilla mit backsteingegliederter Putzfassade, das einzige Gebäude in Wahn in der Art des damals populären Heimatstils. Seine Ausmaße heben es von der überwiegend ländlich geprägten Bebauung der Umgebung ab.",
+      "color": "#3300ff",
+      "successor": ""
+    },
+    "geometry": { "type": "Point", "coordinates": [ 7.083430, 50.859017 ]}
+  },
+  {
+    "type": "Feature",
+    "properties": {
+      "id": "7.1.34",
+      "borough_no": "7",
+      "borough": "Porz",
+      "quarter": "Wahn",
+      "track_no": "1",
+      "track_point": "34",
+      "track_subpt": "",
+      "title": "St. Aegidius",
+      "description": "Die kathol. Pfarrkirche St. Aegidius, Frankfurter Str. 179/Ecke St. Sebastianusstr., entstand 1893-95 nach Plänen A. Beckers als neugotische dreischiffige Backstein-Hallenkirche mit Vierkantturm. Im Inneren überspannt ein 1990-92 erneuertes Kreuzrippengewölbe die noch originale Ausstattung (meist von F. Hackenberg). Die Ausmalung wurde nach dem historischen Befund erneuert. Im Turmvorraum ein barockes Mamor-Epitaph (1656-85) des Wilhelm v. Zweiffel u. der Agnes Schall von Bell. Bei der Kirche der ehemalige Friedhof, von dem noch einige – teils barocke – Grabkreuze zeugen.",
+      "color": "#3300ff",
+      "successor": ""
+    },
+    "geometry": { "type": "Point", "coordinates": [ 7.086651, 50.856435 ]}
   },
   {
     "type": "Feature",
@@ -877,212 +1228,6 @@
   {
     "type": "Feature",
     "properties": {
-      "id": "7.2.14",
-      "borough_no": "7",
-      "borough": "Porz",
-      "quarter": "Langel",
-      "track_no": "2",
-      "track_point": "14",
-      "track_subpt": "",
-      "title": "ehem. Telegraphenstation",
-      "description": "Die ehemalige, 1832&frasl;33 erbaute, baulich stark veränderte Telegraphenstation, Loorweg 155, mit einem heute drei-, früher viergeschossigen Turm, war Teil der preußischen optischen Telegraphenlinie zwischen Berlin und Koblenz. Der Turm verband das Signal in Spich mit demjenigen auf dem Westwerk von St. Pantaleon in Köln.",
-      "additional_info": "<li><a target=\"_blank\" href=\"http://www.bilderbuch-koeln.de/Denkmale/4905\">Denkmalliste </a></li>",
-      "notes": "Hier ist der Pfad noch nicht komplett erfasst.",
-      "color": "#3300ff",
-      "successor": ""
-    },
-    "geometry": { "type": "Point", "coordinates": [ 7.0304862895066, 50.85895159419718 ]}
-  },
-  {
-    "type": "Feature",
-    "properties": {
-      "id": "7.4.0",
-      "borough_no": "7",
-      "borough": "Porz",
-      "quarter": "Zündorf",
-      "track_no": "4",
-      "track_point": "0",
-      "track_subpt": "",
-      "title": "Start Tour 4",
-      "description": "",
-      "color": "#3300ff",
-      "successor": "7.4.1"
-    },
-    "geometry": { "type": "Point", "coordinates": [ 7.0602817, 50.8743422 ]}
-  },
-  {
-    "type": "Feature",
-    "properties": {
-      "id": "7.4.2",
-      "borough_no": "7",
-      "borough": "Porz",
-      "quarter": "Zündorf",
-      "track_no": "4",
-      "track_point": "2",
-      "track_subpt": "",
-      "title": "",
-      "description": "",
-      "color": "#3300ff",
-      "successor": "7.4.3"
-    },
-    "geometry": { "type": "Point", "coordinates": [ 7.047179099748951, 50.871614097234136 ]}
-  },
-  {
-    "type": "Feature",
-    "properties": {
-      "id": "7.4.5",
-      "borough_no": "7",
-      "borough": "Porz",
-      "quarter": "Zündorf",
-      "track_no": "4",
-      "track_point": "5",
-      "track_subpt": "",
-      "title": "Siedlung Gütergasse",
-      "description": "Im Bereich zw. Gütergasse, Hauptstr., Enggasse und Leinpfad wurde 1982-86 von G. Böhm die sich an der historischen dörflichen Bebauung Zündorfs orientierende Reihenhaussiedlung errichtet.",
-      "color": "#3300ff",
-      "successor": "7.4.6"
-    },
-    "geometry": { "type": "Point", "coordinates": [ 7.044775178470144, 50.86946845948267 ]}
-  },
-  {
-    "type": "Feature",
-    "properties": {
-      "id": "7.4.8",
-      "borough_no": "7",
-      "borough": "Porz",
-      "quarter": "Zündorf",
-      "track_no": "4",
-      "track_point": "8",
-      "track_subpt": "",
-      "title": "Marktplatz mit Nepomuk-Statue und Kriegerdenkmal",
-      "description": "",
-      "color": "#3300ff",
-      "successor": "7.4.9"
-    },
-    "geometry": { "type": "Point", "coordinates": [ 7.0428073, 50.8697328 ]}
-  },
-  {
-    "type": "Feature",
-    "properties": {
-      "id": "7.4.9",
-      "borough_no": "7",
-      "borough": "Porz",
-      "quarter": "Zündorf",
-      "track_no": "4",
-      "track_point": "9",
-      "track_subpt": "",
-      "title": "",
-      "description": "",
-      "color": "#3300ff",
-      "successor": "7.4.10"
-    },
-    "geometry": { "type": "Point", "coordinates": [ 7.0437527, 50.8695313 ]}
-  },
-  {
-    "type": "Feature",
-    "properties": {
-      "id": "7.4.10",
-      "borough_no": "7",
-      "borough": "Porz",
-      "quarter": "Zündorf",
-      "track_no": "4",
-      "track_point": "10",
-      "track_subpt": "",
-      "title": "",
-      "description": "",
-      "color": "#3300ff",
-      "successor": "7.4.11"
-    },
-    "geometry": { "type": "Point", "coordinates": [ 7.0438241, 50.8679504 ]}
-  },
-  {
-    "type": "Feature",
-    "properties": {
-      "id": "7.4.13",
-      "borough_no": "7",
-      "borough": "Porz",
-      "quarter": "Zündorf",
-      "track_no": "4",
-      "track_point": "13",
-      "track_subpt": "",
-      "title": "",
-      "description": "",
-      "color": "#3300ff",
-      "successor": "7.4.14"
-    },
-    "geometry": { "type": "Point", "coordinates": [ 7.0444987, 50.8684311 ]}
-  },
-  {
-    "type": "Feature",
-    "properties": {
-      "id": "7.4.15",
-      "borough_no": "7",
-      "borough": "Porz",
-      "quarter": "Zündorf",
-      "track_no": "4",
-      "track_point": "15",
-      "track_subpt": "",
-      "title": "",
-      "description": "",
-      "color": "#3300ff",
-      "successor": "7.4.16"
-    },
-    "geometry": { "type": "Point", "coordinates": [ 7.0422885, 50.8668724 ]}
-  },
-  {
-    "type": "Feature",
-    "properties": {
-      "id": "7.4.16",
-      "borough_no": "7",
-      "borough": "Porz",
-      "quarter": "",
-      "track_no": "4",
-      "track_point": "16",
-      "track_subpt": "",
-      "title": "",
-      "description": "",
-      "color": "#3300ff",
-      "successor": "7.4.17"
-    },
-    "geometry": { "type": "Point", "coordinates": [ 7.0386788, 50.8644931 ]}
-  },
-  {
-    "type": "Feature",
-    "properties": {
-      "id": "7.4.17",
-      "borough_no": "7",
-      "borough": "Porz",
-      "quarter": "",
-      "track_no": "4",
-      "track_point": "17",
-      "track_subpt": "",
-      "title": "",
-      "description": "",
-      "color": "#3300ff",
-      "successor": "7.4.18"
-    },
-    "geometry": { "type": "Point", "coordinates": [ 7.0379039, 50.8638511 ]}
-  },
-  {
-    "type": "Feature",
-    "properties": {
-      "id": "7.4.19",
-      "borough_no": "7",
-      "borough": "Porz",
-      "quarter": "Zündorf",
-      "track_no": "4",
-      "track_point": "19",
-      "track_subpt": "",
-      "title": "",
-      "description": "",
-      "color": "#3300ff",
-      "successor": ""
-    },
-    "geometry": { "type": "Point", "coordinates": [ 7.044832, 50.8663136 ]}
-  },
-  {
-    "type": "Feature",
-    "properties": {
       "id": "7..0",
       "borough_no": "7",
       "borough": "Porz",
@@ -1092,6 +1237,7 @@
       "track_subpt": "",
       "title": "Porz #3",
       "description": "",
+      "internal_notes": "osm node 1985864644",
       "color": "#3300ff",
       "successor": ""
     },
@@ -1109,6 +1255,7 @@
       "track_subpt": "",
       "title": "Porz #9",
       "description": "",
+      "internal_notes": "osm node 2721857155",
       "color": "#3300ff",
       "successor": ""
     },
@@ -1126,6 +1273,7 @@
       "track_subpt": "",
       "title": "Porz #10",
       "description": "",
+      "internal_notes": "osm node 2784566887",
       "color": "#3300ff",
       "successor": ""
     },
@@ -1143,6 +1291,7 @@
       "track_subpt": "",
       "title": "Porz #11 St. Margareta",
       "description": "",
+      "internal_notes": "osm node 2784566887",
       "color": "#3300ff",
       "successor": ""
     },

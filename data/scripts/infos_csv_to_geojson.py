@@ -66,11 +66,14 @@ def main():
                     text += entry[u'additional-info']
                 if text:
                     dest.write(u',\n      "additional_info": "{}"'.format(text))
-                
                 if entry[u'notes']:
                     dest.write(u',\n      "notes": "{}"'.format(entry[u'notes']))
+                if entry[u'internal-notes']:
+                    dest.write(u',\n      "internal_notes": "{}"'.format(entry[u'internal-notes']))
                 if entry[u'active'] == u'T':
                     dest.write(u',\n      "color": "{}"'.format(u'#3300ff'))
+                elif entry[u'active'] == u'S':
+                    dest.write(u',\n      "color": "{}"'.format(u'#ffffff'))
                 else:
                     dest.write(u',\n      "color": "{}"'.format(entry[u'color']))
                 dest.write(u',\n      "successor": "{}"'.format(entry[u'successor']))

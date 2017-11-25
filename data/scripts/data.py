@@ -31,6 +31,7 @@ from openpyxl import load_workbook
 #23	internal-notes
 #24	internal-todo
 #25	overall-state
+#26 productive-since
 
 
 def get_value(row, index):
@@ -78,6 +79,9 @@ def read_entries(source_filename):
         entry[u'additional-info'] = get_value(row, 21)
         entry[u'notes'] = get_value(row, 22)
         entry[u'internal-notes'] = get_value(row, 23)
+        entry[u'internal-todo'] = get_value(row, 24)
+        entry[u'overall-state'] = get_value(row, 25)
+        entry[u'productive-since'] = get_value(row, 26)
 
         entries.append(entry)
     return entries

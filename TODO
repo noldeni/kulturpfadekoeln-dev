@@ -2,6 +2,7 @@ TECHNIK
 [_] Refactoring von app.js und entfernen der Änderungszeiger
 [_] Zugriff auf Info per URL [iss7]
 [_] Lokalisierung und nächster Punkt verschieben sich gegenseitig
+[_] alternative Tiles https://stamen-tiles-{s}.a.ssl.fastly.net/toner-lite/{z}/{x}/{y}.png
 
 DATEN
 [_] Infotafeln in gpx einbetten

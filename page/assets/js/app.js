@@ -77,6 +77,12 @@ function getInfoTextContent(feature){
       content += "<i>Hinweise der Redaktion</i>:<br/>";
       content += feature.properties.notes;
     }
+    if (feature.properties.internal_notes) {
+      if (content.length > 0)
+        content += "<br/><br/>";
+      content += "<i>Interne Hinweise</i>:<br/>";
+      content += feature.properties.internal_notes;
+    }
     if (feature.properties.additional_info) {
       if (content.length > 0)
         content += "<br/><br/>";
@@ -527,8 +533,10 @@ $(document).one("ajaxStop", function () {
   markerClusters.removeLayer(starts);
   markerClusters.addLayer(starts);
   syncSidebar();
-
-  $("#welcomeModal").modal("show");
+  
+  if (getQueryVariable('test') == false) {
+    $("#welcomeModal").modal("show");
+  } 
   $(".navbar-collapse.in").collapse("hide");
 
   var boroughsBH = new Bloodhound({
